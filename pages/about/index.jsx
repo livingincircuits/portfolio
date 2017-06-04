@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 
 const About = () => (
 
-  <div>
+  <div className="markdown">
 
     <Meta title="About" />
 

@@ -76,3 +76,9 @@ a {
   background: linear-gradient(135deg, var(--colorSecondary) 0%, var(--colorPrimary) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--colorSecondary)', endColorstr='var(--colorPrimary)', GradientType=1 );
 }
+
+@media (--medium) {
+  .markdown {
+    max-width: 60%;
+  }
+}
