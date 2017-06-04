@@ -1,11 +1,11 @@
 import React, { Component, PropTypes } from 'react';
 import Header from 'components/header';
 import Footer from 'components/footer';
-import styles from './styles.module.css';
 import 'assets/css/reset.css';
 import 'assets/css/document.css';
 import 'assets/css/typography.css';
 import 'assets/css/sticky.css';
+import styles from './styles.module.css';
 
 export default class Template extends Component {
 

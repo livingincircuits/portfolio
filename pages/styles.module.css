@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.intro__title {
+h1.intro__title {
   margin: 4rem 0 1rem 0;
   font-size: 6rem;
   line-height: 1.5;
@@ -17,13 +17,13 @@
 
 @media (--small) {
 
-  .intro__title {
-    font-size: 2rem;
+  h1.intro__title {
+    font-size: 1.8rem;
   }
 
 }
 
-.intro__title:before {
+h1.intro__title:before {
   content: "";
   display: block;
   margin: 0 auto;
@@ -32,7 +32,7 @@
   border-top: 6px solid var(--colorWhite);
 }
 
-.intro__sub {
+h2.intro__sub {
   display: block;
   margin: 0;
   font-size: 3.6rem;
@@ -44,13 +44,13 @@
 
 @media (--small) {
 
-  .intro__sub {
+  h2.intro__sub {
     font-size: 1.2rem;
   }
 
 }
 
-.intro__desc {
+h3.intro__desc {
   display: block;
   margin: 0;
   font-size: 2.2rem;
@@ -61,7 +61,7 @@
 
 @media (--small) {
 
-  .intro__desc {
+  h3.intro__desc {
     font-size: 1.8rem;
   }
 
@@ -72,7 +72,7 @@
   text-align: center;
 }
 
-.post__title {
+h2.post__title {
   font-size: 2.2rem;
   line-height: 1.2;
   font-weight: 400;
@@ -80,9 +80,9 @@
 
 @media (--small) {
 
-  .post__title {
-    font-size: 1.4rem;
-    line-height: 1.5;
+  h2.post__title {
+    font-size: 1.2rem;
+    line-height: 1.8;
   }
 
 }

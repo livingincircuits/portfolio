@@ -7,4 +7,9 @@
 
 ## Run
 - In development: `npm run develop`.
-- Static build: `npm run docs`.
+- Static build: `npm run build`.
+
+## TODO
+
+Automate Docs
+Projects
