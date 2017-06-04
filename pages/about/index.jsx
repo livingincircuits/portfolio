@@ -16,7 +16,6 @@ const About = () => (
 
       <p>
         I'm a UX developer who likes to design human experiences on the web. I share what I learn via this website.
-          elit.
       </p>
 
       <p>
