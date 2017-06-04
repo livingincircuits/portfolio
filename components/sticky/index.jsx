@@ -25,6 +25,8 @@ export class Sticky extends React.Component {
         const stickyEnter = parseInt(sticky.getAttribute('data-sticky-enter'), 10) || stickyInitial;
         const stickyExit = parseInt(sticky.getAttribute('data-sticky-exit'), 10) || bottom;
 
+        sticky.classList.remove('sticky');
+
         if (top >= stickyEnter && top <= stickyExit) {
           sticky.classList.add('sticky');
         } else {

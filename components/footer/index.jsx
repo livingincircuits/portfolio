@@ -11,7 +11,7 @@ export default class Footer extends Component {
 
     return (
       <footer className={styles.footer}>
-        <div>
+        <div className="page-inner">
           <div className={styles.inner}>
             <p>
               <img src={imgSrc} alt="Dancing Cat" width="20" /> Crafted by Emily Young

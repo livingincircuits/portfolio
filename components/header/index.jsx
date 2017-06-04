@@ -28,13 +28,15 @@ export default class Header extends Component {
 
       <Sticky className={styles.header}>
 
-        <div className={styles.inner}>
-          <IndexLink to={prefixLink('/')} className={styles.link}>
-            <img src={imgSrc} alt="Emily Young" className={styles.round} width="60" height="60" />
-          </IndexLink>
-          <nav className={styles.nav}>
-            <Menu />
-          </nav>
+        <div className="page-inner">
+          <div className={styles.inner}>
+            <IndexLink to={prefixLink('/')} className={styles.link}>
+              <img src={imgSrc} alt="Emily Young" className={styles.round} width="60" height="60" />
+            </IndexLink>
+            <nav className={styles.nav}>
+              <Menu />
+            </nav>
+          </div>
         </div>
 
       </Sticky>
