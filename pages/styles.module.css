@@ -7,7 +7,7 @@
 }
 
 h1.intro__title {
-  margin: 4rem 0 1rem 0;
+  margin: 0 0 1rem 0;
   font-size: 6rem;
   line-height: 1.5;
   letter-spacing: 10px;
@@ -32,7 +32,7 @@ h1.intro__title:before {
   border-top: 6px solid var(--colorWhite);
 }
 
-h2.intro__sub {
+.intro__sub {
   display: block;
   margin: 0;
   font-size: 3.6rem;
@@ -44,13 +44,13 @@ h2.intro__sub {
 
 @media (--small) {
 
-  h2.intro__sub {
+  .intro__sub {
     font-size: 1.2rem;
   }
 
 }
 
-h3.intro__desc {
+.intro__desc {
   display: block;
   margin: 0;
   font-size: 2.2rem;
@@ -61,7 +61,7 @@ h3.intro__desc {
 
 @media (--small) {
 
-  h3.intro__desc {
+  .intro__desc {
     font-size: 1.8rem;
   }
 
@@ -81,7 +81,7 @@ h2.post__title {
 @media (--small) {
 
   h2.post__title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8;
   }
 

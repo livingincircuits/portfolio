@@ -43,6 +43,6 @@
   border-color: var(--colorSecondary);
 }
 
-.footer p {
-  margin: 10px 0;
+.footer {
+  padding: 10px;
 }
