@@ -77,7 +77,7 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--colorSecondary)', endColorstr='var(--colorPrimary)', GradientType=1 );
 }
 
-@media (--medium) {
+@media (--large) {
   .markdown {
     max-width: 60%;
   }
