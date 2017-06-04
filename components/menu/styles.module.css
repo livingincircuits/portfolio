@@ -1,0 +1,27 @@
+@import '../../assets/css/variables.css';
+
+.item {
+  font-size: 1rem;
+}
+
+.item a {
+  transition: all .1s linear;
+}
+
+.item a:hover,
+.item a:focus {
+  color: var(--colorTertiary);
+  border-bottom: 3px solid var(--colorTertiary);
+}
+
+.active {
+  border-bottom: 3px solid var(--colorWhite);
+}
+
+@media (--small) {
+
+  .active {
+    border-width: 2px;
+  }
+
+}

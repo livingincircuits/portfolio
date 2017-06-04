@@ -1,0 +1,98 @@
+@import '../assets/css/variables.css';
+
+.intro {
+  margin: 0 0 4rem 0;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.intro__title {
+  margin: 4rem 0 1rem 0;
+  font-size: 6rem;
+  line-height: 1.5;
+  letter-spacing: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (--small) {
+
+  .intro__title {
+    font-size: 2rem;
+  }
+
+}
+
+.intro__title:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding-top: 1rem;
+  border-top: 6px solid var(--colorWhite);
+}
+
+.intro__sub {
+  display: block;
+  margin: 0;
+  font-size: 3.6rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+@media (--small) {
+
+  .intro__sub {
+    font-size: 1.2rem;
+  }
+
+}
+
+.intro__desc {
+  display: block;
+  margin: 0;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (--small) {
+
+  .intro__desc {
+    font-size: 1.8rem;
+  }
+
+}
+
+.post {
+  margin: 2rem;
+  text-align: center;
+}
+
+.post__title {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+@media (--small) {
+
+  .post__title {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+}
+
+.post a {
+  transition: all .1s linear;
+  color: var(--colorWhite);
+}
+
+.post__title a:hover,
+.post__title a:focus {
+  color: var(--colorTertiary);
+}

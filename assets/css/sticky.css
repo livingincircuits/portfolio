@@ -1,0 +1,35 @@
+@import './variables.css';
+
+.sticky {
+  transition: .25s all ease;
+  background-color: var(--colorWhite);
+  box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
+}
+
+.sticky.styles-module---header---2DW6K {
+  padding: .5rem 0;
+}
+
+.sticky .styles-module---round---vNTsG {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--colorWhite);
+}
+
+.sticky .styles-module---nav---2iBbE a {
+  color: var(--colorPrimary);
+}
+
+.sticky .styles-module---nav---2iBbE a:hover,
+.sticky .styles-module---nav---2iBbE a:focus {
+  color: var(--colorTertiary);
+  border-bottom: 3px solid var(--colorTertiary);
+}
+
+.sticky .styles-module---nav---2iBbE .styles-module---active---E0ABQ {
+  border-bottom: 3px solid var(--colorPrimary);
+}
+
+.sticky .styles-module---nav---2iBbE li {
+  font-size: .9rem;
+}

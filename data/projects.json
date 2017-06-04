@@ -1,0 +1,15 @@
+{
+  "projects": [
+    {
+      "className": "test",
+      "description": "",
+      "clientDescription":"",
+      "cta": {
+        "link": "",
+        "text": "View The Website"
+      },
+      "slug": "test",
+      "title": "Coming Soon"
+    }
+  ]
+}

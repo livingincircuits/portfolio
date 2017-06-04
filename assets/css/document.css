@@ -1,0 +1,73 @@
+@import './variables.css';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--colorWhite);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--colorSecondary);
+  opacity: 1;
+}
+
+.page {
+  height: 100%;
+  min-height: calc(100vh - 20px);
+  width: 100%;
+  max-width: var(--wrapperWidth);
+  margin: 0 auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  padding: 8vh 1rem;
+  opacity: 1;
+}
+
+@media (--medium) {
+  .page {
+    padding: 10vh 1rem;
+  }
+}
+
+.page a {
+  transition: all .1s linear;
+  border-bottom: 3px solid var(--colorWhite);
+}
+
+.page a:hover,
+.page a:focus {
+  border-color: var(--colorTertiary);
+}
+
+.page-document {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: var(--colorWhite);
+}
+
+.page-body {
+  background: var(--colorPrimary);
+  background: -moz-linear-gradient(-45deg, var(--colorSecondary) 0%, var(--colorPrimary) 100%);
+  background: -webkit-linear-gradient(-45deg, var(--colorSecondary) 0%, var(--colorPrimary) 100%);
+  background: linear-gradient(135deg, var(--colorSecondary) 0%, var(--colorPrimary) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--colorSecondary)', endColorstr='var(--colorPrimary)', GradientType=1 );
+}
