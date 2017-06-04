@@ -28,7 +28,7 @@
   "main": "n/a",
   "scripts": {
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
-    "build": "rm -rf public; gatsby build",
+    "build": "rm -rf docs; gatsby build",
     "develop": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
