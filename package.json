@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Portfolio and Blog",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livingincircuits/portfolio"
+  },
   "author": "Emily Young",
   "dependencies": {
     "classnames": "^2.2.5",

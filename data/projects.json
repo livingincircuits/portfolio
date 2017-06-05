@@ -2,8 +2,6 @@
   "projects": [
     {
       "className": "test",
-      "description": "",
-      "clientDescription":"",
       "cta": {
         "link": "",
         "text": "View The Website"

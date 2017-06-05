@@ -1,6 +1,6 @@
 import React from 'react';
 import { projects } from 'data/projects.json';
-import { ProjectDescription, ProjectIntro, ProjectPage } from 'components/project';
+import { ProjectIntro, ProjectPage } from 'components/project';
 import styles from './styles.module.css';
 
 const test = () => {
@@ -12,10 +12,6 @@ const test = () => {
     <ProjectPage project={project}>
 
       <ProjectIntro project={project} />
-
-      <ProjectDescription>
-
-      </ProjectDescription>
 
     </ProjectPage>
 

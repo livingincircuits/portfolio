@@ -3,7 +3,6 @@ import { prefixLink } from 'gatsby-helpers';
 import { IndexLink } from 'react-router';
 import { Link } from 'react-router';
 import Menu from 'components/menu';
-import { Sticky } from 'components/sticky';
 import imgSrc from './img/me.jpg';
 import styles from './styles.module.css';
 
@@ -26,7 +25,7 @@ export default class Header extends Component {
 
     return (
 
-      <Sticky className={styles.header}>
+      <div className={styles.header}>
 
         <div className="page-inner">
           <div className={styles.inner}>
@@ -39,7 +38,7 @@ export default class Header extends Component {
           </div>
         </div>
 
-      </Sticky>
+      </div>
 
     );
 
