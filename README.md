@@ -2,13 +2,11 @@
 
 ## What is this?
 
-This is my personal portfolio and blog. 
+This is my (personal portfolio and blog](http://www.livingincircuits.co.uk). 
 It uses [Gatsby](https://github.com/gatsbyjs/gatsby) which is a blazing fast React.js static site generator
 More blog than portfolio at the mo!
 
 This was created in a few hours to see how quickly I could spin up a static website using React.js
-
-[Portfolio Link](http://www.livingincircuits.co.uk)
 
 ## Install
 - `yarn install`
@@ -24,4 +22,4 @@ This site is currently being built from the /docs folder in the master branch. [
 - Automate Docs upload :smiley:
 - Add Projects :cold_sweat:
 - IE Fallbacks :persevere:
-- Typography Updates :heart_eyes:
+- Typography Updates :heart_eyes: Make Text MUCH bigger :godmode:
