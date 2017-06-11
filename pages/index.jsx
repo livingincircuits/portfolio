@@ -44,17 +44,13 @@ class SiteIndex extends React.Component {
             Emily Young
           </h1>
 
-          <h2>
+          <p className={styles.intro__sub}>
+            I love to create
+          </p>
 
-            <span className={styles.intro__sub}>
-              I love to create
-            </span>
-
-            <span className={styles.intro__desc}>
-              clean, simple & inclusive experiences.
-            </span>
-
-          </h2>
+          <p className={styles.intro__desc}>
+            clean, simple & inclusive experiences.
+          </p>
 
         </div>
 

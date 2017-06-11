@@ -3,26 +3,19 @@
 
 :root {
 
-  /* Layout */
   --wrapperWidth: 1200px;
   --headerHeight: 48px;
   --gutter: 20px;
   --columnCount: 12;
 
-  /* Colors */
   --colorBlack: #000;
   --colorWhite: #fff;
   --colorPrimary: #5934F6;
   --colorSecondary: #e55d87;
   --colorTertiary: #22DD84;
 
-  /* Z Index Scale */
-  --zIndexHeader: 2;
-  --zIndexMenu: 3;
-  --zIndexHamburger: 4;
-
 }
 
 @custom-media --small (max-width: 767px);
 @custom-media --medium (max-width: 1023px);
-@custom-media --large (min-width: 1200px);
+@custom-media --large (min-width: 768px);

@@ -1,106 +1,46 @@
 @import './variables.css';
 
-p {
-    margin: 0;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    margin: 0;
-    font-weight: 400;
-}
-
-address {
-    font-style: normal;
-}
-
-ul,
-ol {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-body {
-  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
-
-.page h1,
-.page h2,
-.page h3,
-.page h4,
-.page h5,
-.page h6 {
   margin: 1rem 0 2rem 0;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
-.page h1 {
-  font-size: 3rem;
-  line-height: 1.05;
+p {
+  margin: 1rem 0;
 }
 
-.page h2 {
-  font-size: 2rem;
-  line-height: 1.25;
+pre {
+  margin: 1rem 0;
 }
 
-.page h3 {
-  font-size: 1.5rem;
-  line-height: 1.25;
-}
-
-.page h4 {
-  font-size: 1.125rem;
-  line-height: 1.222;
-}
-
-.page h5 {
-  font-size: 1rem;
-  line-height: 1.05;
-}
-
-.page p {
-  margin: 1.5rem 0;
-}
-
-.page pre {
-  margin: 1.5rem 0;
-}
-
-@media (--small) {
-
-}
-
-.page ol,
-.page ul {
+ol,
+ul {
   margin: 1rem;
   padding: 0 1rem;
 }
 
-.page ol li,
-.page ul li {
+ol li,
+ul li {
   list-style-type: disc;
 }
 
-.page blockquote {
+blockquote {
   margin: 0 0 2rem 0;
   padding: .2rem 2rem;
-  border-left: 10px solid var(--colorWhite);
+  border-left: 1rem solid var(--colorWhite);
 }
 
-.page blockquote p {
+blockquote p {
   margin: 0;
 }
 
-.page hr {
+hr {
   width: 100%;
   height: 2px;
   margin-bottom: 2rem;
@@ -109,4 +49,3 @@ body {
   border: 0;
   background: var(--colorWhite);
 }
-

@@ -22,4 +22,3 @@ This site is currently being built from the /docs folder in the master branch. [
 - Automate Docs upload :smiley:
 - Add Projects :cold_sweat:
 - IE Fallbacks :persevere:
-- Typography Updates :heart_eyes: Make Text MUCH bigger :godmode:

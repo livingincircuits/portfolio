@@ -6,10 +6,18 @@
   text-align: center;
 }
 
-h1.intro__title {
-  margin: 0 0 1rem 0;
+@media (--small) {
+
+  .intro {
+    margin: 0 0 1rem 0;
+  }
+
+}
+
+.intro__title {
+  margin: 0;
   font-size: 6rem;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 10px;
   font-weight: 400;
   text-transform: uppercase;
@@ -17,25 +25,28 @@ h1.intro__title {
 
 @media (--small) {
 
-  h1.intro__title {
-    font-size: 1.8rem;
+  .intro__title {
+    font-size: 2.2rem;
+    letter-spacing: 5px;
   }
 
 }
 
-h1.intro__title:before {
+.intro__title:before {
   content: "";
   display: block;
   margin: 0 auto;
   width: 20%;
-  padding-top: 1rem;
+  padding-top: 2rem;
   border-top: 6px solid var(--colorWhite);
 }
 
 .intro__sub {
   display: block;
   margin: 0;
-  font-size: 3.6rem;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
   line-height: 1.2;
   font-weight: 600;
   letter-spacing: 8px;
@@ -46,6 +57,7 @@ h1.intro__title:before {
 
   .intro__sub {
     font-size: 1.2rem;
+    letter-spacing: 4px;
   }
 
 }
@@ -53,7 +65,9 @@ h1.intro__title:before {
 .intro__desc {
   display: block;
   margin: 0;
-  font-size: 2.2rem;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
@@ -62,7 +76,7 @@ h1.intro__title:before {
 @media (--small) {
 
   .intro__desc {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
   }
 
 }
@@ -72,17 +86,17 @@ h1.intro__title:before {
   text-align: center;
 }
 
-h2.post__title {
-  font-size: 2.2rem;
-  line-height: 1.2;
+.post__title {
   font-weight: 400;
+  font-size: calc(2rem + 0.5 * ((100vw - 20rem) / 60));
+  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
 }
 
 @media (--small) {
 
-  h2.post__title {
-    font-size: 1.1rem;
-    line-height: 1.8;
+  .post__title {
+    font-size: 1.6rem;
+    line-height: 1.5;
   }
 
 }

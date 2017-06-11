@@ -1,13 +1,7 @@
 @import '../../assets/css/variables.css';
 
 .footer {
-  /*
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  */
   width: 100%;
-  z-index: var(--zIndexHeader);
   font-size: .8rem;
   color: var(--colorPrimary);
   background-color: var(--colorWhite);
@@ -41,8 +35,4 @@
 .footer a:focus {
   color: var(--colorSecondary);
   border-color: var(--colorSecondary);
-}
-
-.footer {
-  padding: 10px;
 }
