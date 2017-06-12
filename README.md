@@ -19,7 +19,7 @@ This was created in a few hours to see how quickly I could spin up a static webs
 This site is currently being built from a /docs folder in the master branch. [More Info](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
 ## TODO
-- Optimise Image.
+- 404
 - Create sitemap.xml
 - General meta updates.
 - Add https://www.npmjs.com/package/gh-pages to [automate deployment](https://github.com/gatsbyjs/gatsby/blob/master/README.md#deploying-to-github-pages-and-other-hosts-where-your-sites-links-need-prefixes) and stop using docs.
