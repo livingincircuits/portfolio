@@ -2,6 +2,7 @@
 
 .item a {
   transition: all .1s linear;
+  font-family: var(--heading);
 }
 
 .item a:hover,

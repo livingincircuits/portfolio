@@ -11,7 +11,7 @@ body {
 
 body {
   color: var(--colorWhite);
-  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: calc(1rem + 0.5 * ((100vw - 20rem) / 60));

@@ -7,7 +7,7 @@ h4,
 h5,
 h6 {
   margin: 1rem 0 2rem 0;
-  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-family: var(--heading);
   font-weight: 400;
 }
 
