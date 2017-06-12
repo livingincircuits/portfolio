@@ -58,7 +58,16 @@
 
 .nav li {
   display: inline-block;
-  padding: 1rem;
+  padding: 0 1rem;
+  vertical-align: middle;
+}
+
+@media (--small) {
+
+  .nav li {
+    padding: 1rem;
+  }
+
 }
 
 .round {
