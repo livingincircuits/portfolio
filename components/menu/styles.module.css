@@ -1,9 +1,5 @@
 @import '../../assets/css/variables.css';
 
-.item {
-  font-size: 1rem;
-}
-
 .item a {
   transition: all .1s linear;
 }
