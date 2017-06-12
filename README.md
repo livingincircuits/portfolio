@@ -20,6 +20,7 @@ This site is currently being built from a /docs folder in the master branch. [Mo
 
 ## TODO
 - Optimise Image
+- Create sitemap.xml
 - Automate Docs upload
 - Add Projects :cold_sweat:
 - IE Fallbacks :persevere:
