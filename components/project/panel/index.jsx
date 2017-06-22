@@ -11,9 +11,9 @@ const ProjectPanel = ({ project }) => (
 
       <div className={styles.content}>
 
-        <h2>
+        <h1>
           {project.title}
-        </h2>
+        </h1>
 
       </div>
 

@@ -24,9 +24,9 @@ class SiteIndex extends React.Component {
 
         pageLinks.push((
           <article className={styles.post} key={title}>
-            <h2 className={styles.post__title}>
+            <h3 className={styles.post__title}>
               <Link to={prefixLink(page.path)}>{title}</Link>
-            </h2>
+            </h3>
           </article>
         ));
       }
@@ -44,13 +44,17 @@ class SiteIndex extends React.Component {
             Emily Young
           </h1>
 
-          <p className={styles.intro__sub}>
-            I love to create
-          </p>
+          <h2>
 
-          <p className={styles.intro__desc}>
-            clean, simple & inclusive experiences.
-          </p>
+            <span className={styles.intro__sub}>
+              I love to create
+            </span>
+
+            <span className={styles.intro__desc}>
+              clean, simple & inclusive experiences.
+            </span>
+
+          </h2>
 
         </div>
 

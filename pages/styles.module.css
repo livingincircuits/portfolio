@@ -46,10 +46,10 @@
   margin: 0;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 4.1rem;
   line-height: 1.2;
   font-weight: 600;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   text-transform: uppercase;
 }
 
@@ -67,9 +67,10 @@
   margin: 0;
   font-family: 'Oswald', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 2.3rem;
+  font-size: 2rem;
   line-height: 1.2;
   font-weight: 400;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 

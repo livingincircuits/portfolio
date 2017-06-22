@@ -129,9 +129,9 @@ const About = () => (
         Contact
       </h2>
 
-      <p>
+      <h3>
         <a href="mailto:emily@emily-young.com?subject=Hello">Email Me</a>
-      </p>
+      </h3>
 
     </div>
 

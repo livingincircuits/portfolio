@@ -73,11 +73,13 @@ a {
 @media (--large) {
 
   .page a {
+    transition: all .2s linear;
     border-bottom: 3px solid var(--colorWhite);
   }
 
   .page a:hover,
   .page a:focus {
+    color: var(--colorTertiary);
     border-color: var(--colorTertiary);
   }
 
