@@ -21,7 +21,8 @@ This site is currently being built from a /docs folder in the master branch. [Mo
 ## TODO
 - 404
 - Create sitemap.xml
-- General meta updates.
+- Seperate blog from home page
+- General meta updates
 - Add https://www.npmjs.com/package/gh-pages to [automate deployment](https://github.com/gatsbyjs/gatsby/blob/master/README.md#deploying-to-github-pages-and-other-hosts-where-your-sites-links-need-prefixes) and stop using docs.
 - Add Projects :cold_sweat:
 - IE Fallbacks :persevere:
