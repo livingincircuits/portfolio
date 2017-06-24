@@ -23,7 +23,6 @@ This was created in a few hours to see how quickly I could spin up a static webs
 - Publish gh-pages branch: `npm run deploy`.
 
 ## TODO
-- 404
 - Fix SEO Errors
 - Add Projects :cold_sweat:
 - IE Fallbacks :persevere:
