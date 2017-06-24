@@ -38,6 +38,7 @@ export default class Html extends Component {
           <link rel="icon" type="image/png" href={require('assets/img/favicon/favicon-32x32.png')} sizes="32x32" />
           <link rel="icon" type="image/png" href={require('assets/img/favicon/favicon-16x16.png')} sizes="16x16" />
           <link rel="apple-touch-icon" sizes="180x180" href={require('assets/img/favicon/apple-touch-icon.png')} />
+          <meta name="google-site-verification" content="K2IZiKagWwqNsK3TK4SHJrJ5xqj3HkSSJPqH-yG_Zpg" />
           {css}
         </head>
 
