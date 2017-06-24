@@ -14,10 +14,14 @@ This was created in a few hours to see how quickly I could spin up a static webs
 
 ## Run
 - In development: `npm run develop`.
-- Create a static build /public folder: `npm run build`. Change name to docs.
 
 ## Build
-This site is currently being built from a /docs folder in the master branch. [More Info](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+- Create a static build public folder: `npm run build`. 
+
+## Deploy
+
+- Publish gh-pages branch: `npm run deploy`.
+
 
 ## TODO
 - 404
