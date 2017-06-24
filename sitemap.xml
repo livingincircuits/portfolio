@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://www.example.com/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/an-open-letter-to-web-designers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/accessibility-quick-wins/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/managing-oneself/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/ios-accessibility-settings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/web-education/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/document-outlines/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/responsive-web-design-is-web-design/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/learning-to-learn/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/how-I-audit-builds/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/aria-landmark-roles/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/future-of-navigation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/how-to-ruin-an-experience/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/lean-ux/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/when-to-use-buttons/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/forget-everything-you-know/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/hook-model/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/aria-labelledby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/work/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.example.com/work/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/an-open-letter-to-web-designers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/accessibility-quick-wins/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/managing-oneself/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/ios-accessibility-settings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/web-education/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/document-outlines/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/responsive-web-design-is-web-design/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/learning-to-learn/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/how-I-audit-builds/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/aria-landmark-roles/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/future-of-navigation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/how-to-ruin-an-experience/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/lean-ux/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/when-to-use-buttons/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/forget-everything-you-know/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/hook-model/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/aria-labelledby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/work/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/work/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
