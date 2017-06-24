@@ -31,6 +31,14 @@ a {
   cursor: pointer;
 }
 
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
 ::selection {
   background: var(--colorSecondary);
   opacity: 1;
@@ -99,17 +107,16 @@ a {
 }
 
 .page-body {
-  background: var(--colorPrimary);
-  background: -moz-linear-gradient(-45deg, var(--colorSecondary) 0%, var(--colorPrimary) 100%);
-  background: -webkit-linear-gradient(-45deg, var(--colorSecondary) 0%, var(--colorPrimary) 100%);
-  background: linear-gradient(135deg, var(--colorSecondary) 0%, var(--colorPrimary) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--colorSecondary)', endColorstr='var(--colorPrimary)', GradientType=1 );
+  background-color: var(--colorPrimary);
+  background: -moz-linear-gradient(-45deg, var(--colorPrimary) 0%, var(--colorSecondary) 100%);
+  background: -webkit-linear-gradient(-45deg, var(--colorPrimary) 0%, var(--colorSecondary) 100%);
+  background: linear-gradient(135deg, var(--colorPrimary) 0%, var(--colorSecondary) 100%);
 }
 
 @media (--large) {
 
   .markdown {
-    max-width: 60%;
+    max-width: 80%;
   }
 
 }
