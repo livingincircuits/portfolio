@@ -4,6 +4,7 @@
 
 This is my [personal portfolio and blog](http://www.livingincircuits.co.uk). 
 It uses [Gatsby](https://github.com/gatsbyjs/gatsby) which is a blazing fast React.js static site generator
+
 More blog than portfolio at the mo!
 
 This was created in a few hours to see how quickly I could spin up a static website using React.js
@@ -20,9 +21,9 @@ This site is currently being built from a /docs folder in the master branch. [Mo
 
 ## TODO
 - 404
-- Create sitemap.xml
-- Seperate blog from home page
-- General meta updates
-- Add https://www.npmjs.com/package/gh-pages to [automate deployment](https://github.com/gatsbyjs/gatsby/blob/master/README.md#deploying-to-github-pages-and-other-hosts-where-your-sites-links-need-prefixes) and stop using docs.
+- Hook Up Search Console
+- Fix SEO Errors
+- Add https://www.npmjs.com/package/gh-pages to [automate deployment](https://github.com/gatsbyjs/gatsby/blob/master/README.md#deploying-to-github-pages-and-other-hosts-where-your-sites-links-need-prefixes)
 - Add Projects :cold_sweat:
 - IE Fallbacks :persevere:
+- Seperate blog from home page :innocent:

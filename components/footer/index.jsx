@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { prefixLink } from 'gatsby-helpers';
-import { IndexLink } from 'react-router';
 import { Link } from 'react-router';
 import styles from './styles.module.css';
 import imgSrc from './img/cat.gif';

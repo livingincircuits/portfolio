@@ -10,6 +10,8 @@ const About = () => (
 
     <Meta title="About" />
 
+    <Meta title="About" description="Emily Young is a UX Designer/Developer from Yorkshire" />
+
     <div className={styles.intro}>
 
       <h1>Hello World.</h1>
