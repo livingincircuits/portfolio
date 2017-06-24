@@ -27,13 +27,15 @@
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.4.1"
+    "eslint-plugin-react": "^6.4.1",
+    "gh-pages": "^1.0.0"
   },
   "main": "n/a",
   "scripts": {
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
-    "build": "rm -rf docs; gatsby build",
     "develop": "gatsby develop",
+    "build": "rm -rf public; gatsby build",
+    "deploy": "gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
