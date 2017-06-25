@@ -3,7 +3,7 @@ import { config } from 'config';
 import Helmet from 'react-helmet';
 
 const Meta = ({ description, noIndex, title }, { location }) => {
-  const mainTitle = `${config.siteTitle} - UX Design and Developer`;
+  const mainTitle = `${config.siteTitle} - User Experience Designer and Developer`;
   const metaTitle = title ? `${title} | ${mainTitle}` : mainTitle;
   const metaDescription = description || config.description;
   const absoluteUrl = `${config.siteUrl}${location.pathname}`;

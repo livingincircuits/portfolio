@@ -10,7 +10,7 @@ const About = () => (
 
     <Meta title="About" />
 
-    <Meta title="About" description="Emily Young is a UX Designer/Developer from Yorkshire" />
+    <Meta title="About" description="Emily Young is a UX Designer and Developer from Yorkshire UX Designer and Developer who loves to create clean, simple and inclusive experiences" />
 
     <div className={styles.intro}>
 
