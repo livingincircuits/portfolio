@@ -3,6 +3,7 @@
 ## What is this?
 
 This is my [personal portfolio and blog](http://www.livingincircuits.co.uk). 
+
 It uses [Gatsby](https://github.com/gatsbyjs/gatsby) which is a blazing fast React.js static site generator
 
 More blog than portfolio at the mo!
