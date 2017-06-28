@@ -11,6 +11,36 @@ h6 {
   font-weight: 400;
 }
 
+h1 {
+  font-size: calc(2rem + 0.5 * ((100vw - 20rem) / 60));
+  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
+}
+
+h2 {
+  font-size: calc(1.8rem + 0.5 * ((100vw - 20rem) / 60));
+  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
+}
+
+h3 {
+  font-size: calc(1.6rem + 0.5 * ((100vw - 20rem) / 60));
+  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
+}
+
+h4 {
+  font-size: calc(1.4rem + 0.5 * ((100vw - 20rem) / 60));
+  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
+}
+
+h5 {
+  font-size: calc(1.2rem + 0.5 * ((100vw - 20rem) / 60));
+  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
+}
+
+h6 {
+  font-size: calc(1rem + 0.5 * ((100vw - 20rem) / 60));
+  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
+}
+
 p {
   margin: 1rem 0;
 }
