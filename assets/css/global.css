@@ -15,8 +15,8 @@ body {
   font-family: Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-size: calc(1rem + 0.5 * ((100vw - 20rem) / 60));
-  line-height: calc(1.2em + 0.6 * ((100vw - 20em) / 60));
+  font-size: responsive 16px 21px;
+  line-height: 1.5;
 }
 
 img {
@@ -52,13 +52,13 @@ pre {
   margin: 0 auto;
   padding-left: var(--gutter);
   padding-right: var(--gutter);
-  padding: 8vh 1rem;
+  padding: 8vh 1em;
 }
 
 @media (--medium) {
 
   .page {
-    padding: 1rem;
+    padding: 1em;
   }
 
 }

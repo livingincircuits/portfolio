@@ -2,7 +2,8 @@
 
 .footer {
   width: 100%;
-  font-size: .8rem;
+  padding: 10px 0 0 0;
+  font-size: responsive 14px 12px;
   color: var(--colorPrimary);
   background-color: var(--colorWhite);
 }

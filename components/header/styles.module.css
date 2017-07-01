@@ -2,19 +2,21 @@
 
 .header {
   width: 100%;
-  padding: 1rem 0;
+  padding: 1em 0;
 }
 
 @media (--small) {
 
   .header {
-    padding: 1rem 0 0 0;
+    padding: 1em 0 0 0;
   }
 
 }
 
 .inner {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (--small) {
@@ -58,14 +60,14 @@
 
 .nav li {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 1em;
   vertical-align: middle;
 }
 
 @media (--small) {
 
   .nav li {
-    padding: 1rem;
+    padding: 1em;
   }
 
 }
