@@ -26,5 +26,4 @@ This was created in a few hours to see how quickly I could spin up a static webs
 ## TODO
 - Add Projects :cold_sweat:
 - Seperate blog from home page :innocent:
-- Lost and Rucksack Not Working. Upgrade to Gatsby 1.0 :fire:
 - IE Fallbacks :persevere:
