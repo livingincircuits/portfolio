@@ -30,7 +30,14 @@
     "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.4.1",
-    "gh-pages": "^1.0.0"
+    "gh-pages": "^1.0.0",
+    "lost": "^8.0.0",
+    "rucksack-css": "^0.9.1",
+    "css-loader": "^0.26.1",
+    "postcss-loader": "^1.2.2",
+    "postcss-nested": "^1.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
   },
   "main": "n/a",
   "scripts": {

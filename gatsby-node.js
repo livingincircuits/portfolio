@@ -1,5 +1,26 @@
-var fs = require('fs-extra-promise')
-var sm = require('sitemap')
+const fs = require('fs-extra-promise');
+const sm = require('sitemap');
+const rucksack = require('rucksack-css');
+const lost = require('lost');
+const cssnext = require('postcss-cssnext');
+const cssnested = require('postcss-nested');
+const atImport = require('postcss-import');
+
+exports.modifyWebpackConfig = function (config) {
+  config.merge({
+    postcss: [
+      atImport(),
+      cssnested,
+      lost(),
+      rucksack(),
+      cssnext({
+        browsers: ['>1%', 'last 2 versions']
+      }),
+    ],
+  });
+
+  return config;
+};
 
 function pagesToSitemap(pages) {
   var urls = pages.map(function(p) {
@@ -31,17 +52,3 @@ module.exports.postBuild = function(pages, callback) {
   generateSiteMap(pages)
   callback()
 }
-
-exports.modifyWebpackConfig = function modifyWebpackConfig(config) {
-
-  config.loader('images', cfg => {
-
-    cfg.loaders[0] = 'url?limit=2500';
-
-    return cfg;
-
-  });
-
-  return config;
-
-};
