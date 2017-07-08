@@ -1,3 +1,112 @@
 @import '../../assets/css/variables.css';
 
+.heading {
+  
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
 
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(140,27,171,0.4);
+  }
+
+  &__title {
+    position: relative;
+    margin: 0;
+    font-size: responsive 24px 70px;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--colorWhite);
+    text-transform: uppercase;
+    z-index: 10;
+  }
+
+  &__sub {
+    position: relative;
+    margin: 0;
+    font-size: responsive 18px 40px;
+    letter-spacing: 4px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--colorWhite);
+    z-index: 10;
+  }
+
+}
+
+.perfecthome .heading {
+  background-image: url(pages/work/perfecthome/img/ph-screen.jpg);
+}
+
+.inpart .heading {
+  background-image: url(pages/work/inpart/img/ip-screen.jpg);
+}
+
+.content {
+
+  @media (--large) {
+    margin-right: 30%;
+  }
+
+}
+
+.full__img {
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
+.half {
+
+  @media (--large) {
+    lost-column: 1/2;
+  }
+
+}
+
+.aside {
+
+  font-size: responsive 16px 18px;
+  margin-bottom: 1.5em;
+  background: var(--colorQuaternary);
+  color: var(--colorWhite);
+
+  @media (--large) {
+    float: right;
+	  width: 27%;
+  }
+
+  @media (--small) {
+    width: 100%;
+  }
+
+  &__heading {
+    font-size: responsive 18px 24px;
+    background: color(var(--colorQuaternary) shade(10%));
+  }
+
+  &__title {
+    margin: 0;
+    padding: .5em;
+  }
+
+  &__list {
+    margin: 0 .5em 0 1.5em;
+    padding: 1em 0 1em .5em;
+  }
+
+}
