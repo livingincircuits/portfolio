@@ -1,13 +1,16 @@
 {
   "projects": [
     {
-      "className": "test",
-      "cta": {
-        "link": "",
-        "text": "View The Website"
-      },
-      "slug": "test",
-      "title": "Coming Soon"
+      "className": "perfecthome",
+      "slug": "perfecthome",
+      "title": "Perfect Home",
+      "subtitle": "E-Commerce Website Redesign"
+    },
+    {
+      "className": "inpart",
+      "slug": "inpart",
+      "title": "IN-PART",
+      "subtitle": "Website Redesign"
     }
   ]
 }

@@ -5,21 +5,11 @@ import styles from './styles.module.css';
 
 const ProjectPanel = ({ project }) => (
 
-  <Link to={prefixLink(`/work/${project.slug}/`)} className={styles[project.className]}>
-
-    <section className={styles.inner}>
-
-      <div className={styles.content}>
-
-        <h1>
-          {project.title}
-        </h1>
-
-      </div>
-
-    </section>
-
-  </Link>
+  <h2 className={styles.post}>
+    <Link to={prefixLink(`/work/${project.slug}/`)}>
+      {project.title}
+    </Link>
+  </h2>
 
 );
 
