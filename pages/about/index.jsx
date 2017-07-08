@@ -2,7 +2,6 @@ import React from 'react';
 import { prefixLink } from 'gatsby-helpers';
 import Meta from 'components/meta';
 import { Link } from 'react-router';
-import styles from './styles.module.css';
 
 const About = () => (
 
@@ -12,7 +11,7 @@ const About = () => (
 
     <Meta title="About" description="Emily Young is a UX Designer and Developer from Yorkshire UX Designer and Developer who loves to create clean, simple and inclusive experiences" />
 
-    <div className={styles.intro}>
+    <div>
 
       <h1>Hello World.</h1>
 

@@ -36,7 +36,7 @@ h6 {
 }
 
 p {
-  margin: .4em 0;
+  margin: 1em 0;
 }
 
 pre {
@@ -45,13 +45,25 @@ pre {
 
 ol,
 ul {
-  margin: 1rem;
-  padding: 0 1rem;
+  margin: 1em;
+  padding: 0 1em;
 }
 
 ol li,
 ul li {
   list-style-type: disc;
+}
+
+dl {
+  margin: 1.5em 0;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  margin: 0 0 .75em 0;
 }
 
 blockquote {
@@ -72,4 +84,18 @@ hr {
   clear: both;
   border: 0;
   background: var(--colorWhite);
+}
+
+figure {
+  clear: both;
+  margin: 0 0 1em 0;
+}
+
+figure img {
+	margin-bottom: 1.5em;
+}
+
+figure figcaption {
+  margin: 0;
+  font-size: responsive 16px 18px;
 }
