@@ -19,7 +19,9 @@
 <url> <loc>http://livingincircuits.co.uk/forget-everything-you-know/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://livingincircuits.co.uk/hook-model/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://livingincircuits.co.uk/aria-labelledby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/the-problem-with-password-ux/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://livingincircuits.co.uk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://livingincircuits.co.uk/work/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://livingincircuits.co.uk/work/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/work/inpart/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/work/perfecthome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
