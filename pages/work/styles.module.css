@@ -12,6 +12,11 @@
   background-repeat: no-repeat;
   background-position: top center;
 
+  @media (--small) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   &:before {
     content: '';
     display: block;
@@ -49,11 +54,23 @@
 }
 
 .perfecthome .heading {
+
   background-image: url(pages/work/perfecthome/img/ph-screen.jpg);
+
+  @media (--small) {
+    background-position: center center;
+  }
+
 }
 
 .inpart .heading {
+
   background-image: url(pages/work/inpart/img/ip-screen.jpg);
+
+    @media (--small) {
+      background-position: center center;
+    }
+
 }
 
 .content {
