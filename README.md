@@ -22,5 +22,4 @@ This was initially created in a few hours to see how quickly I could spin up a s
 - Publish gh-pages branch: `npm run deploy`.
 
 ## TODO
-- Seperate blog from home page? :innocent:
 - IE Fallbacks? :persevere:
