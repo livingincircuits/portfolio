@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400');
 @import './variables.css';
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../../assets/fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
