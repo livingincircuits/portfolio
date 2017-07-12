@@ -8,7 +8,7 @@ This is my [personal portfolio and blog](http://www.livingincircuits.co.uk).
 
 It uses [Gatsby](https://github.com/gatsbyjs/gatsby) which is a blazing fast React.js static site generator
 
-This was initially created in a few hours to see how quickly I could spin up a static website using React.js
+This was initially created in a few hours to see how quickly I could spin up a static website using React.js :smirk:
 
 ## Install
 - `yarn install`
