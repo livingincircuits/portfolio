@@ -1,5 +1,7 @@
 # Portfolio Yo
 
+[![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
+
 ## What is this?
 
 This is my [personal portfolio and blog](http://www.livingincircuits.co.uk). 
@@ -20,6 +22,3 @@ This was initially created in a few hours to see how quickly I could spin up a s
 ## Deploy
 
 - Publish gh-pages branch: `npm run deploy`.
-
-## TODO
-- IE Fallbacks? :persevere:
