@@ -53,7 +53,7 @@ const perfecthome = () => {
               Perfect Home are a household goods retailer established in 2006. They provide top quality products at affordable pay weekly prices. 
             </p>
             <p>
-              The website they had was built to thier specific needs but as the company grew, they wanted to become the UK’s leading provider of goods on finance and needed a product that could scale so a more robust approach was needed.
+              The website they had was built to their specific needs but as the company grew, they wanted to become the UK’s leading provider of goods on finance and needed a product that could scale so a more robust approach was needed.
             </p>
             <p>
               The solution was to create a more user friendly experience that allowed more people to find them and gave them a helping hand through the complex checkout process.
@@ -87,7 +87,7 @@ const perfecthome = () => {
               Brief
             </h2>
             <p>
-              The brief was to rebrand Perfect Home as market leaders and demystifer the pay weekly concept whilst allowing them to reach their aim to become the UK’s leading provider of goods on finance.
+              The brief was to rebrand Perfect Home as market leaders and demystify the pay weekly concept whilst allowing them to reach their aim to become the UK’s leading provider of goods on finance.
             </p>
 
             <h2>
@@ -98,7 +98,7 @@ const perfecthome = () => {
             </p>
 
             <ul>
-              <li>What do users need? Does the old design fulfill this need?</li>
+              <li>What do users need? Does the old design fulfil this need?</li>
               <li>How do they do it now and can they get it done with this?</li>
               <li>What do they desire? Is the old design appealing?</li>
               <li>Where do users look for things? Can all users find and access this?</li>
@@ -131,10 +131,10 @@ const perfecthome = () => {
               I reviewed a series of direct and indirect competitor sites to create shared understanding and learn what problem we were trying to solve. I was able to document some common patterns and found that simple and direct communication would be a key component of the checkout process.
             </p>
             <p>
-              User stories were created by the development team that mapped the current perfect user journey and highlighted the current pain points. Working from these I was able to develop user stories that aliviated the pain points and improve upon the experience. A user flow was then created from these stories that allowed for better interaction. 
+              User stories were created by the development team that mapped the current perfect user journey and highlighted the current pain points. Working from these I was able to develop user stories that alleviated the pain points and improve upon the experience. A user flow was then created from these stories that allowed for better interaction. 
             </p>
             <p>
-              We then reviewed the websites current data to learn the current user flow and make amendments and add improvments to our user stories.
+              We then reviewed the websites current data to learn the current user flow and make amendments and add improvements to our user stories.
             </p>
 
             <h2>
