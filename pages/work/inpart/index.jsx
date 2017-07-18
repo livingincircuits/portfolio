@@ -114,7 +114,7 @@ const inpart = () => {
               src="./img/ip-flow_c_scale,w_2400.png" 
               alt="UX Flow Process" className={styles.full__img} />
             <figcaption>
-              First iterarion of full user flow
+              First iteration of full user flow
             </figcaption>
           </figure>
 
@@ -128,7 +128,7 @@ const inpart = () => {
               Process
             </h2>
             <p>
-              We mapped out a complete user flow for each of the goals. We used the data to guide our flow using previous user behavior.
+              We mapped out a complete user flow for each of the goals. We used the data to guide our flow using previous user behaviour.
             </p>
 
           </div>
