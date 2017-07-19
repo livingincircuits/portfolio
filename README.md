@@ -5,6 +5,9 @@
 [![Build Status](https://travis-ci.org/livingincircuits/portfolio.svg)](https://travis-ci.org/livingincircuits/portfolio)
 [![Code Climate](https://codeclimate.com/github/livingincircuits/portfolio/badges/gpa.svg)](https://codeclimate.com/github/livingincircuits/portfolio)
 [![Dependency Status](https://david-dm.org/livingincircuits/portfolio.svg)](https://david-dm.org/livingincircuits/portfolio)
+[![CircleCI Status](https://circleci.com/gh/livingincircuits/portfolio.svg?style=shield&circle-token=:circle-token)]
+(https://circleci.com/gh/livingincircuits/portfolio)
+[![Coverage Status](https://img.shields.io/coveralls/livingincircuits/portfolio/master.svg?style=flat)](https://coveralls.io/github/livingincircuits/portfolio?branch=master)
 
 ## What is this?
 
