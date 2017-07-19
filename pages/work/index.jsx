@@ -8,9 +8,16 @@ const Work = () => (
 
   <div>
 
-    <Meta title="Work" description="" />
+    <Meta title="Projects" description="Sample UX Design And Front End Projects" />
 
-    {projects.map(project => <ProjectPanel project={project} key={project.slug} />)}
+    <div>
+      {projects.map(project => <ProjectPanel project={project} key={project.slug} />)}
+    </div>
+
+    <div className={styles.post}>
+      <p>Watch this space for more updates. <a href="mailto:emily@emily-young.com?subject=Hello">Get in touch</a> if you’re looking for a particular type of project.</p>
+      <p>In the mean time, You can see some latest snippets on <a href="https://dribbble.com/livingincircuits">Dribbble</a>.</p>
+    </div>
 
   </div>
 

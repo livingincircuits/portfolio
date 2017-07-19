@@ -23,9 +23,9 @@ const perfecthome = () => {
             </h2>
           </div>
         </section>
-        
+
         <article>
-          
+
           <figure className={styles.aside}>
             <header className={styles.aside__heading}>
               <h3 className={styles.aside__title}>
@@ -45,12 +45,12 @@ const perfecthome = () => {
           </figure>
 
           <div className={styles.content}>
-          
+
             <h2>
               Overview
             </h2>
             <p>
-              Perfect Home are a household goods retailer established in 2006. They provide top quality products at affordable pay weekly prices. 
+              Perfect Home are a household goods retailer established in 2006. They provide top quality products at affordable pay weekly prices.
             </p>
             <p>
               The website they had was built to their specific needs but as the company grew, they wanted to become the UK’s leading provider of goods on finance and needed a product that could scale so a more robust approach was needed.
@@ -61,7 +61,7 @@ const perfecthome = () => {
             <p>
               I was part of the team that helped them realise this vision.
             </p>
-            
+
             <dl>
               <dt>
                 Roles
@@ -82,7 +82,7 @@ const perfecthome = () => {
                 View the website
               </a>
             </p>
-            
+
             <h2>
               Brief
             </h2>
@@ -131,7 +131,7 @@ const perfecthome = () => {
               I reviewed a series of direct and indirect competitor sites to create shared understanding and learn what problem we were trying to solve. I was able to document some common patterns and found that simple and direct communication would be a key component of the checkout process.
             </p>
             <p>
-              User stories were created by the development team that mapped the current perfect user journey and highlighted the current pain points. Working from these I was able to develop user stories that alleviated the pain points and improve upon the experience. A user flow was then created from these stories that allowed for better interaction. 
+              User stories were created by the development team that mapped the current perfect user journey and highlighted the current pain points. Working from these I was able to develop user stories that alleviated the pain points and improve upon the experience. A user flow was then created from these stories that allowed for better interaction.
             </p>
             <p>
               We then reviewed the websites current data to learn the current user flow and make amendments and add improvements to our user stories.
@@ -141,7 +141,7 @@ const perfecthome = () => {
               Process
             </h2>
             <p>
-              Based on my research, I created personas and mapped out each persona’s perfect journey, including making a note of each touchpoint to their final objective. 
+              Based on my research, I created personas and mapped out each persona’s perfect journey, including making a note of each touchpoint to their final objective.
             </p>
 
           </div>
@@ -196,7 +196,7 @@ const perfecthome = () => {
             </p>
 
           </div>
-          
+
         </article>
 
       </div>

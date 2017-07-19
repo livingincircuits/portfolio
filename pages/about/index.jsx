@@ -127,12 +127,8 @@ const About = () => (
       </p>
 
       <h2>
-        Contact
-      </h2>
-
-      <h3>
         <a href="mailto:emily@emily-young.com?subject=Hello">Email Me</a>
-      </h3>
+      </h2>
 
     </div>
 

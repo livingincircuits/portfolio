@@ -1893,7 +1893,7 @@ decompress@^3.0.0:
     vinyl-assign "^1.0.1"
     vinyl-fs "^2.2.0"
 
-deep-equal@1.0.1, deep-equal@^1.0.0:
+deep-equal@^1.0.0, deep-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
 
@@ -2376,6 +2376,10 @@ executable@^1.0.0:
   dependencies:
     meow "^3.1.0"
 
+exenv@^1.2.1:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+
 exit-hook@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
@@ -2446,14 +2450,6 @@ fb-watchman@^1.8.0:
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-1.9.0.tgz#6f268f1f347a6b3c875d1e89da7e1ed79adfc0ec"
   dependencies:
     bser "^1.0.2"
-
-fbjs@0.1.0-alpha.10:
-  version "0.1.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.1.0-alpha.10.tgz#46e457c09cbefb51fc752a3e030e7b67fcc384c8"
-  dependencies:
-    core-js "^1.0.0"
-    promise "^7.0.3"
-    whatwg-fetch "^0.9.0"
 
 fbjs@^0.8.4:
   version "0.8.5"
@@ -3174,7 +3170,7 @@ highlight.js@^9.6.0:
   version "9.7.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.7.0.tgz#e7a926bf3079c65b2ae50314878e456a009b4aac"
 
-history@^2.0.2, history@^2.1.2:
+history@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/history/-/history-2.1.2.tgz#4aa2de897a0e4867e4539843be6ecdb2986bfdec"
   dependencies:
@@ -3182,6 +3178,16 @@ history@^2.0.2, history@^2.1.2:
     invariant "^2.0.0"
     query-string "^3.0.0"
     warning "^2.0.0"
+
+history@^4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/history/-/history-4.6.3.tgz#6d723a8712c581d6bef37e8c26f4aedc6eb86967"
+  dependencies:
+    invariant "^2.2.1"
+    loose-envify "^1.2.0"
+    resolve-pathname "^2.0.0"
+    value-equal "^0.2.0"
+    warning "^3.0.0"
 
 hoek@2.x.x, hoek@^2.14.x, hoek@^2.9.x:
   version "2.16.3"
@@ -4124,7 +4130,7 @@ lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
 
-lodash.keys@^3.0.0, lodash.keys@^3.1.2:
+lodash.keys@^3.0.0:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-3.1.2.tgz#4dbc0472b156be50a0b286855d1bd0b0c656098a"
   dependencies:
@@ -5610,13 +5616,13 @@ promise.pipe@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/promise.pipe/-/promise.pipe-3.0.0.tgz#b8f729867f54353996e6d8e86f3bbd56882e32a6"
 
-promise@^7.0.3, promise@^7.1.1:
+promise@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.1.1.tgz#489654c692616b8aa55b0724fa809bb7db49c5bf"
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10:
+prop-types@^15.5.10, prop-types@^15.5.4:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -5752,15 +5758,14 @@ react-github-button@^0.1.10:
   dependencies:
     prop-types "^15.5.10"
 
-react-helmet@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-3.1.0.tgz#63486194682f33004826f3687dc49a138b557050"
+react-helmet@^5.1.3:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.1.3.tgz#cd40626593a29eecf684b6d38d711f44c48188af"
   dependencies:
-    deep-equal "1.0.1"
-    object-assign "^4.0.1"
-    react-side-effect "1.0.2"
-    shallowequal "0.2.2"
-    warning "2.1.0"
+    deep-equal "^1.0.1"
+    object-assign "^4.1.1"
+    prop-types "^15.5.4"
+    react-side-effect "^1.1.0"
 
 react-hot-api@^0.4.5:
   version "0.4.7"
@@ -5798,11 +5803,12 @@ react-router@^2.6.1:
     loose-envify "^1.2.0"
     warning "^3.0.0"
 
-react-side-effect@1.0.2, react-side-effect@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-1.0.2.tgz#98e354decdbf0281e4223d87852d33e345eda561"
+react-side-effect@^1.0.2, react-side-effect@^1.1.0:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-1.1.3.tgz#512c25abe0dec172834c4001ec5c51e04d41bc5c"
   dependencies:
-    fbjs "0.1.0-alpha.10"
+    exenv "^1.2.1"
+    shallowequal "^1.0.1"
 
 react-transform-catch-errors@^1.0.2:
   version "1.0.2"
@@ -6075,6 +6081,10 @@ resolve-from@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-1.0.1.tgz#26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226"
 
+resolve-pathname@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/resolve-pathname/-/resolve-pathname-2.1.0.tgz#e8358801b86b83b17560d4e3c382d7aef2100944"
+
 resolve-url@~0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
@@ -6261,11 +6271,9 @@ sha.js@^2.3.6:
   dependencies:
     inherits "^2.0.1"
 
-shallowequal@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-0.2.2.tgz#1e32fd5bcab6ad688a4812cb0cc04efc75c7014e"
-  dependencies:
-    lodash.keys "^3.1.2"
+shallowequal@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.0.2.tgz#1561dbdefb8c01408100319085764da3fcf83f8f"
 
 shebang-regex@^1.0.0:
   version "1.0.0"
@@ -6316,11 +6324,7 @@ sort-keys@^1.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
-source-list-map@^0.1.4, source-list-map@~0.1.0:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-0.1.6.tgz#e1e6f94f0b40c4d28dcf8f5b8766e0e45636877f"
-
-source-list-map@^0.1.7:
+source-list-map@^0.1.4, source-list-map@^0.1.7, source-list-map@~0.1.0:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-0.1.8.tgz#c550b2ab5427f6b3f21f5afead88c4f5587b2106"
 
@@ -6965,6 +6969,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
+value-equal@^0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-0.2.1.tgz#c220a304361fce6994dbbedaa3c7e1a1b895871d"
+
 vendors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.1.tgz#37ad73c8ee417fb3d580e785312307d274847f22"
@@ -7060,7 +7068,7 @@ ware@^1.2.0:
   dependencies:
     wrap-fn "^0.1.0"
 
-warning@2.1.0, warning@^2.0.0:
+warning@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-2.1.0.tgz#21220d9c63afc77a8c92111e011af705ce0c6901"
   dependencies:
@@ -7156,10 +7164,6 @@ webpack@^1.11.0, webpack@^1.12.9, webpack@^1.13.2:
 whatwg-fetch@>=0.10.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-1.0.0.tgz#01c2ac4df40e236aaa18480e3be74bd5c8eb798e"
-
-whatwg-fetch@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-0.9.0.tgz#0e3684c6cb9995b43efc9df03e4c365d95fd9cc0"
 
 when@^3.7.5:
   version "3.7.7"

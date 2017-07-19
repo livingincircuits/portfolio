@@ -1,7 +1,7 @@
 @import '../../assets/css/variables.css';
 
 .heading {
-  
+
   padding-top: 200px;
   padding-bottom: 200px;
   overflow: hidden;
@@ -80,6 +80,11 @@
     margin-right: 30%;
   }
 
+}
+
+.post {
+  margin: 2em;
+  text-align: center;
 }
 
 .full__img {
