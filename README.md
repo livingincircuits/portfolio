@@ -7,7 +7,7 @@
 [![Dependency Status](https://david-dm.org/livingincircuits/portfolio.svg)](https://david-dm.org/livingincircuits/portfolio)
 [![CircleCI Status](https://circleci.com/gh/livingincircuits/portfolio.svg?style=shield&circle-token=:circle-token)]
 (https://circleci.com/gh/livingincircuits/portfolio)
-[![Coverage Status](https://img.shields.io/coveralls/livingincircuits/portfolio/master.svg?style=flat)](https://coveralls.io/github/livingincircuits/portfolio?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/livingincircuits/portfolio/badge.svg?branch=master)](https://coveralls.io/github/livingincircuits/portfolio?branch=master)
 
 ## What is this?
 
