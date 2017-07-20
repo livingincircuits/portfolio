@@ -37,7 +37,8 @@
     "postcss-loader": "^1.2.2",
     "postcss-nested": "^1.0.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "jest": "~20.0.4"
   },
   "main": "n/a",
   "scripts": {
@@ -45,6 +46,7 @@
     "develop": "gatsby develop",
     "build": "rm -rf public; gatsby build",
     "deploy": "gh-pages -d public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest -- --watch"
   }
 }
