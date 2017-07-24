@@ -5,7 +5,6 @@
 [![CircleCI](https://circleci.com/gh/livingincircuits/portfolio/tree/master.svg?style=svg)](https://circleci.com/gh/livingincircuits/portfolio/tree/master)
 
 [![Build Status](https://travis-ci.org/livingincircuits/portfolio.svg)](https://travis-ci.org/livingincircuits/portfolio)
-[![Code Climate](https://codeclimate.com/github/livingincircuits/portfolio/badges/gpa.svg)](https://codeclimate.com/github/livingincircuits/portfolio)
 [![Dependency Status](https://david-dm.org/livingincircuits/portfolio.svg)](https://david-dm.org/livingincircuits/portfolio)
 
 ## What is this?
