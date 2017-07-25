@@ -110,7 +110,7 @@ pre {
 .page-document {
   padding: 10px;
   box-sizing: border-box;
-  background-color: var(--colorWhite);
+  background-color: var(--colorPrimary);
 }
 
 .page-body {

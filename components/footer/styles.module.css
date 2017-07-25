@@ -31,6 +31,7 @@
 .footer a {
   border-bottom: 1px solid var(--colorPrimary);
   transition: all .2s linear;
+  color: var(--colorPrimary);
 }
 
 .footer a:hover,
