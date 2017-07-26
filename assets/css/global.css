@@ -31,11 +31,20 @@ img {
   display: block;
 }
 
+.align-central {
+  text-align: center;
+  margin: 0 auto;
+}
+
 a {
   color: inherit;
   text-decoration: none;
   outline: 0;
   cursor: pointer;
+}
+
+audio {
+	display: none;
 }
 
 pre {
@@ -110,6 +119,7 @@ pre {
 .page-document {
   padding: 10px;
   box-sizing: border-box;
+  border: 10px solid var(--colorWhite);
   background-color: var(--colorPrimary);
 }
 
@@ -126,4 +136,15 @@ pre {
     max-width: 80%;
   }
 
+}
+
+.error-page {
+  background: url(../../assets/img/space.gif) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.error-page .page-document, 
+.error-page .page-document .page-body {
+  background-color: transparent;
+  background: none;
 }
