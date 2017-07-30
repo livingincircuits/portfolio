@@ -74,11 +74,11 @@ const inpart = () => {
               </dd>
             </dl>
 
-            <p>
+            <h3>
               <a href="https://in-part.com/">
                 View the website
               </a>
-            </p>
+            </h3>
             
             <h2>
               Brief

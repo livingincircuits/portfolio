@@ -77,11 +77,11 @@ const perfecthome = () => {
               </dd>
             </dl>
 
-            <p>
+            <h3>
               <a href="https://www.perfecthome.co.uk/">
                 View the website
               </a>
-            </p>
+            </h3>
 
             <h2>
               Brief
@@ -93,9 +93,9 @@ const perfecthome = () => {
             <h2>
               Research
             </h2>
-            <p>
+            <h3>
               My research began with some questions:
-            </p>
+            </h3>
 
             <ul>
               <li>What do users need? Does the old design fulfil this need?</li>
