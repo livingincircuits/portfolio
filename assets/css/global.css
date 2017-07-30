@@ -18,6 +18,7 @@ body {
 }
 
 body {
+  padding: 10px;
   color: var(--colorWhite);
   font-family: Arial, sans-serif;
   text-rendering: optimizeLegibility;
@@ -117,9 +118,6 @@ pre {
 }
 
 .page-document {
-  padding: 10px;
-  box-sizing: border-box;
-  border: 10px solid var(--colorWhite);
   background-color: var(--colorPrimary);
 }
 
