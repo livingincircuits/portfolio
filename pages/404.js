@@ -27,11 +27,13 @@ class FourOFour extends React.Component {
 
         <div className="align-central">
 
-          <h1>Something is not quite right</h1>
+          <h1>404</h1>
+
+          <p>Something broke?</p>
 
           <img src={imgSrc} width="80%" alt="Nyan Cat" className="align-central" />
 
-          <a href="/">Go home friend</a>
+          <a href="/">Go back to the homepage</a>
 
         </div>
 
