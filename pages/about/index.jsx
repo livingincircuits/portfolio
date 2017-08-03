@@ -84,6 +84,9 @@ const About = () => (
           Principle
         </li>
         <li>
+          Flinto
+        </li>
+        <li>
           Zeplin
         </li>
       </ul>
