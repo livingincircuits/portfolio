@@ -84,9 +84,6 @@ const About = () => (
           Principle
         </li>
         <li>
-          Flinto
-        </li>
-        <li>
           Zeplin
         </li>
       </ul>
@@ -107,6 +104,9 @@ const About = () => (
         </li>
         <li>
           Marvel App
+        </li>
+        <li>
+          Flinto
         </li>
         <li>
           UX Pin
