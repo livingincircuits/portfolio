@@ -29,7 +29,7 @@ class FourOFour extends React.Component {
 
           <h1>404</h1>
 
-          <p>Something broke?</p>
+          <p>The page you were looking for could not be found. It's likely I broke something. Sorry about that.</p>
 
           <img src={imgSrc} width="80%" alt="Nyan Cat" className="align-central" />
 
