@@ -75,3 +75,7 @@ Delving into the checkout process analytics and creating experiments to decrease
 * Offer more payment options
 
 With each experiment, it is better to A/B test so you have a comparison measurement.
+
+## Conclusion
+
+Try to avoid subjective and vanity measures and instead try to figure out how you'll quantify the value you’re creating for your users. Data can give you lots of numbers to understand but your users are the ones who can give you the why behind those numbers.
