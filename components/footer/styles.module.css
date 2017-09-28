@@ -5,7 +5,7 @@
   padding: 10px 0 0 0;
   font-size: responsive 14px 12px;
   color: var(--colorPrimary);
-  background-color: var(--colorWhite);
+  background-color: var(--colorSecondary);
 }
 
 .inner {
@@ -30,12 +30,12 @@
 
 .footer a {
   border-bottom: 1px solid var(--colorPrimary);
-  transition: all .2s linear;
+  transition: all .1s linear;
   color: var(--colorPrimary);
 }
 
 .footer a:hover,
 .footer a:focus {
-  color: var(--colorSecondary);
-  border-color: var(--colorSecondary);
+  color: var(--colorQuaternary);
+  border: none;
 }

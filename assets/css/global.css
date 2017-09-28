@@ -18,13 +18,14 @@ body {
 }
 
 body {
-  padding: 10px;
-  color: var(--colorWhite);
+  color: var(--colorSecondary);
   font-family: Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: responsive 16px 21px;
   line-height: 1.5;
+  border: 10px solid var(--colorSecondary);
+  background-color: var(--colorPrimary);
 }
 
 img {
@@ -89,7 +90,7 @@ pre {
 
   .page a:hover,
   .page a:focus {
-    color: var(--colorTertiary);
+    color: var(--colorSecondary);
     text-decoration: none;
   }
 
@@ -98,14 +99,14 @@ pre {
 @media (--large) {
 
   .page a {
-    transition: all .2s linear;
-    border-bottom: 3px solid var(--colorWhite);
+    transition: all .1s linear;
+    border-bottom: 3px solid var(--colorSecondary);
   }
 
   .page a:hover,
   .page a:focus {
     color: var(--colorTertiary);
-    border-color: var(--colorTertiary);
+    border: none;
   }
 
 }
@@ -117,16 +118,11 @@ pre {
   padding: 0 10px;
 }
 
-.page-document {
-  background-color: var(--colorPrimary);
-}
-
 .page-body {
   background-color: var(--colorPrimary);
-  background: -moz-linear-gradient(-45deg, var(--colorPrimary) 0%, var(--colorSecondary) 100%);
-  background: -webkit-linear-gradient(-45deg, var(--colorPrimary) 0%, var(--colorSecondary) 100%);
-  background: linear-gradient(135deg, var(--colorPrimary) 0%, var(--colorSecondary) 100%);
+  background-image: linear-gradient(19deg, #40AEC7 0%, #5b1ba9 100%);
 }
+
 
 @media (--large) {
 
@@ -141,7 +137,7 @@ pre {
   background-size: cover;
 }
 
-.error-page .page-document, 
+.error-page .page-document,
 .error-page .page-document .page-body {
   background-color: transparent;
   background: none;

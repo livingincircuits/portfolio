@@ -29,7 +29,7 @@
   display: block;
   margin: 0 auto;
   width: 20%;
-  padding-top: .5em;
+  padding-top: .3em;
   border-top: 6px solid var(--colorWhite);
 }
 
@@ -79,7 +79,7 @@
 
 .post a {
   transition: all .1s linear;
-  color: var(--colorWhite);
+  color: var(--colorSecondary);
 }
 
 .post__title a:hover,

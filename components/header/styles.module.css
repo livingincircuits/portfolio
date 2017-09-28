@@ -74,8 +74,8 @@
 
 .round {
   border-radius: 50%;
-  border: 6px solid var(--colorWhite);
-  transition: all .2s linear;
+  border: 6px solid var(--colorSecondary);
+  transition: all .1s linear;
 }
 
 @media (--small) {
