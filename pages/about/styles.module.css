@@ -1,0 +1,56 @@
+@import '../../assets/css/variables.css';
+
+.half {
+
+  @media (--large) {
+    lost-column: 1/2;
+  }
+
+}
+
+.aside {
+
+  font-size: responsive 16px 18px;
+  margin-bottom: 1.5em;
+  background: var(--colorSecondary);
+  color: var(--colorPrimary);
+
+  @media (--large) {
+    float: right;
+	  width: 27%;
+  }
+
+  @media (--small) {
+    width: 100%;
+  }
+
+  &__heading {
+    font-size: responsive 18px 24px;
+    background: color(var(--colorSecondary) shade(6%));
+  }
+
+  &__title {
+    margin: 0;
+    padding: .5em;
+  }
+
+  &__list {
+    margin: 0 .5em 0 1.5em;
+    padding: 1em 0 1em .5em;
+  }
+
+
+  a {
+    border-bottom: 1px solid var(--colorPrimary);
+    transition: all .1s linear;
+    color: var(--colorPrimary);
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: var(--colorPrimary);
+    border: none;
+  }
+
+}

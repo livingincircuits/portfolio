@@ -2,6 +2,7 @@ import React from 'react';
 import { prefixLink } from 'gatsby-helpers';
 import Meta from 'components/meta';
 import { Link } from 'react-router';
+import styles from './styles.module.css';
 
 const About = () => (
 
@@ -22,6 +23,36 @@ const About = () => (
       <p>
         I enjoy creating something simple from a complex problem and much prefer working with a human centred design approach.
       </p>
+
+      <figure className={styles.aside}>
+        <header className={styles.aside__heading}>
+          <h3 className={styles.aside__title}>
+            Get In Touch
+          </h3>
+        </header>
+        <ul className={styles.aside__list}>
+          <li>
+            <a href="https://www.linkedin.com/in/emily-jane-young/">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/stickypopdesign">
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/">
+              Dribbble
+            </a>
+          </li>
+          <li>
+            <a href="mailto:emily@emily-young.com?subject=Hello">
+              Email Me
+            </a>
+          </li>
+        </ul>
+      </figure>
 
       <h2>
         Knowledge & Expertise
@@ -50,7 +81,7 @@ const About = () => (
           User Story Development
         </li>
         <li>
-          User Journey Mapping &amp; User Flow
+          User Journey Mapping
         </li>
         <li>
           Quantitative Survey
@@ -81,7 +112,7 @@ const About = () => (
           Invision
         </li>
         <li>
-          Principle
+          Marvel App
         </li>
         <li>
           Zeplin
@@ -103,7 +134,10 @@ const About = () => (
           Illustrator
         </li>
         <li>
-          Marvel App
+          XD
+        </li>
+        <li>
+          Principle
         </li>
         <li>
           Flinto
@@ -118,7 +152,7 @@ const About = () => (
       </h2>
 
       <p>
-        I hold an <a href="https://www.studydigital.co.uk/">FdA in Web Design</a> and I studied UX at General Assembly's UX Design program.
+        I hold an <a href="https://www.studydigital.co.uk/">FdA in Web Design</a>, studied UX at General Assembly and enrolled at Interaction Design Foundation.
       </p>
 
       <h2>
@@ -128,10 +162,6 @@ const About = () => (
       <p>
         I am currently serving as a UX Developer for <a href="http://www.hma.co.uk/">HMA</a>. Primarily working with the Health, Science &amp; Technology sectors.
       </p>
-
-      <h2>
-        <a href="mailto:emily@emily-young.com?subject=Hello">Email Me</a>
-      </h2>
 
     </div>
 

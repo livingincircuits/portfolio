@@ -17,7 +17,9 @@ class FourOFour extends React.Component {
     }
 
   render() {
+
     return (
+
       <div>
 
         <audio controls autoPlay loop>
@@ -29,7 +31,7 @@ class FourOFour extends React.Component {
 
           <h1>404</h1>
 
-          <p>The page you were looking for could not be found. It's likely I broke something. Sorry about that.</p>
+          <p>The page you were looking for could not be found. It is likely I broke something. Sorry about that.</p>
 
           <img src={imgSrc} width="80%" alt="Nyan Cat" className="align-central" />
 
@@ -38,8 +40,11 @@ class FourOFour extends React.Component {
         </div>
 
       </div>
-    )
+
+    );
+
   }
+
 }
 
 export default FourOFour
