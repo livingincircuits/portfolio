@@ -25,7 +25,7 @@ export default class Header extends Component {
 
     return (
 
-      <div className={styles.header}>
+      <header className={styles.header}>
 
         <div className="page-inner">
           <div className={styles.inner}>
@@ -38,7 +38,11 @@ export default class Header extends Component {
           </div>
         </div>
 
-      </div>
+        <div className={styles.wave1}></div>
+        <div className={styles.wave2}></div>
+        <div className={styles.wave3}></div>
+
+      </header>
 
     );
 

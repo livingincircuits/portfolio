@@ -36,7 +36,7 @@
     letter-spacing: 10px;
     line-height: 1.2;
     text-align: center;
-    color: var(--colorPrimary);
+    color: var(--colorSecondary);
     text-transform: uppercase;
     z-index: 10;
   }
@@ -48,7 +48,7 @@
     letter-spacing: 4px;
     line-height: 1.2;
     text-align: center;
-    color: var(--colorPrimary);
+    color: var(--colorSecondary);
     z-index: 10;
   }
 
@@ -105,12 +105,12 @@
 
   font-size: responsive 16px 18px;
   margin-bottom: 1.5em;
-  background: var(--colorSecondary);
-  color: var(--colorPrimary);
+  background: var(--colorQuaternary);
+  color: var(--colorSecondary);
 
   @media (--large) {
     float: right;
-	  width: 27%;
+    width: 27%;
   }
 
   @media (--small) {
@@ -119,7 +119,7 @@
 
   &__heading {
     font-size: responsive 18px 24px;
-    background: color(var(--colorSecondary) shade(6%));
+    background: color(var(--colorQuaternary) shade(6%));
   }
 
   &__title {

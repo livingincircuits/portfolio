@@ -6,13 +6,13 @@
   --columnCount: 12;
 
   --colorBlack: #000;
-  --colorWhite: #fff;
-  --colorPrimary: #5b1ba9;
-  --colorSecondary: #8ef8f6;
-  --colorTertiary: #8AEEEC;
-  --colorQuaternary: #471485;
+  --colorWhite: #FFF;
+  --colorPrimary: #E84D5B;
+  --colorSecondary: #080808;
+  --colorTertiary: #FDFDFD;
+  --colorQuaternary: #BE404B;
 
-  --heading: 'Oswald', Arial, sans-serif;
+  --heading: 'Inconsolata', Arial, sans-serif;
 
 }
 

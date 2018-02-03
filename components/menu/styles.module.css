@@ -1,24 +1,21 @@
 @import '../../assets/css/variables.css';
 
 .item a {
-  transition: all .1s linear;
-  font-family: var(--heading);
+  margin: 0 .2em;
+  padding: .1em 0;
+  text-decoration: none;
+  transition: background .2s linear;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, .4) 30%, transparent 31%, transparent 100%);
 }
 
 .item a:hover,
 .item a:focus {
   color: var(--colorTertiary);
-  border-bottom: 3px solid var(--colorTertiary);
+  background: rgba(0, 0, 0, 0.8);
 }
 
-.active {
-  border-bottom: 3px solid var(--colorWhite);
-}
-
-@media (--small) {
-
-  .active {
-    border-width: 2px;
-  }
-
+a.active {
+  padding: .1em .2em;
+  color: var(--colorTertiary);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, .4) 100%, transparent 21%, transparent 10%);
 }

@@ -1,8 +1,8 @@
 @import '../assets/css/variables.css';
 
 .intro {
-  margin: 0 0 4em 0;
-  padding: 0 1em;
+  margin: 0 0 3em 0;
+  padding: 0 6em;
   text-align: center;
 }
 
@@ -15,56 +15,40 @@
 
 }
 
-.intro__title {
-  margin: 0;
-  font-size: responsive 30px 98px;
-  letter-spacing: 8px;
-  line-height: 1.1;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.intro__title:before {
-  content: "";
+.pinline {
+  text-align: center;
   display: block;
-  margin: 0 auto;
-  width: 20%;
-  padding-top: .3em;
-  border-top: 6px solid var(--colorWhite);
-}
-
-.intro__heading {
-  margin: 0;
-  line-height: 1.1;
-}
-
-.intro__sub {
-  display: block;
-  margin: 0;
-  font-family: 'Oswald', Arial, Helvetica, sans-serif;
-  font-size: responsive 24px 64px;
+  overflow: hidden;
+  font-size: responsive 30px 88px;
   font-weight: 600;
-  letter-spacing: 10px;
+  margin: 20px 0;
   text-transform: uppercase;
 }
 
-@media (--small) {
-
-  .intro__sub {
-    margin: 1em 0 .2em 0;
-    letter-spacing: 6px;
-  }
-
+.pinline span {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
 }
 
-.intro__desc {
-  display: block;
-  margin: 0;
-  font-family: 'Oswald', Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: responsive 18px 27px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
+.pinline span:before,
+.pinline span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 3px;
+  background: var(--colorSecondary);;
+  width: 99999px;
+}
+
+.pinline span:before {
+  left: 100%;
+  margin-left: 20px;
+}
+
+.pinline span:after {
+  right: 100%;
+  margin-right: 20px;
 }
 
 .post {
@@ -75,14 +59,4 @@
 .post__title {
   font-weight: 400;
   font-size: responsive 18px 38px;
-}
-
-.post a {
-  transition: all .1s linear;
-  color: var(--colorSecondary);
-}
-
-.post__title a:hover,
-.post__title a:focus {
-  color: var(--colorTertiary);
 }

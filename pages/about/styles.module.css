@@ -12,8 +12,8 @@
 
   font-size: responsive 16px 18px;
   margin-bottom: 1.5em;
-  background: var(--colorSecondary);
-  color: var(--colorPrimary);
+  background: var(--colorQuaternary);
+  color: var(--colorSecondary);
 
   @media (--large) {
     float: right;
@@ -26,7 +26,7 @@
 
   &__heading {
     font-size: responsive 18px 24px;
-    background: color(var(--colorSecondary) shade(6%));
+    background: color(var(--colorQuaternary) shade(6%));
   }
 
   &__title {
@@ -37,20 +37,6 @@
   &__list {
     margin: 0 .5em 0 1.5em;
     padding: 1em 0 1em .5em;
-  }
-
-
-  a {
-    border-bottom: 1px solid var(--colorPrimary);
-    transition: all .1s linear;
-    color: var(--colorPrimary);
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus {
-    color: var(--colorPrimary);
-    border: none;
   }
 
 }

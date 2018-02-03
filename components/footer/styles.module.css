@@ -2,25 +2,10 @@
 
 .footer {
   width: 100%;
-  padding: 10px 0 0 0;
-  font-size: responsive 14px 12px;
-  color: var(--colorPrimary);
-  background-color: var(--colorSecondary);
-}
-
-.inner {
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (--small) {
-
-  .inner {
-    display: block;
-    overflow: hidden;
-    text-align: center;
-  }
-
+  padding: 1em 0 0 0;
+  font-size: responsive 14px 16px;
+  color: var(--colorSecondary);
+  text-align: center;
 }
 
 .footer img {
@@ -29,13 +14,12 @@
 }
 
 .footer a {
-  border-bottom: 1px solid var(--colorPrimary);
-  transition: all .1s linear;
-  color: var(--colorPrimary);
+  text-decoration: none;
+  transition: background .2s linear;
+  background: linear-gradient(to top, rgba(190, 64, 75, 0.8) 0%, rgba(190, 64, 75, .8) 30%, transparent 31%, transparent 100%);
 }
 
 .footer a:hover,
 .footer a:focus {
-  color: var(--colorQuaternary);
-  border: none;
+  background: rgba(190, 64, 75, 0.8);
 }

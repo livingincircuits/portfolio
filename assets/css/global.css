@@ -1,9 +1,9 @@
 @import './variables.css';
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../../assets/fonts/oswald-regular-webfont.woff2') format('woff2'),
-         url('../../assets/fonts/oswald-regular-webfont.woff') format('woff');
+    font-family: 'Inconsolata';
+    src: url('../../assets/fonts/inconsolata-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/inconsolata-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,12 +19,11 @@ body {
 
 body {
   color: var(--colorSecondary);
-  font-family: Arial, sans-serif;
+  font-family: var(--heading);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: responsive 16px 21px;
   line-height: 1.5;
-  border: 10px solid var(--colorSecondary);
   background-color: var(--colorPrimary);
 }
 
@@ -58,19 +57,17 @@ pre {
 }
 
 ::selection {
-  background: var(--colorSecondary);
+  background: var(--colorTertiary);
   opacity: 1;
 }
 
 .page {
-  height: 100%;
-  min-height: calc(100vh - 20px);
   width: 100%;
   max-width: var(--wrapperWidth);
   margin: 0 auto;
   padding-left: var(--gutter);
   padding-right: var(--gutter);
-  padding: 8vh 1em;
+  padding: 4vh 1em;
 }
 
 @media (--medium) {
@@ -81,34 +78,16 @@ pre {
 
 }
 
-@media (--small) {
-
-  .page a {
-    transition: all .1s linear;
-    text-decoration: underline;
-  }
-
-  .page a:hover,
-  .page a:focus {
-    color: var(--colorSecondary);
-    text-decoration: none;
-  }
-
+.page a {
+  text-decoration: none;
+  transition: background .2s linear;
+  background: linear-gradient(to top, rgba(190, 64, 75, 0.8) 0%, rgba(190, 64, 75, .8) 30%, transparent 31%, transparent 100%);
 }
 
-@media (--large) {
-
-  .page a {
-    transition: all .1s linear;
-    border-bottom: 3px solid var(--colorSecondary);
-  }
-
-  .page a:hover,
-  .page a:focus {
-    color: var(--colorTertiary);
-    border: none;
-  }
-
+.page a:hover,
+.page a:focus {
+  color: inherit;
+  background: rgba(190, 64, 75, 0.8);
 }
 
 .page-inner {
@@ -117,12 +96,6 @@ pre {
   margin: 0 auto;
   padding: 0 10px;
 }
-
-.page-body {
-  background-color: var(--colorPrimary);
-  background-image: linear-gradient(19deg, #40AEC7 0%, #5b1ba9 100%);
-}
-
 
 @media (--large) {
 

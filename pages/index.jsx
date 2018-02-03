@@ -12,11 +12,14 @@ import styles from './styles.module.css';
 class SiteIndex extends React.Component {
 
   render() {
-    const pageLinks = [];
 
+    const pageLinks = [];
     const sortedPages = sortBy(this.props.route.pages, page => access(page, 'data.date')).reverse();
+
     sortedPages.forEach((page) => {
+
       if (access(page, 'file.ext') === 'md' && access(page, 'data.layout') === 'post') {
+
         const title = access(page, 'data.title') || page.path;
         const description = access(page, 'data.description');
         const datePublished = access(page, 'data.date');
@@ -29,7 +32,9 @@ class SiteIndex extends React.Component {
             </h3>
           </article>
         ));
+
       }
+
     });
 
     return (
@@ -40,21 +45,20 @@ class SiteIndex extends React.Component {
 
         <div className={styles.intro}>
 
-          <h1 className={styles.intro__title}>
-            Emily Young
+          <h1 className={styles.pinline}>
+            <span>
+              Emily Young
+            </span>
           </h1>
 
-          <h2 className={styles.intro__heading}>
+          <p>
+            A UX Designer who loves to create clean, simple & inclusive experiences for everyone.
+            I enjoy creating something simple from a complex problem and love creating human experiences on the web.
+          </p>
 
-            <span className={styles.intro__sub}>
-              I love to create
-            </span>
-
-            <span className={styles.intro__desc}>
-              clean, simple & inclusive experiences
-            </span>
-
-          </h2>
+          <p>
+            I share my thoughts, process and what I learn via this website.
+          </p>
 
         </div>
 
