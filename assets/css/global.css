@@ -57,7 +57,7 @@ pre {
 }
 
 ::selection {
-  background: var(--colorTertiary);
+  background: var(--colorQuaternary);
   opacity: 1;
 }
 

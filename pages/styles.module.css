@@ -36,8 +36,8 @@
   content: "";
   position: absolute;
   top: 50%;
-  height: 3px;
-  background: var(--colorSecondary);;
+  height: 4px;
+  background: var(--colorSecondary);
   width: 99999px;
 }
 

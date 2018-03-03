@@ -69,7 +69,7 @@ dl dd {
 blockquote {
   margin: 0 0 1em 0;
   padding: 1em;
-  border-left: .5em solid var(--colorWhite);
+  border-left: .5em solid var(--colorQuaternary);
 }
 
 blockquote p {
@@ -83,7 +83,7 @@ hr {
   display: block;
   clear: both;
   border: 0;
-  background: var(--colorWhite);
+  background: var(--colorQuaternary);
 }
 
 figure {

@@ -10,12 +10,11 @@
 
 .item a:hover,
 .item a:focus {
-  color: var(--colorTertiary);
-  background: rgba(0, 0, 0, 0.8);
+  color: inherit;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 a.active {
   padding: .1em .2em;
-  color: var(--colorTertiary);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, .4) 100%, transparent 21%, transparent 10%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
 }

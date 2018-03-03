@@ -3,9 +3,13 @@
 .header {
   position: relative;
   width: 100%;
-  padding: 1em 0 4em 0;
-  background-color: #E84D5B;
-  background-image: linear-gradient(-20deg,#BE404B,#D34653);
+  padding: 1em 0 1em 0;
+  border-bottom: 4px solid var(--colorSecondary);
+  background-color: var(--colorPrimary);
+  background: linear-gradient(-45deg, color(var(--colorQuaternary) shade(20%)), var(--colorQuaternary), color(var(--colorQuaternary) shade(10%)), var(--colorQuaternary));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+
 }
 
 @media (--small) {
@@ -77,7 +81,7 @@
 
 .round {
   border-radius: 50%;
-  border: 4px solid var(--colorQuaternary);
+  border: 4px solid var(--colorSecondary);
   transition: all .1s linear;
 }
 
@@ -91,56 +95,21 @@
 
 .link:hover .round,
 .link:focus .round {
-  border-color: var(--colorTertiary);
+  border-color: var(--colorQuaternary);
 }
 
-.wave1,
-.wave2,
-.wave3 {
-  background: url(../../assets/img/wave.svg) repeat-x;
-  position: absolute;
-  bottom: -24px;
-  left: 0;
-  right: 0;
-  width: 200%;
-  height: 42px;
-  animation: wave 10s cubic-bezier(0.3, 0.45, 0.6, 0.5) infinite;
-}
-
-.wave2 {
-  opacity: .3;
-  left: -24px;
-  bottom: -20px;
-  animation: wave 15s cubic-bezier(0.3, 0.45, 0.6, 0.5) infinite;
-}
-
-.wave3 {
-  opacity: .6;
-  left: -12px;
-  bottom: -28px;
-  animation: wave-reverse 20s cubic-bezier(0.3, 0.45, 0.6, 0.5) infinite;
-}
-
-@keyframes wave {
+@keyframes gradient {
 
   0% {
-    background-position-x: 0;
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
   }
 
   100% {
-    background-position-x: 240px;
-  }
-
-}
-
-@keyframes wave-reverse {
-
-  0% {
-    background-position-x: 240px;
-  }
-
-  100% {
-    background-position-x: 0;
+    background-position: 0% 50%
   }
 
 }
