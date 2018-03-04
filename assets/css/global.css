@@ -108,10 +108,16 @@ pre {
 .error-page {
   background: url(../../assets/img/space.gif) no-repeat center center fixed;
   background-size: cover;
+  color: var(--colorWhite);
 }
 
 .error-page .page-document,
 .error-page .page-document .page-body {
   background-color: transparent;
   background: none;
+}
+
+.error-page header,
+.error-page footer {
+  display: none;
 }

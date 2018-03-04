@@ -1,13 +1,16 @@
-import React, { Component, PropTypes } from 'react';
-import Header from 'components/header';
-import Footer from 'components/footer';
-import 'assets/css/normalize.css';
-import 'assets/css/global.css';
-import 'assets/css/typography.css';
+import React, { Component } from 'react';
+import { Link } from 'react-router';
+import { prefixLink } from 'gatsby-helpers';
+import { config } from 'config';
+import Meta from 'components/meta';
+import sortBy from 'lodash/sortBy';
+import moment from 'moment';
+import Helmet from 'react-helmet';
+import access from 'safe-access';
 import styles from './styles.module.css';
 import imgSrc from 'assets/img/nyan.gif';
 
-class FourOFour extends React.Component {
+class NotFoundPage extends React.Component {
 
     componentDidMount() {
         document.body.classList.toggle('error-page')
@@ -31,7 +34,9 @@ class FourOFour extends React.Component {
 
           <h1>404</h1>
 
-          <p>The page you were looking for could not be found. It is likely I broke something. Sorry about that.</p>
+          <p>The page you were looking for could not be found. It is likely I broke something.</p>
+
+          <p>Sorry about that.</p>
 
           <img src={imgSrc} width="80%" alt="Nyan Cat" className="align-central" />
 
@@ -47,4 +52,8 @@ class FourOFour extends React.Component {
 
 }
 
-export default FourOFour
+NotFoundPage.propTypes = {
+  route: React.PropTypes.object,
+};
+
+export default NotFoundPage;
