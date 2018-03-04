@@ -26,4 +26,5 @@
 <url> <loc>http://livingincircuits.co.uk/work/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://livingincircuits.co.uk/work/inpart/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://livingincircuits.co.uk/work/perfecthome/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://livingincircuits.co.uk/work/sprintlog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
