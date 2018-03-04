@@ -50,13 +50,17 @@ const perfecthome = () => {
               Overview
             </h2>
             <p>
-              Perfect Home are a household goods retailer established in 2006. They provide top quality products at affordable pay weekly prices.
+              Perfect Home are a household goods retailer established in 2006.
+              They provide top quality products at affordable pay weekly prices.
             </p>
             <p>
-              The website they had was built to their specific needs but as the company grew, they wanted to become the UK’s leading provider of goods on finance and needed a product that could scale so a more robust approach was needed.
+              The website they had was built to their specific needs but as the company grew,
+              they wanted to become the UK’s leading provider of goods on finance and needed
+              a product that could scale so a more robust approach was needed.
             </p>
             <p>
-              The solution was to create a more user friendly experience that allowed more people to find them and gave them a helping hand through the complex checkout process.
+              The solution was to create a more user friendly experience that allowed more
+              people to find them and gave them a helping hand through the complex checkout process.
             </p>
             <p>
               I was part of the team that helped them realise this vision.
@@ -87,7 +91,8 @@ const perfecthome = () => {
               Brief
             </h2>
             <p>
-              The brief was to rebrand Perfect Home as market leaders and demystify the pay weekly concept whilst allowing them to reach their aim to become the UK’s leading provider of goods on finance.
+              The brief was to rebrand Perfect Home as market leaders and demystify the pay weekly concept whilst
+              allowing them to reach their aim to become the UK’s leading provider of goods on finance.
             </p>
 
             <h2>
@@ -112,14 +117,7 @@ const perfecthome = () => {
           </div>
 
           <figure className={styles.full}>
-            <img
-            sizes="(max-width: 2316px) 100vw, 2316px"
-            srcSet="
-            ./img/ph-uxflow_c_scale,w_300.png 300w,
-            ./img/ph-uxflow_c_scale,w_1737.png 1737w,
-            ./img/ph-uxflow_c_scale,w_2316.png 2316w"
-            src="./img/ph-uxflow_c_scale,w_2316.png"
-            alt="User Flow" className={styles.full__img} />
+            <img src="./img/ph-uxflow.png" alt="User Flow" className={styles.full__img} />
             <figcaption>
               First iteration of the main user flow
             </figcaption>
@@ -128,10 +126,14 @@ const perfecthome = () => {
           <div className={styles.content}>
 
             <p>
-              I reviewed a series of direct and indirect competitor sites to create shared understanding and learn what problem we were trying to solve. I was able to document some common patterns and found that simple and direct communication would be a key component of the checkout process.
+              I reviewed a series of direct and indirect competitor sites to create shared understanding and learn what
+              problem we were trying to solve. I was able to document some common patterns and found that simple and
+              direct communication would be a key component of the checkout process.
             </p>
             <p>
-              User stories were created by the development team that mapped the current perfect user journey and highlighted the current pain points. Working from these I was able to develop user stories that alleviated the pain points and improve upon the experience. A user flow was then created from these stories that allowed for better interaction.
+              User stories were created by the development team that mapped the current perfect user journey and highlighted
+              the current pain points. Working from these I was able to develop user stories that alleviated the pain points
+              and improve upon the experience. A user flow was then created from these stories that allowed for better interaction.
             </p>
             <p>
               We then reviewed the websites current data to learn the current user flow and make amendments and add improvements to our user stories.
@@ -149,18 +151,7 @@ const perfecthome = () => {
           <div className={styles.row}>
             <div className={styles.half}>
               <figure>
-                <img
-                  sizes="(max-width: 1128px) 100vw, 1128px"
-                  srcSet="
-                  ./img/ph-thumb_c_scale,w_300.jpg 300w,
-                  ./img/ph-thumb_c_scale,w_533.jpg 533w,
-                  ./img/ph-thumb_c_scale,w_723.jpg 723w,
-                  ./img/ph-thumb_c_scale,w_858.jpg 858w,
-                  ./img/ph-thumb_c_scale,w_992.jpg 992w,
-                  ./img/ph-thumb_c_scale,w_1119.jpg 1119w,
-                  ./img/ph-thumb_c_scale,w_1128.jpg 1128w"
-                  src="./img/ph-thumb_c_scale,w_1128.jpg"
-                  alt="Hand Drawn UX Thumbnails" className={styles.full__img} />
+                <img src="./img/ph-thumb.jpg" alt="Hand Drawn UX Thumbnails" className={styles.full__img} />
                 <figcaption>
                   Beginning the user journey thumbs
                 </figcaption>
@@ -168,16 +159,9 @@ const perfecthome = () => {
             </div>
             <div className={styles.half}>
               <figure>
-                <img
-                sizes="(max-width: 1134px) 100vw, 1134px"
-                srcSet="
-                ./img/ph-user-mapping_c_scale,w_300.jpg 300w,
-                ./img/ph-user-mapping_c_scale,w_1093.jpg 1093w,
-                ./img/ph-user-mapping_c_scale,w_1134.jpg 1134w"
-                src="./img/ph-user-mapping_c_scale,w_1134.jpg"
-                alt="UX Story Mapping" className={styles.full__img} />
+                <img src="./img/product-detail.jpg" alt="Product Detail Screenshot" className={styles.full__img} />
                 <figcaption>
-                  User story mapping
+                  Product detail design
                 </figcaption>
               </figure>
             </div>
@@ -186,13 +170,16 @@ const perfecthome = () => {
           <div className={styles.content}>
 
             <p>
-              I began with quick basic wireframes on paper and then in Balsamiq for the main templates on the site, then moving onto Sketch for the high-fidelity wireframes. Once we agreed on a direction we were able to move onto product design.
+              I began with quick basic wireframes on paper and then in Balsamiq for the main templates on the site, then moving onto
+              Sketch for the high-fidelity wireframes. Once we agreed on a direction we were able to move onto product design.
             </p>
             <p>
-              We used InVision to create a working clickable prototype for both small and large screens and this was our primary way of signing work off and agreeing on direction.
+              We used InVision to create a working clickable prototype for both small and large screens and this was our
+              primary way of signing work off and agreeing on direction.
             </p>
             <p>
-              Once the website was ready for front-end development we created a UI styleguide that had all the common elements to keep the design and UX consistent.
+              Once the website was ready for front-end development we created a UI styleguide that had all the common
+              elements to keep the design and UX consistent.
             </p>
 
           </div>

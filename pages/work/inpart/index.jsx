@@ -2,7 +2,6 @@ import React from 'react';
 import { projects } from 'data/projects.json';
 import { ProjectIntro, ProjectPage } from 'components/project';
 import styles from 'pages/work/styles.module.css';
-import imgFlow from './img/ip-thumbs.jpg';
 
 const inpart = () => {
 
@@ -24,9 +23,9 @@ const inpart = () => {
             </h2>
           </div>
         </section>
-        
+
         <article>
-          
+
           <figure className={styles.aside}>
             <header className={styles.aside__heading}>
               <h3 className={styles.aside__title}>
@@ -44,7 +43,7 @@ const inpart = () => {
           </figure>
 
           <div className={styles.content}>
-          
+
             <h2>
               Overview
             </h2>
@@ -52,7 +51,7 @@ const inpart = () => {
               IN-PART makes the initial connection for technology transfer between universities and companies simple, efficient and scalable.
             </p>
             <p>
-              The website they had was built at a time when the company was a small start-up and no longer matched their needs. 
+              The website they had was built at a time when the company was a small start-up and no longer matched their needs.
               Users were not engaged and a lot of the content needed an overhaul.
             </p>
             <p>
@@ -79,7 +78,7 @@ const inpart = () => {
                 View the website
               </a>
             </h3>
-            
+
             <h2>
               Brief
             </h2>
@@ -91,28 +90,17 @@ const inpart = () => {
               Research
             </h2>
             <p>
-              We were given quantitative data from the existing website in the form of analytics to help find problems and this formed the main bulk of our research into problem discovery. 
+              We were given quantitative data from the existing website in the form of analytics to help find problems and this formed the main bulk of our research into problem discovery.
             </p>
             <p>
-              Now that we knew how users were behaving, we then had the task of understanding why users were behaving in a certain way. 
+              Now that we knew how users were behaving, we then had the task of understanding why users were behaving in a certain way.
               We used analytics to create two different personas based on this research.
             </p>
 
           </div>
 
           <figure className={styles.full}>
-            <img
-              sizes="(max-width: 2400px) 100vw, 2400px"
-              srcSet="
-              ./img/ip-flow_c_scale,w_300.png 300w,
-              ./img/ip-flow_c_scale,w_781.png 781w,
-              ./img/ip-flow_c_scale,w_1166.png 1166w,
-              ./img/ip-flow_c_scale,w_1474.png 1474w,
-              ./img/ip-flow_c_scale,w_1786.png 1786w,
-              ./img/ip-flow_c_scale,w_2054.png 2054w,
-              ./img/ip-flow_c_scale,w_2400.png 2400w"
-              src="./img/ip-flow_c_scale,w_2400.png" 
-              alt="UX Flow Process" className={styles.full__img} />
+            <img src="./img/ip-flow.png" alt="UX Flow Process" className={styles.full__img} />
             <figcaption>
               First iteration of full user flow
             </figcaption>
@@ -136,14 +124,7 @@ const inpart = () => {
           <div className={styles.row}>
             <div className={styles.half}>
               <figure>
-                <img
-                sizes="(max-width: 1128px) 100vw, 1128px"
-                srcSet="
-                ./img/ip-thumbs_c_scale,w_300.jpg 300w,
-                ./img/ip-thumbs_c_scale,w_918.jpg 918w,
-                ./img/ip-thumbs_c_scale,w_1128.jpg 1128w"
-                src="./img/ip-thumbs_c_scale,w_1128.jpg"
-                alt="Hand Drawn UX Thumbnails" className={styles.full__img} />
+                <img src="./img/ip-thumbs.jpg" alt="Hand Drawn UX Thumbnails" className={styles.full__img} />
                 <figcaption>
                   Beginning the user journey with thumbs
                 </figcaption>
@@ -151,18 +132,7 @@ const inpart = () => {
             </div>
             <div className={styles.half}>
               <figure>
-                <img
-                  sizes="(max-width: 1128px) 100vw, 1128px"
-                  srcSet="
-                  ./img/ip-preview_c_scale,w_300.jpg 300w,
-                  ./img/ip-preview_c_scale,w_524.jpg 524w,
-                  ./img/ip-preview_c_scale,w_696.jpg 696w,
-                  ./img/ip-preview_c_scale,w_841.jpg 841w,
-                  ./img/ip-preview_c_scale,w_988.jpg 988w,
-                  ./img/ip-preview_c_scale,w_1121.jpg 1121w,
-                  ./img/ip-preview_c_scale,w_1128.jpg 1128w"
-                  src="./img/ip-preview_c_scale,w_1128.jpg" 
-                  alt="Holding mobile phone showing the in-part website" className={styles.full__img} />
+                <img src="./img/ip-preview.jpg" alt="Holding mobile phone showing the in-part website" className={styles.full__img} />
                 <figcaption>
                   Mobile View of the website
                 </figcaption>
@@ -180,7 +150,7 @@ const inpart = () => {
             </p>
 
           </div>
-          
+
         </article>
 
       </div>

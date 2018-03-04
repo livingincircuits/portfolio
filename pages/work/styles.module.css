@@ -1,16 +1,23 @@
 @import '../../assets/css/variables.css';
 
+.perfecthome,
+.inpart,
+.sprintlog {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .heading {
 
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   overflow: hidden;
   position: relative;
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center center;
 
   @media (--small) {
     padding-top: 100px;
@@ -26,7 +33,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(142,248,246,0.4);
   }
 
   &__title {
@@ -39,27 +45,20 @@
     color: var(--colorSecondary);
     text-transform: uppercase;
     z-index: 10;
+    background-color: rgba(232,77,91,0.8);
   }
 
   &__sub {
     position: relative;
     margin: 0;
+    padding-bottom: 10px;
     font-size: responsive 18px 40px;
     letter-spacing: 4px;
     line-height: 1.2;
     text-align: center;
     color: var(--colorSecondary);
     z-index: 10;
-  }
-
-}
-
-.perfecthome .heading {
-
-  background-image: url(pages/work/perfecthome/img/ph-screen.jpg);
-
-  @media (--small) {
-    background-position: center center;
+    background-color: rgba(232,77,91,0.8);
   }
 
 }
@@ -74,10 +73,22 @@
 
 }
 
-.content {
+.perfecthome .heading {
 
-  @media (--large) {
-    margin-right: 30%;
+  background-image: url(pages/work/perfecthome/img/ph-screen.jpg);
+
+  @media (--small) {
+    background-position: center center;
+  }
+
+}
+
+.sprintlog .heading {
+
+  background-image: url(pages/work/sprintlog/img/sl-desktop.jpg);
+
+  @media (--small) {
+    background-position: center center;
   }
 
 }
@@ -107,15 +118,6 @@
   margin-bottom: 1.5em;
   background: var(--colorQuaternary);
   color: var(--colorSecondary);
-
-  @media (--large) {
-    float: right;
-    width: 27%;
-  }
-
-  @media (--small) {
-    width: 100%;
-  }
 
   &__heading {
     font-size: responsive 18px 24px;
