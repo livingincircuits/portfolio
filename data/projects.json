@@ -1,16 +1,22 @@
 {
   "projects": [
     {
+      "className": "inpart",
+      "slug": "inpart",
+      "title": "IN-PART",
+      "subtitle": "Website Redesign"
+    },
+    {
       "className": "perfecthome",
       "slug": "perfecthome",
       "title": "Perfect Home",
       "subtitle": "E-Commerce Website Redesign"
     },
     {
-      "className": "inpart",
-      "slug": "inpart",
-      "title": "IN-PART",
-      "subtitle": "Website Redesign"
+      "className": "sprintlog",
+      "slug": "sprintlog",
+      "title": "Sprint Log",
+      "subtitle": "Web & App Design"
     }
   ]
 }
