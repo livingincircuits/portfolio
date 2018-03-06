@@ -54,7 +54,7 @@ const sprintlog = () => {
               A contextual inquiry was carried out to understand the problem and learn how each runner would log their workout.
             </p>
             <p>
-              Some runners were logging what they had done on paper after their run or using online tools like Google Spreadsheets.
+              We learned some runners were logging what they had done on paper after their run or using online tools like Google Spreadsheets.
             </p>
             <p>
               The trainers wanted a consistent way for their runners to log their style of run and diarise the event.
@@ -103,7 +103,7 @@ const sprintlog = () => {
               dashboard to log a runners workout. Everything on the app was also available online.
             </p>
             <p>
-              I then created a competitive analysis on competing apps to see if this problem had already been solved and realised
+              We then created a competitive analysis on competing apps to see if this problem had already been solved and realised
               that whilst the app stores are filled with diary and exercise based apps, the two are not usually seen as one solution.
             </p>
             <p>
@@ -170,6 +170,10 @@ const sprintlog = () => {
 
             <p>
               We also worked our designs into Principle so we could agree on the app interactions and test them on handsets.
+            </p>
+
+            <p>
+              We then handed our research and designs over to the app developers and are looking to user test the first iteration of the product.
             </p>
 
           </div>

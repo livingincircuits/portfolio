@@ -90,11 +90,15 @@ const inpart = () => {
               Research
             </h2>
             <p>
-              We were given quantitative data from the existing website in the form of analytics to help find problems and this formed the main bulk of our research into problem discovery.
+              We were given quantitative data from the existing website in the form of analytics to help find problems and this formed the main bulk of our
+              research into problem discovery. I realized we didn’t understand users motivations for using the website and that more research was
+              needed in order to understand the problem.
             </p>
             <p>
-              Now that we knew how users were behaving, we then had the task of understanding why users were behaving in a certain way.
-              We used analytics to create two different personas based on this research.
+              By observing users and interviewing them, we were able to see how users were behaving and learn why. We also used our data to create two different personas.
+              It was also during this research that we realised the two personas expected very different interactions from the website,
+              they only wanted to access what was applicable to them. We were able to use these insights and apply them to our user journey by creating seperate
+              sections for each of our personas.
             </p>
 
           </div>
@@ -108,15 +112,12 @@ const inpart = () => {
 
           <div className={styles.content}>
 
-            <p>
-              Based on this data, we created company and user goals and worked out all the different touch points.
-            </p>
-
             <h2>
               Process
             </h2>
             <p>
-              We mapped out a complete user flow for each of the goals. We used the data to guide our flow using previous user behaviour.
+              We then created company and user goals and worked out all the different touch points and mapped out a complete user
+              flow for each of the goals. We used the data to guide our flow using previous user behaviour.
             </p>
 
           </div>
@@ -143,7 +144,7 @@ const inpart = () => {
           <div className={styles.content}>
 
             <p>
-              We began with some thumbnails on paper and then used Balsamiq to further develop some Lo Fi wireframes. Once we had everything in place, we moved onto product design.
+              We began with some thumbnails on paper and then used Balsamiq to further develop some Lo Fi wireframes.
             </p>
             <p>
               InVision was used to create a working clickable prototype to better understand how everything slotted together and was used as a primary solution to gather feedback and begin testing.

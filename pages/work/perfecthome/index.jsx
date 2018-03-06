@@ -34,8 +34,7 @@ const perfecthome = () => {
             </header>
             <ul className={styles.aside__list}>
               <li>Competitive Analysis</li>
-              <li>User Stories</li>
-              <li>Constructed Personas</li>
+              <li>Personas</li>
               <li>Created User Flows</li>
               <li>Drafted Wireframes</li>
               <li>Co-designed the Interface</li>
@@ -99,7 +98,7 @@ const perfecthome = () => {
               Research
             </h2>
             <h3>
-              My research began with some questions:
+              We began our research with some questions:
             </h3>
 
             <ul>
@@ -126,14 +125,14 @@ const perfecthome = () => {
           <div className={styles.content}>
 
             <p>
-              I reviewed a series of direct and indirect competitor sites to create shared understanding and learn what
+              We reviewed a series of direct and indirect competitor sites to create shared understanding and learn what
               problem we were trying to solve. I was able to document some common patterns and found that simple and
               direct communication would be a key component of the checkout process.
             </p>
             <p>
               User stories were created by the development team that mapped the current perfect user journey and highlighted
-              the current pain points. Working from these I was able to develop user stories that alleviated the pain points
-              and improve upon the experience. A user flow was then created from these stories that allowed for better interaction.
+              the current pain points. Working from these I was able to develop a user journey that alleviated the pain points
+              and improve upon the experience. A wireframe prototype was then created that allowed for better interaction.
             </p>
             <p>
               We then reviewed the websites current data to learn the current user flow and make amendments and add improvements to our user stories.
@@ -143,7 +142,7 @@ const perfecthome = () => {
               Process
             </h2>
             <p>
-              Based on my research, I created personas and mapped out each persona’s perfect journey, including making a note of each touchpoint to their final objective.
+              Based on user research, we created personas and mapped out each persona’s perfect journey, including making a note of each touchpoint to their final objective.
             </p>
 
           </div>
@@ -170,7 +169,7 @@ const perfecthome = () => {
           <div className={styles.content}>
 
             <p>
-              I began with quick basic wireframes on paper and then in Balsamiq for the main templates on the site, then moving onto
+              We began with quick basic wireframes on paper and then in Balsamiq for the main templates on the site, then moving onto
               Sketch for the high-fidelity wireframes. Once we agreed on a direction we were able to move onto product design.
             </p>
             <p>
