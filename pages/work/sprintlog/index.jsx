@@ -139,7 +139,7 @@ const sprintlog = () => {
           <div className={styles.row}>
             <div className={styles.half}>
               <figure>
-                <img src="./img/sl-mobile.png" alt="" className={styles.full__img} />
+                <img src="./img/sl-mobile.png" alt="Sprintlog Mobile Example Screen" className={styles.full__img} />
                 <figcaption>
                   Low fidelity mobile wireframes
                 </figcaption>
@@ -147,7 +147,7 @@ const sprintlog = () => {
             </div>
             <div className={styles.half}>
               <figure>
-                <img src="./img/sl-desktop.png" alt="" className={styles.full__img} />
+                <img src="./img/sl-desktop.png" alt="Sprintlog Desktop Example Screen" className={styles.full__img} />
                 <figcaption>
                   Low fidelity desktop wireframes
                 </figcaption>
@@ -162,7 +162,7 @@ const sprintlog = () => {
             </p>
 
             <figure className={styles.full}>
-              <img src="./img/sl-onboarding.gif" alt="" className={styles.full__img} />
+              <img src="./img/sl-onboarding.gif" alt="App Onboarding Iteration" className={styles.full__img} />
               <figcaption>
                 App onboarding interaction
               </figcaption>
