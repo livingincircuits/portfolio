@@ -4,9 +4,9 @@
   position: relative;
   width: 100%;
   padding: 1em 0 1em 0;
-  border-bottom: 4px solid var(--colorSecondary);
+  border-top: 4px solid var(--colorSecondary);
   background-color: var(--colorPrimary);
-  background: linear-gradient(-45deg, color(var(--colorQuaternary) shade(20%)), var(--colorQuaternary), color(var(--colorQuaternary) shade(10%)), var(--colorQuaternary));
+  background: linear-gradient(to bottom, color(var(--colorQuaternary) shade(20%)), var(--colorQuaternary), color(var(--colorQuaternary) shade(10%)), var(--colorQuaternary));
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 
