@@ -9,16 +9,12 @@ description: "Lean UX Development Theories"
 
 The newest buzz word on the block is Lean UX. Lean UX is basically doing UX in the context of Agile development. It's a faster more iterative approach to web design.
 
-I've often said that designing or building a website is never over but now I have realised that the best websites keep evolving and changing and those that don't tend to stagnate and get redesigned every 5 or so years only to stagnate again.
+## Where does research fit into a lean process?
 
-I'm looking at this from a agency to client point of view. I'd love to see a massive shake up in how agency's deal with small to medium clients.  
+A great approach is [The The Design Sprint](http://www.gv.com/sprint/) which is a 5 day process that aims to speed up the process of building a product.
 
-The main reason why a website or web app needs to evolve is because it needs to evolve with its users. People change, they have habits, change habits and develop new habits. Just because your checkout process works today, doesn't mean it will in a years time. You need to keep analysing the websites data and keep user testing to see if design ideas are correct and to keep up with the pace of todays users. 
+The design sprint is great for a minimal viable product but is harder to implement on established products. I have used the resources for idea generation but the majority of UX research is usually done prior to the sprint.
 
-The best example of this would be [Mail Chimp](http://mailchimp.com/). They are constantly tweaking their design and take on a more data led design approach. The result is a much better experience for the user and more money for mail chimp. 
-
-By keeping a check on your decisions, you can much easily update sections that are not working and ensure you or your client keeps making money. Instead of redesigning every 5 years at a huge cost you can take a much more modular approach and the end result is a much better website that is both being used and making users happy.
-
-Of course cost is a factor and this process is much too alien for some clients to ever agree to but it's up to us as the experts to steer them in the right direction. Sometimes clients don't see their website the way we do and that's ok, this process isn't for them, it's for the end users.
+It's hard to convince companies to go the Lean UX route unless the team is very small and I have yet to see user research fit neatly inside a lean process unless it was desk or guerilla research.
 
 An excellent book on this topic is [Lean UX](http://www.amazon.com/dp/1449311652/). Buy it, it just may help you to get your company onboard. 
