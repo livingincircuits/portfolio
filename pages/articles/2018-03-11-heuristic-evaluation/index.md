@@ -11,7 +11,7 @@ description: "How to conduct a Heuristic Evaluation"
 
 In a heuristic evaluation, a usability expert will review a website and compare it against accepted usability principles. This analysis will result in a list of potential usability issues.
 
-There are many other terms in use such as a usability review, consistency inspection, expert review, user interface assessment, etc. They all tend to follow the same kind of process.
+A heuristic evaluation is a usability inspection method and there are many other terms in use such as a usability review, consistency inspection, expert review, user interface assessment, etc. They all tend to follow the same kind of process.
 
 There are lots of different usability guidelines but the two most widely known include:
 
@@ -22,9 +22,18 @@ It's important to use more than one evaluator as multiple reviewers will give yo
 
 ## How to conduct a Heuristic Evaluation
 
+Typically you will need:
+
+* 3-5 usability experts
+* A set of usability guidelines
+* A way to record your observations 
+* Write up your report 
+
 When you are conducting an evaluation of a UI, you would normally choose one set of usability guidelines and go through a checklist exercise. You would note down any usability issues that you find and collate the issues together. 
 
 You can create your own guidelines based on usability research but if you're just starting out and want quick feedback, The 10 general principles for interaction design guidelines are a good place to start.
+
+I normally note my observations in a spreadsheet and then write up my findings into a report.
 
 ## Can a Heuristic Evaluation replace user testing?
 
