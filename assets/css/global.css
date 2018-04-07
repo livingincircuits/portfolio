@@ -121,3 +121,52 @@ pre {
 .error-page footer {
   display: none;
 }
+
+.pinline {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  font-size: responsive 30px 88px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.pinline span {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+
+.pinline span:before,
+.pinline span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 4px;
+  background: var(--colorSecondary);
+  width: 99999px;
+}
+
+.pinline span:before {
+  left: 100%;
+  margin-left: 20px;
+}
+
+.pinline span:after {
+  right: 100%;
+  margin-right: 20px;
+}
+
+.logo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1% 0;
+}
+
+.logo-list__item {
+  list-style-type: none;
+  padding: 1%;
+}

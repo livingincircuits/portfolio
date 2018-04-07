@@ -15,42 +15,6 @@
 
 }
 
-.pinline {
-  text-align: center;
-  display: block;
-  overflow: hidden;
-  font-size: responsive 30px 88px;
-  font-weight: 600;
-  margin: 20px 0;
-  text-transform: uppercase;
-}
-
-.pinline span {
-  position: relative;
-  display: inline-block;
-  line-height: 1;
-}
-
-.pinline span:before,
-.pinline span:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  height: 4px;
-  background: var(--colorSecondary);
-  width: 99999px;
-}
-
-.pinline span:before {
-  left: 100%;
-  margin-left: 20px;
-}
-
-.pinline span:after {
-  right: 100%;
-  margin-right: 20px;
-}
-
 .post {
   margin: 2em;
   text-align: center;
