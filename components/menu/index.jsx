@@ -13,13 +13,16 @@ const Menu = ({ active, onNavClick }) => {
   return (
     <ul>
       <li className={styles.item}>
-        <IndexLink {...linkProps} to={prefixLink('/')}>Writing</IndexLink>
+        <IndexLink {...linkProps} to={prefixLink('/')}>Home</IndexLink>
       </li>
       <li className={styles.item}>
         <Link {...linkProps} to={prefixLink('/about/')}>About</Link>
       </li>
       <li className={styles.item}>
         <Link {...linkProps} to={prefixLink('/work/')}>Work</Link>
+      </li>
+      <li className={styles.item}>
+        <IndexLink {...linkProps} to={prefixLink('/articles/')}>Writing</IndexLink>
       </li>
     </ul>
   );

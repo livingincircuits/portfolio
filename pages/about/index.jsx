@@ -6,13 +6,19 @@ import styles from './styles.module.css';
 
 const About = () => (
 
-  <div className="markdown">
+  <div>
 
-    <Meta title="About" />
+    <h1 className="pinline">
+      <span>
+        About
+      </span>
+    </h1>
 
-    <Meta title="About" description="Emily Young is a UX Designer and Developer from Yorkshire UX Designer and Developer who loves to create clean, simple and inclusive experiences" />
+    <div className="markdown">
 
-    <div>
+      <Meta title="About" />
+
+      <Meta title="About" description="Emily Young is a UX Designer and Developer from Yorkshire UX Designer and Developer who loves to create clean, simple and inclusive experiences" />
 
       <h1>Hello World.</h1>
 
