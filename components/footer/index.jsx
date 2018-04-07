@@ -16,7 +16,7 @@ export default class Footer extends Component {
               <img src={imgSrc} alt="Dancing Cat" width="20" /> Crafted by Emily Young
             </p>
             <p>
-              <a href="https://github.com/livingincircuits/portfolio">View Source Code</a> &middot; <a href="https://www.linkedin.com/in/emily-jane-young/">LinkedIn</a> &middot; <a href="https://github.com/livingincircuits">Github</a> &middot; <a href="https://dribbble.com/livingincircuits">Dribbble</a> &middot; <a href="mailto:emily@emily-young.com?subject=Hello">Email Me</a>
+              <a href="https://github.com/livingincircuits/portfolio">View Source Code</a> &middot; <a href="https://www.linkedin.com/in/emily-jane-young/">LinkedIn</a> &middot; <a href="https://github.com/livingincircuits">Github</a> &middot; <a href="https://dribbble.com/livingincircuits">Dribbble</a> &middot; <a href="https://www.instagram.com/livingincircuits/">Instagram</a> &middot; <a href="mailto:emily@emily-young.com?subject=Hello">Email Me</a>
             </p>
           </div>
         </div>
