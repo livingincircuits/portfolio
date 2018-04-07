@@ -34,7 +34,7 @@ class NotFoundPage extends React.Component {
 
           <h1>404</h1>
 
-          <p>The page you were looking for could not be found. It is likely I broke something.</p>
+          <h2>The page you were looking for could not be found. It is likely I broke something.</h2>
 
           <p>Sorry about that.</p>
 
