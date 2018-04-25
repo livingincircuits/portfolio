@@ -36,19 +36,19 @@ const About = () => (
 
       <ul>
         <li>
+          User Experience &amp; Research
+        </li>
+        <li>
+          HTML / CSS / JS
+        </li>
+        <li>
           Interaction &amp; UI Design
-        </li>
-        <li>
-          User Research
-        </li>
-        <li>
-          Front End Development
         </li>
         <li>
           Prototyping
         </li>
         <li>
-          Conducting Usability Tests & Observations
+          Conducting Usability Tests &amp; Observations
         </li>
       </ul>
 
