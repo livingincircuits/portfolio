@@ -4,9 +4,9 @@
   position: relative;
   width: 100%;
   padding: 1em 0 1em 0;
-  border-top: 4px solid var(--colorSecondary);
+  border-bottom: 2px solid var(--colorSecondary);
   background-color: var(--colorPrimary);
-  background: linear-gradient(to bottom, color(var(--colorQuaternary) shade(20%)), var(--colorQuaternary), color(var(--colorQuaternary) shade(10%)), var(--colorQuaternary));
+  background: linear-gradient(to bottom, color(var(--colorQuaternary) shade(1%)), var(--colorQuaternary), color(var(--colorQuaternary) shade(1%)), var(--colorQuaternary));
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 
@@ -15,7 +15,7 @@
 @media (--small) {
 
   .header {
-    padding: 1em 0 3em 0;
+    padding: 1em 0 1.5em 0;
   }
 
 }
@@ -74,15 +74,17 @@
 @media (--small) {
 
   .nav li {
-    padding: 1em;
+    padding: .6em;
   }
 
 }
 
 .round {
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  border: 4px solid var(--colorSecondary);
-  transition: all .1s linear;
+  box-shadow: 0 0 0 3px var(--colorSecondary);
+  background-color: var(--colorSecondary);
 }
 
 @media (--small) {
@@ -95,7 +97,7 @@
 
 .link:hover .round,
 .link:focus .round {
-  border-color: var(--colorQuaternary);
+  animation: bounceOut .4s linear;
 }
 
 @keyframes gradient {
@@ -110,6 +112,35 @@
 
   100% {
     background-position: 0% 50%
+  }
+
+}
+
+@keyframes bounceOut {
+
+  0% {
+    box-shadow: 0 0 0 4px var(--colorSecondary);
+    opacity: 1;
+  }
+
+  25% {
+    box-shadow: 0 0 0 1px var(--colorSecondary);
+    opacity: 1;
+  }
+
+  50% {
+    box-shadow: 0 0 0 7px var(--colorSecondary);
+    opacity: 1;
+  }
+
+  75% {
+    box-shadow: 0 0 0 4px var(--colorSecondary);
+    opacity: 1;
+  }
+
+  100% {
+    box-shadow: 0 0 0 5px var(--colorSecondary);
+    opacity: 1;
   }
 
 }
