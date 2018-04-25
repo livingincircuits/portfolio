@@ -124,38 +124,25 @@ pre {
 
 .pinline {
   text-align: center;
-  display: block;
-  overflow: hidden;
   font-size: responsive 30px 88px;
   font-weight: 600;
   margin: 20px 0;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .pinline span {
-  position: relative;
-  display: inline-block;
+  display: block;
   line-height: 1;
 }
 
-.pinline span:before,
-.pinline span:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  height: 4px;
-  background: var(--colorSecondary);
-  width: 99999px;
+.pinline__svg {
+  display: inline-block;
+  vertical-align: bottom;
 }
 
-.pinline span:before {
-  left: 100%;
-  margin-left: 20px;
-}
-
-.pinline span:after {
-  right: 100%;
-  margin-right: 20px;
+.pinline__svg--bottom {
+  vertical-align: top;
 }
 
 .logo-list {
@@ -169,4 +156,33 @@ pre {
 .logo-list__item {
   list-style-type: none;
   padding: 1%;
+}
+
+.page-body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1;
+}
+
+.wave {
+  animation: moveTheWave 2400ms linear infinite;
+  stroke-dasharray: 0 16 101 16;
+}
+
+@keyframes moveTheWave {
+
+  0% {
+    stroke-dashoffset: 0;
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    stroke-dashoffset: -133;
+    transform: translate3d(-90px, 0, 0);
+  }
+
 }
