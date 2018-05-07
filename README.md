@@ -2,8 +2,6 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
-[![CircleCI](https://circleci.com/gh/livingincircuits/portfolio/tree/master.svg?style=svg)](https://circleci.com/gh/livingincircuits/portfolio/tree/master)
-
 [![Build Status](https://travis-ci.org/livingincircuits/portfolio.svg)](https://travis-ci.org/livingincircuits/portfolio)
 [![Dependency Status](https://david-dm.org/livingincircuits/portfolio.svg)](https://david-dm.org/livingincircuits/portfolio)
 
