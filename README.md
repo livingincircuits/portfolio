@@ -2,7 +2,6 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
-[![Build Status](https://travis-ci.org/livingincircuits/portfolio.svg)](https://travis-ci.org/livingincircuits/portfolio)
 [![Dependency Status](https://david-dm.org/livingincircuits/portfolio.svg)](https://david-dm.org/livingincircuits/portfolio)
 
 ## What is this?
