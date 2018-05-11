@@ -41,6 +41,8 @@
     "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
     "develop": "gatsby develop",
     "build": "rm -rf public; gatsby build",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "test": "jest",
+    "test:watch": "jest -- --watch"
   }
 }
