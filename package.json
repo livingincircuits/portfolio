@@ -30,10 +30,8 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "rucksack-css": "^1.0.2",
     "css-loader": "^0.28.11",
     "postcss-loader": "^1.2.2",
-    "postcss-nested": "^1.0.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.8.2"
   },

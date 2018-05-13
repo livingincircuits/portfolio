@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+.cache
 
 # Runtime data
 pids
@@ -11,3 +12,4 @@ pids
 node_modules
 .gatsby-context.js
 _files
+yarn.lock

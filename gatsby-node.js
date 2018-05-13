@@ -1,16 +1,12 @@
 const fs = require('fs-extra-promise');
 const sm = require('sitemap');
-const rucksack = require('rucksack-css');
 const cssnext = require('postcss-cssnext');
-const cssnested = require('postcss-nested');
 const atImport = require('postcss-import');
 
 exports.modifyWebpackConfig = function (config) {
   config.merge({
     postcss: [
       atImport(),
-      cssnested,
-      rucksack(),
       cssnext({
         browsers: ['>1%', 'last 2 versions']
       }),
