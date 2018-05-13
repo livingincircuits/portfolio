@@ -1,26 +1,49 @@
 @import '../assets/css/variables.css';
 
-.intro {
-  margin: 0 0 3em 0;
-  padding: 0 6em;
-  text-align: center;
-}
-
-@media (--small) {
-
-  .intro {
-    margin: 0 0 1em 0;
-    padding: 0;
-  }
-
-}
-
 .post {
-  margin: 2em;
+  margin: 2em 0;
   text-align: center;
 }
 
 .post__title {
   font-weight: 400;
-  font-size: responsive 18px 38px;
+}
+
+.intro {
+  padding: 0 5%;
+  text-align: center;
+}
+
+@media (--small) {
+
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4% 0;
+  }
+
+  .logos__item {
+    list-style-type: none;
+    padding: 1%;
+  }
+
+}
+
+@media (--large) {
+
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4% 0;
+  }
+
+  .logos__item {
+    list-style-type: none;
+    padding: 2%;
+  }
+
 }

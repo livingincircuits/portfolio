@@ -9,9 +9,15 @@ const About = () => (
   <div>
 
     <h1 className="pinline">
+      <svg className="pinline__svg pinline__svg--top" width="80" height="60" viewBox="5 0 80 60">
+        <path className="wave" fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
+      </svg>
       <span>
         About
       </span>
+      <svg className="pinline__svg pinline__svg--bottom" width="80" height="40" viewBox="5 0 80 40">
+        <path className="wave" fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
+      </svg>
     </h1>
 
     <div className="markdown">
@@ -20,7 +26,9 @@ const About = () => (
 
       <Meta title="About" description="Emily Young is a UX Designer and Developer from Yorkshire UX Designer and Developer who loves to create clean, simple and inclusive experiences" />
 
-      <h1>Hello World.</h1>
+      <h2>
+        Hello World.
+      </h2>
 
       <p>
         I'm Emily and I am a UX designer and multipotentialite.

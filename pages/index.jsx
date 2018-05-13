@@ -28,13 +28,13 @@ class SiteIndex extends React.Component {
 
         <h1 className="pinline">
           <svg className="pinline__svg pinline__svg--top" width="80" height="60" viewBox="5 0 80 60">
-            <path className="wave" fill="none" stroke="#000" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
+            <path className="wave" fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
           </svg>
           <span>
             Emily Young
           </span>
           <svg className="pinline__svg pinline__svg--bottom" width="80" height="40" viewBox="5 0 80 40">
-            <path className="wave" fill="none" stroke="#000" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
+            <path className="wave" fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" d="M 0 37.5 c 7.684299348848887 0 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15 s 7.172012725592294 15 15 15 s 7.172012725592294 -15 15 -15" />
           </svg>
         </h1>
 
@@ -52,26 +52,26 @@ class SiteIndex extends React.Component {
             I have worked with some amazing brands over the years. My favourites include:
           </p>
 
-          <ul className="logo-list">
-            <li className="logo-list__item">
+          <ul className={styles.logos}>
+            <li className={styles.logos__item}>
               <img src={img3m} alt="3m" />
             </li>
-            <li className="logo-list__item">
+            <li className={styles.logos__item}>
               <img src={imgBentley} alt="Bentley" />
             </li>
-            <li className="logo-list__item">
+            <li className={styles.logos__item}>
               <img src={imgNHS} alt="NHS" />
             </li>
-            <li className="logo-list__item">
+            <li className={styles.logos__item}>
               <img src={imgUOE} alt="University of Essex" />
             </li>
-            <li className="logo-list__item">
+            <li className={styles.logos__item}>
               <img src={imgUOM} alt="University of Manchester" />
             </li>
-            <li className="logo-list__item">
+            <li className={styles.logos__item}>
               <img src={imgUOS} alt="University of Sheffield" />
             </li>
-            <li className="logo-list__item">
+            <li className={styles.logos__item}>
               <img src={imgTopman} alt="Topman" />
             </li>
           </ul>

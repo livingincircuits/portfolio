@@ -3,23 +3,37 @@
 .footer {
   width: 100%;
   padding: 1em 0 0 0;
-  font-size: responsive 14px 16px;
-  color: var(--colorSecondary);
   text-align: center;
+}
+
+@media (--large) {
+
+  .footer {
+    font-size: 16px;
+  }
+
+}
+
+@media (--small) {
+
+  .footer {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+
 }
 
 .footer img {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .footer a {
   text-decoration: none;
   transition: background .2s linear;
-  background: linear-gradient(to top, rgba(190, 64, 75, 0.8) 0%, rgba(190, 64, 75, .8) 30%, transparent 31%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, .4) 30%, transparent 31%, transparent 100%);
 }
 
 .footer a:hover,
 .footer a:focus {
-  background: rgba(190, 64, 75, 0.8);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
 }
