@@ -7,32 +7,104 @@ h4,
 h5,
 h6 {
   margin: .8em 0 .2em 0;
-  font-family: var(--heading);
   font-weight: 400;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: responsive 22px 38px;
+  margin: .8em 0 1.2em 0;
+}
+
+@media (--small) {
+
+  h1 {
+    font-size: calc(28px + 6 * ((100vw - 320px) / 680));
+  }
+
+}
+
+@media (--large) {
+
+  h1 {
+    font-size: 68px;
+  }
+
+}
+
+.pinline {
+  font-family: var(--heading);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.pinline span {
+  display: block;
+  line-height: 1;
+}
+
+.pinline__svg {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.pinline__svg--bottom {
+  vertical-align: top;
+}
+
+.wave {
+  animation: moveTheWave 2400ms linear infinite;
+  stroke-dasharray: 0 16 101 16;
+}
+
+@keyframes moveTheWave {
+
+  0% {
+    stroke-dashoffset: 0;
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    stroke-dashoffset: -133;
+    transform: translate3d(-90px, 0, 0);
+  }
+
 }
 
 h2 {
-  font-size: responsive 20px 34px;
+  font-weight: 600;
 }
 
-h3 {
-  font-size: responsive 18px 30px;
+@media (--small) {
+
+  h2 {
+    font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+  }
+
 }
 
-h4 {
-  font-size: responsive 16px 26px;
+@media (--large) {
+
+  h2 {
+    font-size: 34px;
+  }
+
 }
 
-h5 {
-  font-size: responsive 16px 22px;
+@media (--small) {
+
+  h3 {
+    font-size: calc(21px + 6 * ((100vw - 320px) / 680));
+  }
+
 }
 
-h6 {
-  font-size: responsive 16px 18px;
+@media (--large) {
+
+  h3 {
+    font-size: 21px;
+  }
+
 }
 
 p {
@@ -46,7 +118,7 @@ pre {
 ol,
 ul {
   margin: 0 0 1em 0;
-  padding: 0 1em;
+  padding: 0 0 0 1.5em;
 }
 
 ul li {
@@ -96,5 +168,20 @@ figure img {
 
 figure figcaption {
   margin: 0;
-  font-size: responsive 16px 18px;
+}
+
+@media (--large) {
+
+  figure figcaption {
+    font-size: 16px;
+  }
+
+}
+
+@media (--small) {
+
+  figure figcaption {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+
 }

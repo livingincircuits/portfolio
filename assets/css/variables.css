@@ -1,18 +1,14 @@
 :root {
 
   --wrapperWidth: 1200px;
-  --headerHeight: 48px;
-  --gutter: 20px;
-  --columnCount: 12;
 
-  --colorBlack: #000;
-  --colorWhite: #FFF;
-  --colorPrimary: #E84D5B;
-  --colorSecondary: #080808;
-  --colorTertiary: #FDFDFD;
-  --colorQuaternary: #BE404B;
+  --colorPrimary: #3001FF;
+  --colorSecondary: #FFF;
+  --colorTertiary: #7001FF;
+  --colorQuaternary: #4015FF;
 
-  --heading: 'Inconsolata', Arial, sans-serif;
+  --heading: 'Hind', Arial, sans-serif;
+  --body: 'Inconsolata', Arial, sans-serif;
 
 }
 
