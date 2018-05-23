@@ -47,16 +47,13 @@ const About = () => (
           User Experience &amp; Research
         </li>
         <li>
-          HTML / CSS / JS
-        </li>
-        <li>
           Interaction &amp; UI Design
         </li>
         <li>
           Prototyping
         </li>
         <li>
-          Conducting Usability Tests &amp; Observations
+          HTML / CSS / JS
         </li>
       </ul>
 

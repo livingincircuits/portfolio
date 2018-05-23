@@ -13,7 +13,7 @@ I've written [previously](http://boagworld.com/reviews/web-design-education-from
 
 Education is far more than a simple word. Education is opportunity, training, discipline, improvement and many more. The education I received didn't just teach me about web design. It woke me up. It shook me into existence and gave me a back bone.
 
-Lot's of online discussions about digital/web education specifically tend to get negative fast. They seem to favour online learning and champion self learning. The only reason I know how to self learn and develop is because I was taught on my [course](http://www.studyweb.design/)!
+Lot's of online discussions about digital/web education specifically tend to get negative fast. They seem to favour online learning and champion self learning. The only reason I know how to self learn and develop is because I was taught on my [course](http://www.learntheweb.co.uk/)!
 
 Don't misunderstand me. I use [Treehouse](http://teamtreehouse.com/) quite a lot and was quite active when I was a student but do I really believe that I would have a job in the industry based on just Treehouse? No. No I don't. Treehouse was simply a resource to me. I would read a book, use Treehouse, follow along with [Codeschool](https://www.codeschool.com/) during self study. There would be no way that I could join the industry based on watching a few online tutorials. Some can and have but it isn't for me.
 
