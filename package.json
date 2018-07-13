@@ -13,6 +13,8 @@
     "fs-extra-promise": "^1.0.1",
     "gatsby": "^1.9.259",
     "gatsby-plugin-google-analytics": "^1.0.31",
+    "gatsby-plugin-hotjar": "^1.0.1",
+    "gh-pages": "^1.1.0",
     "history": "^4.7.2",
     "lodash": "^4.17.10",
     "moment": "^2.22.1",
@@ -20,17 +22,16 @@
     "react-helmet": "^5.2.0",
     "safe-access": "^0.1.0",
     "sitemap": "^1.13.0",
-    "underscore.string": "^3.3.4",
-    "gh-pages": "^1.1.0"
+    "underscore.string": "^3.3.4"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
+    "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "css-loader": "^0.28.11",
     "postcss-loader": "^1.2.2",
     "style-loader": "^0.21.0",
     "webpack": "^4.8.2"
