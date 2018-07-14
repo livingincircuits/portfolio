@@ -11,6 +11,7 @@ import styles from './styles.module.css';
 import img3m from 'assets/img/logos/3m-logo.svg';
 import imgBentley from 'assets/img/logos/bentley-logo.svg';
 import imgNHS from 'assets/img/logos/nhs-logo.svg';
+import imgSkybet from 'assets/img/logos/skybet-logo.svg';
 import imgUOE from 'assets/img/logos/uoe-logo.svg';
 import imgUOS from 'assets/img/logos/uos-logo.svg';
 import imgUOM from 'assets/img/logos/uom-logo.svg';
@@ -61,6 +62,9 @@ class SiteIndex extends React.Component {
             </li>
             <li className={styles.logos__item}>
               <img src={imgNHS} alt="NHS" />
+            </li>
+            <li className={styles.logos__item}>
+              <img src={imgSkybet} alt="SkyBet" />
             </li>
             <li className={styles.logos__item}>
               <img src={imgUOE} alt="University of Essex" />
