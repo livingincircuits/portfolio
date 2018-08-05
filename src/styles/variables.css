@@ -1,0 +1,21 @@
+:root {
+
+  --wrapperWidth: 1600px;
+
+  --colorPrimary: #3001FF; /* Blue */
+  --colorSecondary: #FFF; /* White */
+  --colorTertiary: #4558EC; /* Light Blue */
+  --colorQuaternary: #818F9E; /* Grey */
+  --colorQuinary: #F5F7FA; /* Off White */
+  --colorSenary: #21D1B1; /* Green */
+
+  --heading: 'Hind', Arial, sans-serif;
+  --body: 'Inconsolata', Arial, sans-serif;
+
+  --small: (max-width: 767px);
+  --medium: (max-width: 1023px);
+  --large: (min-width: 768px);
+
+}
+
+

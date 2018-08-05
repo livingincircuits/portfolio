@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Portfolio and Blog",
   "license": "MIT",
   "repository": {
@@ -9,37 +9,42 @@
   },
   "author": "Emily Young",
   "dependencies": {
-    "classnames": "^2.2.5",
-    "fs-extra-promise": "^1.0.1",
-    "gatsby": "^1.9.259",
-    "gatsby-plugin-google-analytics": "^1.0.31",
+    "date-fns": "^1.29.0",
+    "gatsby": "^2.0.0-beta.5",
+    "gatsby-image": "^2.0.0-beta.2",
+    "gatsby-plugin-google-analytics": "^2.0.0-beta.2",
     "gatsby-plugin-hotjar": "^1.0.1",
-    "gh-pages": "^1.1.0",
-    "history": "^4.7.2",
+    "gatsby-plugin-lodash": "^3.0.1-beta.2",
+    "gatsby-plugin-manifest": "^2.0.2-beta.2",
+    "gatsby-plugin-react-helmet": "^3.0.0-beta.2",
+    "gatsby-plugin-sharp": "^2.0.0-beta.2",
+    "gatsby-plugin-sitemap": "^2.0.0-beta.2",
+    "gatsby-remark-images": "^2.0.1-beta.3",
+    "gatsby-source-filesystem": "^2.0.1-beta.3",
+    "gatsby-transformer-remark": "^2.1.1-beta.2",
+    "gatsby-transformer-sharp": "^2.1.1-beta.2",
     "lodash": "^4.17.10",
-    "moment": "^2.22.1",
-    "moment-duration-format": "^2.2.2",
-    "react-helmet": "^5.2.0",
-    "safe-access": "^0.1.0",
-    "sitemap": "^1.13.0",
-    "underscore.string": "^3.3.4"
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
-    "css-loader": "^0.28.11",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
-    "postcss-loader": "^1.2.2",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.8.2"
+    "eslint-plugin-react": "^7.9.1",
+    "gh-pages": "^1.1.0"
   },
   "scripts": {
-    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
-    "develop": "gatsby develop",
-    "build": "rm -rf public; gatsby build",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "dev": "gatsby develop -o",
+    "build": "gatsby build",
+    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore"
+
   }
 }

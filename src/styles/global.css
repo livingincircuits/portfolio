@@ -1,0 +1,103 @@
+@import './variables.css';
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('fonts/inconsolata-webfont.woff2') format('woff2'),
+       url('fonts/inconsolata-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind';
+  src: url('fonts/hind-medium-webfont.woff2') format('woff2'),
+       url('fonts/hind-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--colorSecondary);
+  font-family: var(--body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--colorPrimary);
+}
+
+@media (max-width: 767px) {
+
+  body {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  body {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  }
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+audio {
+	display: none;
+}
+
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+::selection {
+  color: var(--colorPrimary);
+  background-color: var(--colorSecondary);
+  opacity: 1;
+}

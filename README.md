@@ -14,10 +14,10 @@ It uses [Gatsby](https://github.com/gatsbyjs/gatsby) which is a blazing fast Rea
 `yarn`
 
 ## Run
-In development: `npm run develop`
+In development: `yarn run dev`
 
 ## Build
-Create a static build public folder: `npm run build`
+Create a static build public folder: `yarn run build`
 
 ## Deploy
-Publish gh-pages branch: `npm run deploy`
+Publish gh-pages branch: `yarn run deploy`

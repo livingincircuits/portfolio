@@ -1,15 +1,48 @@
+### Node ###
 # Logs
 logs
 *.log
-.cache
+npm-debug.log*
 
 # Runtime data
 pids
 *.pid
 *.seed
+*.pid.lock
 
-# Dependency directory
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
 node_modules
-.gatsby-context.js
-_files
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Yarn file
 yarn.lock
+
+# Build Files
+public/
+.cache/
+
+# Gatsby context
+.gatsby-context.js
+
+# Bundle stats
+bundle-stats.json
+
+_files
