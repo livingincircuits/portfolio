@@ -17,7 +17,7 @@ const ErrorPage = () => (
       }}
     />
 
-    <audio controls autoPlay loop>
+    <audio autoPlay loop>
       <source src="https://ia801308.us.archive.org/0/items/NyanCatoriginal/Nyan%20Cat%20%5boriginal%5d.ogg" type="audio/ogg" />
       <source src="https://ia801308.us.archive.org/0/items/NyanCatoriginal/Nyan%20Cat%20[original].mp3" type="audio/mpeg" />
     </audio>
@@ -26,7 +26,7 @@ const ErrorPage = () => (
 
       <h1>404</h1>
 
-      <h2>The page you were looking for could not be found. It is likely I broke something.</h2>
+      <h2>The page you were looking for could not be found.</h2>
 
       <p>Sorry about that.</p>
 
