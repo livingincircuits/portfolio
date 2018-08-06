@@ -30,7 +30,7 @@ const ErrorPage = () => (
 
       <p>Sorry about that.</p>
 
-      <img src="./nyan.gif" width="80%" alt="Nyan Cat" className="align-central" />
+      <img src="../nyan.gif" width="80%" alt="Nyan Cat" className="align-central" />
 
       <a href="/">Go back to the homepage</a>
 
