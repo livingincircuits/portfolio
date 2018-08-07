@@ -110,11 +110,15 @@
 .content ol,
 .content ul {
   margin: 0 0 1em 0;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 1.5em;
 }
 
 .content ul li {
   list-style-type: disc;
+}
+
+.content ol li {
+  list-style-type: decimal;
 }
 
 .content p {
@@ -122,9 +126,9 @@
 }
 
 .content blockquote {
-  margin: 0 0 1em 0;
-  padding: 1em;
-  border-left: .5em solid var(--colorQuaternary);
+  margin: 1.5em 0;
+  padding: 0 1em;
+  border-left: 3px solid var(--colorSecondary);
 }
 
 .content blockquote p {
