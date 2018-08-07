@@ -24,8 +24,10 @@ const Post = ({ pageContext: { slug, left, right }, data: { markdownRemark: post
             {post.title}
           </h1>
           <p className="article-header__text content">
-            {post.date} &middot; Time to Read: {postNode.timeToRead} Min &middot; <span>Category: </span>
-            <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link>
+            {post.date} &middot; Time to Read: {postNode.timeToRead} Min
+            <span>
+              Category: <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link>
+            </span>
           </p>
         </section>
 
