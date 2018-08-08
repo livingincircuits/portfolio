@@ -42,13 +42,15 @@ const Project = ({ pageContext: { slug, left, right }, data: { markdownRemark: p
         </section>
 
         <section className="callout">
-          <h2 className="callout__title">Activities</h2>
-          <p>
-            {post.activities}
-          </p>
+          <div className="page-content align-central">
+            <h2 className="callout__title">Activities</h2>
+            <p>
+              {post.activities}
+            </p>
+          </div>
         </section>
 
-        <article className="content" type="article">
+        <article className="content page-content" type="article">
           <Content input={postNode.html} />
         </article>
 

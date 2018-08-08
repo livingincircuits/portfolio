@@ -19,7 +19,7 @@ const Post = ({ pageContext: { slug, left, right }, data: { markdownRemark: post
 
       <div className="page-inner">
 
-        <section className="article-header">
+        <section className="article-header page-content">
           <h1 className="article-header__title">
             {post.title}
           </h1>
@@ -31,7 +31,7 @@ const Post = ({ pageContext: { slug, left, right }, data: { markdownRemark: post
           </p>
         </section>
 
-        <article className="content" type="article">
+        <article className="content page-content" type="article">
           <Content input={postNode.html} />
         </article>
 

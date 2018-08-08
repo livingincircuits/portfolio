@@ -16,17 +16,19 @@ const Blog = ({
     <Helmet title={`Blog | ${config.siteTitle}`} />
     <Header title="Blog">Blog</Header>
     <section className="page-inner">
-      {edges.map(post => (
-        <ItemBlog
-          key={post.node.frontmatter.title}
-          path={post.node.fields.slug}
-          title={post.node.frontmatter.title}
-          date={post.node.frontmatter.date}
-          category={post.node.frontmatter.category}
-          timeToRead={post.node.timeToRead}
-          excerpt={post.node.excerpt}
-        />
-      ))}
+      <div className="page-content">
+        {edges.map(post => (
+          <ItemBlog
+            key={post.node.frontmatter.title}
+            path={post.node.fields.slug}
+            title={post.node.frontmatter.title}
+            date={post.node.frontmatter.date}
+            category={post.node.frontmatter.category}
+            timeToRead={post.node.timeToRead}
+            excerpt={post.node.excerpt}
+          />
+        ))}
+      </div>
     </section>
   </Layout>
 );

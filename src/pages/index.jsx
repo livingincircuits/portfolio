@@ -27,10 +27,14 @@ const Index = ({
 
     <section className="page-inner">
 
-      <p>
-        A UX Designer who loves to create clean, simple & inclusive experiences for everyone.
-        I enjoy creating something simple from a complex problem and love creating human experiences on the web.
-      </p>
+      <div className="page-content align-central">
+
+        <p>
+          A UX Designer who loves to create clean, simple & inclusive experiences for everyone.
+          I enjoy creating something simple from a complex problem and love creating human experiences on the web.
+        </p>
+
+      </div>
 
       <div className="card-column">
         {projectEdges.map(project => (
