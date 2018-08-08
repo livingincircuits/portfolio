@@ -83,6 +83,11 @@
   background-color: var(--colorSecondary);
 }
 
+.page-content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 /*************************************************
   Header
  ************************************************/
