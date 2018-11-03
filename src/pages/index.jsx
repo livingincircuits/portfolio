@@ -8,7 +8,6 @@ import { Layout } from 'elements';
 import Img from 'gatsby-image';
 import Header from '../components/Header';
 import config from '../../config/website';
-import FeaturedProject from '../components/FeaturedProject';
 import FeaturedPost from '../components/FeaturedPost';
 
 const Index = ({
@@ -30,25 +29,21 @@ const Index = ({
       <div className="page-content align-central">
 
         <p>
-          A UX Designer who loves to create clean, simple & inclusive experiences for everyone.
+          A UX Researcher who loves to create clean, simple & inclusive experiences for everyone.
           I enjoy creating something simple from a complex problem and love creating human experiences on the web.
         </p>
 
       </div>
 
-      <div className="card-column">
-        {projectEdges.map(project => (
-          <FeaturedProject
-            key={project.node.frontmatter.title}
-            cover={project.node.frontmatter.cover.childImageSharp.fluid}
-            customer={project.node.frontmatter.customer}
-            path={project.node.fields.slug}
-            title={project.node.frontmatter.title}
-          />
-        ))}
+      <div className="page-content align-central">
+
+        <h2>
+          Blog Posts
+        </h2>
+
       </div>
 
-      <div className="featured-post">
+      <div className="post-block post-block--half">
         {postEdges.map(post => (
           <FeaturedPost
             key={post.node.frontmatter.title}

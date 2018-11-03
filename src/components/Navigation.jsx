@@ -19,10 +19,10 @@ const Navigation = () => (
             <Link to="/about">About</Link>
           </li>
           <li className="item">
-            <Link to="/projects">Projects</Link>
+            <Link to="/process">Process</Link>
           </li>
           <li className="item">
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog">Writing</Link>
           </li>
         </ul>
       </nav>

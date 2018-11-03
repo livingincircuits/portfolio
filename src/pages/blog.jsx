@@ -16,7 +16,7 @@ const Blog = ({
     <Helmet title={`Blog | ${config.siteTitle}`} />
     <Header title="Blog">Blog</Header>
     <section className="page-inner">
-      <div className="page-content">
+      <div className="post-block post-block--full">
         {edges.map(post => (
           <ItemBlog
             key={post.node.frontmatter.title}
@@ -55,7 +55,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 100)
+          excerpt(pruneLength: 170)
           timeToRead
           frontmatter {
             title

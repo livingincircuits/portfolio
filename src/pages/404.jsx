@@ -13,7 +13,7 @@ const ErrorPage = () => (
     <Helmet
       title={`404 | ${config.siteTitle}`}
       bodyAttributes={{
-        class: 'error-page'
+        className: 'error-page'
       }}
     />
 

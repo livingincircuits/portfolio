@@ -4,26 +4,38 @@ import { Link } from 'gatsby';
 
 const Suggestions = ({ left, right }) => (
 
-  <div className="featured-post">
+  <div className="post-block post-block--half">
 
     {left && (
-      <section className="featured-post__item">
-        <Link to={left.fields.slug}>
-          <h3>
-            {left.frontmatter.title}
-          </h3>
-        </Link>
-      </section>
+      <Link className="post-block__item" to={left.fields.slug}>
+
+        <article className="post-block__bordered">
+
+          <div className="post-block__content">
+            <h2 className="post-block__title">
+              {left.frontmatter.title}
+            </h2>
+          </div>
+
+        </article>
+
+      </Link>
     )}
 
     {right && (
-      <section className="featured-post__item">
-        <Link to={right.fields.slug}>
-          <h3>
-            {right.frontmatter.title}
-          </h3>
-        </Link>
-      </section>
+      <Link className="post-block__item" to={right.fields.slug}>
+
+        <article className="post-block__bordered">
+
+          <div className="post-block__content">
+            <h2 className="post-block__title">
+              {right.frontmatter.title}
+            </h2>
+          </div>
+
+        </article>
+
+      </Link>
     )}
 
   </div>

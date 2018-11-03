@@ -23,17 +23,19 @@ const Category = ({
     </Header>
 
     <section className="page-inner">
-      {edges.map(edge => (
-        <ItemTagCategory
-          key={edge.node.frontmatter.title}
-          title={edge.node.frontmatter.title}
-          category={edge.node.frontmatter.category}
-          path={edge.node.fields.slug}
-          date={edge.node.frontmatter.date}
-          timeToRead={edge.node.timeToRead}
-          excerpt={edge.node.excerpt}
-        />
-      ))}
+      <div className="post-block post-block--full">
+        {edges.map(edge => (
+          <ItemTagCategory
+            key={edge.node.frontmatter.title}
+            title={edge.node.frontmatter.title}
+            category={edge.node.frontmatter.category}
+            path={edge.node.fields.slug}
+            date={edge.node.frontmatter.date}
+            timeToRead={edge.node.timeToRead}
+            excerpt={edge.node.excerpt}
+          />
+        ))}
+      </div>
     </section>
 
     <div className="align-central">
@@ -74,7 +76,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 300)
+          excerpt(pruneLength: 170)
           timeToRead
           frontmatter {
             title

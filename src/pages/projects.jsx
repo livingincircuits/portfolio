@@ -56,9 +56,6 @@ const Projects = ({
         <li className="logos__item">
           <img src="./logos/nhs-logo.svg" alt="NHS" />
         </li>
-        <li className="logos__item">
-          <img src="./logos/skybet-logo.svg" alt="SkyBet" />
-        </li>
       </ul>
 
     </section>

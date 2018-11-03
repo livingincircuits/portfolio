@@ -4,16 +4,19 @@ import { Link } from 'gatsby';
 
 const FeaturedPost = ({ path, category, date, title }) => (
 
-  <Link className="featured-post__item" to={path}>
+  <Link className="post-block__item" to={path}>
 
-    <h2>
-      {title}
-    </h2>
+    <div className="post-block__bordered">
 
-    <div>
-      <h3>
-        {date}
-      </h3>
+      <div className="post-block__content">
+        <h2 className="post-block__title">
+          {title}
+        </h2>
+        <p className="post-block__date">
+          {date}
+        </p>
+      </div>
+
     </div>
 
   </Link>

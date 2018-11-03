@@ -24,7 +24,7 @@ const About = () => (
         </h2>
 
         <p>
-          I'm Emily and I am a UX designer and multipotentialite.
+          I'm Emily and I am a UX Researcher and multipotentialite.
         </p>
 
         <h2>
@@ -55,7 +55,7 @@ const About = () => (
         </h2>
 
         <p>
-          I am currently serving as a UX Designer for <a href="https://skybetcareers.com/about-us">Sky Betting & Gaming</a>.
+          I am currently serving as a UX Researcher for <a href="https://skybetcareers.com/about-us">Sky Betting & Gaming</a>.
         </p>
 
       </div>

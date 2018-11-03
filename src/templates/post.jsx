@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import { Content, SEO, Layout } from 'elements';
+import Header from '../components/Header';
 import Suggestions from '../components/Suggestions';
 
 const Post = ({ pageContext: { slug, left, right }, data: { markdownRemark: postNode } }) => {
@@ -17,18 +18,19 @@ const Post = ({ pageContext: { slug, left, right }, data: { markdownRemark: post
 
       <SEO postPath={slug} postNode={postNode} postSEO />
 
+      <Header title={post.title}>
+        {post.title}
+      </Header>
+
       <div className="page-inner">
 
-        <section className="article-header page-content">
-          <h1 className="article-header__title">
-            {post.title}
-          </h1>
-          <p className="article-header__text content">
-            {post.date} &middot; Time to Read: {postNode.timeToRead} Min
-            <span>
-              Category: <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link>
-            </span>
-          </p>
+        <section className="article-header">
+            <p className="article-header__text content">
+              {post.date} &middot; Time to Read: {postNode.timeToRead} Min
+              <span>
+                Category: <Link to={`/categories/${kebabCase(post.category)}`}>{post.category}</Link>
+              </span>
+            </p>
         </section>
 
         <article className="content page-content" type="article">

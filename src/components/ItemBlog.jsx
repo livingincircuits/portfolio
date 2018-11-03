@@ -5,25 +5,25 @@ import kebabCase from 'lodash/kebabCase';
 
 const ItemBlog = ({ path, category, title, date, timeToRead, excerpt }) => (
 
-  <article className="article-item">
+  <Link className="post-block__item" to={path}>
 
-    <Link to={path}>
+    <article className="post-block__bordered">
 
-      <h2 className="article-item__title">
-        {title}
-      </h2>
+      <div className="post-block__content">
+        <h2 className="post-block__title">
+          {title}
+        </h2>
+        <p className="post-block__date">
+          {date} &mdash; Time to Read: {timeToRead} Min
+        </p>
+        <p className="post-block__text">
+          {excerpt}
+        </p>
+      </div>
 
-      <h3 className="article-item__ttr">
-        {date} &mdash; Time to Read: {timeToRead} Min
-      </h3>
+    </article>
 
-      <p className="article-item__text">
-        {excerpt}
-      </p>
-
-    </Link>
-
-  </article>
+  </Link>
 
 );
 

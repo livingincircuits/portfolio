@@ -82,7 +82,7 @@
 @media (min-width: 768px) {
 
   .content h2 {
-    font-size: calc(28px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(32px + 6 * ((100vw - 320px) / 680));
   }
 
 }
@@ -98,7 +98,7 @@
 @media (min-width: 768px) {
 
   .content h3 {
-    font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(22px + 6 * ((100vw - 320px) / 680));
   }
 
 }
@@ -142,5 +142,5 @@
   display: block;
   clear: both;
   border: 0;
-  background: var(--colorQuaternary);
+  background: var(--colorTertiary);
 }

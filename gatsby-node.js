@@ -126,7 +126,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         projectsList.forEach(project => {
           const filtered = _.filter(projectsList, input => input.node.fields.slug !== project.node.fields.slug);
-          const sample = _.sampleSize(filtered, 2);
+          const sample = _.sampleSize(filtered, 3);
           const left = sample[0].node;
           const right = sample[1].node;
 
