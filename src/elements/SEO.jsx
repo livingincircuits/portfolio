@@ -66,7 +66,7 @@ const SEO = props => {
   }
   return (
     <Helmet>
-      <html lang="en_GB" />
+      <html lang="en-GB" />
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="image" content={image} />
@@ -77,7 +77,7 @@ const SEO = props => {
       <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
       <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
-      <meta property="og:locale" content="en_GB" />
+      <meta property="og:locale" content="en-GB" />
       <meta property="og:url" content={postSEO ? postURL : blogURL} />
       {postSEO ? <meta property="og:type" content="article" /> : null}
       <meta property="og:title" content={title} />
