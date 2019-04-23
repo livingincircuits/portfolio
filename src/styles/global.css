@@ -35,6 +35,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--colorPrimary);
+
 }
 
 @media (max-width: 767px) {
@@ -48,7 +49,7 @@ body {
 @media (min-width: 768px) {
 
   body {
-    font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 
 }

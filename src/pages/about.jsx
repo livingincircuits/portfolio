@@ -17,46 +17,50 @@ const About = () => (
 
     <section className="page-inner content">
 
-      <div className="page-content">
+      <div className="page-text">
 
-        <h2>
-          Hello World.
-        </h2>
+        <div className="page-content">
 
-        <p>
-          I'm Emily and I am a UX Researcher and multipotentialite.
-        </p>
+          <h2>
+            Hello World.
+          </h2>
 
-        <h2>
-          Knowledge & Expertise
-        </h2>
+          <p>
+            I'm Emily and I am a UX Researcher.
+          </p>
 
-        <p>
-          I have a range of skills across the digital design and development world but the below are a few:
-        </p>
+          <h2>
+            Knowledge & Expertise
+          </h2>
 
-        <ul>
-          <li>
-            User Experience &amp; Research
-          </li>
-          <li>
-            Interaction &amp; UI Design
-          </li>
-          <li>
-            Prototyping
-          </li>
-          <li>
-            HTML / CSS / JS
-          </li>
-        </ul>
+          <p>
+            I have a range of skills across the digital design and development world but the below are a few:
+          </p>
 
-        <h2>
-          Working
-        </h2>
+          <ul>
+            <li>
+              User Experience &amp; Research
+            </li>
+            <li>
+              Interaction &amp; UI Design
+            </li>
+            <li>
+              Prototyping
+            </li>
+            <li>
+              HTML / CSS / JS
+            </li>
+          </ul>
 
-        <p>
-          I am currently serving as a UX Researcher for <a href="https://skybetcareers.com/about-us">Sky Betting & Gaming</a>.
-        </p>
+          <h2>
+            Working
+          </h2>
+
+          <p>
+            I am currently serving as a UX Researcher for <a href="https://skybetcareers.com/about-us">Sky Betting & Gaming</a>.
+          </p>
+
+        </div>
 
       </div>
 

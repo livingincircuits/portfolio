@@ -4,7 +4,9 @@
 
   --colorPrimary: #3001FF; /* Blue */
   --colorSecondary: #FFF; /* White */
-  --colorTertiary: #AF01FF; /* Purple */
+  --colorTertiary: #00FADB; /* Green */
+  --colorQuaternary: #565657; /* Black */
+  --colorQuinary: #A537FD; /* Purple */
 
   --heading: 'Hind', Arial, sans-serif;
   --body: 'Inconsolata', Arial, sans-serif;

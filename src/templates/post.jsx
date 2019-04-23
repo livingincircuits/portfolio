@@ -33,9 +33,11 @@ const Post = ({ pageContext: { slug, left, right }, data: { markdownRemark: post
             </p>
         </section>
 
-        <article className="content page-content" type="article">
-          <Content input={postNode.html} />
-        </article>
+        <div className="page-text">
+          <article className="content page-content" type="article">
+            <Content input={postNode.html} />
+          </article>
+        </div>
 
         <section>
           <h3 className="heading align-central">

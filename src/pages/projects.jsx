@@ -22,6 +22,14 @@ const Projects = ({
 
     <section className="page-inner">
 
+      <div className="page-content align-central">
+
+        <p>
+          The below is a sample of work that I am able to share in the public domain.
+        </p>
+
+      </div>
+
       <div className="card-column">
         {edges.map(project => (
           <ItemProject
@@ -33,30 +41,6 @@ const Projects = ({
           />
         ))}
       </div>
-
-      <ul className="logos">
-        <li className="logos__item">
-          <img src="./logos/uoe-logo.svg" alt="University of Essex" />
-        </li>
-        <li className="logos__item">
-          <img src="./logos/uom-logo.svg" alt="University of Manchester" />
-        </li>
-        <li className="logos__item">
-          <img src="./logos/uos-logo.svg" alt="University of Sheffield" />
-        </li>
-        <li className="logos__item">
-          <img src="./logos/topman-logo.svg" alt="Topman" />
-        </li>
-        <li className="logos__item">
-          <img src="./logos/3m-logo.svg" alt="3m" />
-        </li>
-        <li className="logos__item">
-          <img src="./logos/bentley-logo.svg" alt="Bentley" />
-        </li>
-        <li className="logos__item">
-          <img src="./logos/nhs-logo.svg" alt="NHS" />
-        </li>
-      </ul>
 
     </section>
 

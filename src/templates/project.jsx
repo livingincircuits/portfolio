@@ -50,9 +50,11 @@ const Project = ({ pageContext: { slug, left, right }, data: { markdownRemark: p
           </div>
         </section>
 
-        <article className="content page-content" type="article">
-          <Content input={postNode.html} />
-        </article>
+        <div className="page-text">
+          <article className="content page-content" type="article">
+            <Content input={postNode.html} />
+          </article>
+        </div>
 
         <section>
           <h3 className="heading align-central">
