@@ -10,7 +10,7 @@ const Navigation = () => (
     <div className="inner">
 
       <a href="/" className="link">
-        <img src="../me.jpg" className="round" alt="Emily Young" width="60" height="60" />
+        <img src="/me.jpg" className="round" alt="Emily Young" width="60" height="60" />
       </a>
 
       <nav className="nav">

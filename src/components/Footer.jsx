@@ -8,7 +8,7 @@ const Footer = ({ children }) => {
       <div className="page-inner">
 
         <p>
-           <img src="../cute-cat.gif" alt="Cat" width="30" /> Crafted by Emily Young
+           <img src="/cute-cat.gif" alt="Cat" width="30" /> Crafted by Emily Young
         </p>
 
         <p>
