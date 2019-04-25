@@ -77,4 +77,4 @@ For the final two labs, we concentrated on usability and our user flow. With fan
 
 I presented the user lab interviews at Sky Betting & Gamings ahead of the game customer takeover day to highlight the importance of lab testing for this project.
 
-Sky Bingo saw game launches increasing by 22% in its first few weeks and hit over £1m in stakes in under a month of being launched.
+Sky Bingo saw game launches increasing by 22% in its first few weeks and hit a huge milestone in stakes in under a month of being launched.
