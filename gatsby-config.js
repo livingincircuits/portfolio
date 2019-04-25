@@ -55,18 +55,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: config.siteTitle,
-        short_name: config.siteShortName,
-        description: config.siteDescription,
-        start_url: config.pathPrefix,
-        background_color: config.backgroundColor,
-        theme_color: config.themeColor,
-        display: 'fullscreen',
-      },
-    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-lodash',
   ],

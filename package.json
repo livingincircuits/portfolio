@@ -15,7 +15,6 @@
     "gatsby-plugin-google-analytics": "^2.0.0-beta.2",
     "gatsby-plugin-hotjar": "^1.0.1",
     "gatsby-plugin-lodash": "^3.0.1-beta.2",
-    "gatsby-plugin-manifest": "^2.0.2-beta.2",
     "gatsby-plugin-react-helmet": "^3.0.0-beta.2",
     "gatsby-plugin-sharp": "^2.0.0-beta.2",
     "gatsby-plugin-sitemap": "^2.0.0-beta.2",
@@ -41,7 +40,7 @@
     "gh-pages": "^2.0.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "dev": "gatsby develop -o",
     "build": "gatsby build",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
