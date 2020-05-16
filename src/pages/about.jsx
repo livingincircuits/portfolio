@@ -1,7 +1,7 @@
 /* eslint max-len: 0 */
 
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { Container, Layout } from 'elements';
 import Header from '../components/Header';
 import config from '../../config/website';
@@ -57,7 +57,7 @@ const About = () => (
           </h2>
 
           <p>
-            I am currently serving as a UX Researcher for <a href="https://skybetcareers.com/about-us">Sky Betting & Gaming</a>.
+            I am currently serving as a Senior UX Researcher for <a href="https://skybetcareers.com/about-us">Sky Betting & Gaming</a>.
           </p>
 
         </div>

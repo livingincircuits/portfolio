@@ -1,7 +1,7 @@
 /* eslint max-len: 0 */
 
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import { Layout } from 'elements';
@@ -31,6 +31,9 @@ const Index = ({
         <p>
           A UX Researcher who loves to create clean, simple & inclusive experiences for everyone.
           I enjoy creating something simple from a complex problem and love creating human experiences on the web.
+        </p>
+        <p>
+          I use various research methods from surveys, to interviews and user testing, to gather insights from users in order to find solutions that will help improve products for customers.
         </p>
 
       </div>

@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import kebabCase from 'lodash/kebabCase';
 import size from 'lodash/size';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { Layout } from 'elements';
 import config from '../../config/website';
 import Header from '../components/Header';
