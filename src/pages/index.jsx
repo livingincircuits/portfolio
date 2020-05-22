@@ -33,7 +33,8 @@ const Index = ({
           I enjoy creating something simple from a complex problem and love creating human experiences on the web.
         </p>
         <p>
-          I use various research methods from surveys, to interviews and user testing, to gather insights from users in order to find solutions that will help improve products for customers.
+          I use various research methods from surveys, to interviews and user testing, to gather insights from users
+          in order to find solutions that will help improve products for everyone.
         </p>
 
       </div>

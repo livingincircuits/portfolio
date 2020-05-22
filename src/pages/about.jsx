@@ -39,13 +39,10 @@ const About = () => (
 
           <ul>
             <li>
-              User Experience &amp; Research
+              User Experience &amp; Design Research
             </li>
             <li>
-              Interaction &amp; UI Design
-            </li>
-            <li>
-              Prototyping
+              Prototyping &amp; Interaction
             </li>
             <li>
               HTML / CSS / JS
@@ -57,7 +54,7 @@ const About = () => (
           </h2>
 
           <p>
-            I am currently serving as a Senior UX Researcher for <a href="https://skybetcareers.com/about-us">Sky Betting & Gaming</a>.
+            I am currently serving as a Senior UX Researcher for <a href="https://www.skybetcareers.com/">Sky Betting & Gaming</a>.
           </p>
 
         </div>
