@@ -26,7 +26,11 @@ const About = () => (
           </h2>
 
           <p>
-            I'm Emily and I am a UX Researcher.
+            I'm Emily and I am a User Researcher.
+          </p>
+          <p>
+            I use various research methods from surveys, to interviews and user testing, to gather insights from users
+            in order to find solutions that will help improve products for everyone.
           </p>
 
           <h2>
@@ -54,7 +58,7 @@ const About = () => (
           </h2>
 
           <p>
-            I am currently serving as a Senior UX Researcher for <a href="https://www.skybetcareers.com/">Sky Betting & Gaming</a>.
+            I am currently serving as a Lead UX Researcher for <a href="https://www.skybetcareers.com/">Sky Betting & Gaming</a>.
           </p>
 
         </div>

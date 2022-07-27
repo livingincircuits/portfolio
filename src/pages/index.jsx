@@ -29,12 +29,12 @@ const Index = ({
       <div className="page-content align-central">
 
         <p>
-          A UX Researcher who loves to create clean, simple & inclusive experiences for everyone.
+          A User Researcher who loves to create clean, simple & inclusive experiences for everyone.
           I enjoy creating something simple from a complex problem and love creating human experiences on the web.
         </p>
         <p>
-          I use various research methods from surveys, to interviews and user testing, to gather insights from users
-          in order to find solutions that will help improve products for everyone.
+          I’ve spearheaded the implementation of UX research and have more than 5 years of experience presenting insights
+           to diverse stakeholders (C-suite and senior stakekeholders including Product Managers, Designers, Engineers, & Marketers).
         </p>
 
       </div>
