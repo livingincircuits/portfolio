@@ -2,9 +2,9 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
-[![Depfu](https://badges.depfu.com/badges/8e038d781d5d5ea4c2be016401319803/status.svg)](https://livingincircuits.co.uk/)
-[![Depfu](https://badges.depfu.com/badges/8e038d781d5d5ea4c2be016401319803/overview.svg)](https://depfu.com/repos/github/livingincircuits/portfolio)
-[![Depfu](https://badges.depfu.com/badges/8e038d781d5d5ea4c2be016401319803/count.svg)](https://depfu.com/repos/github/livingincircuits/portfolio)
+[![Depfu](https://badges.depfu.com/badges/98a7a1d84c86a38af5acb58afe50cc0d/status.svg)](https://depfu.com)
+[![Depfu](https://badges.depfu.com/badges/98a7a1d84c86a38af5acb58afe50cc0d/overview.svg)](https://depfu.com/github/livingincircuits/portfolio?project_id=36207)
+[![Depfu](https://badges.depfu.com/badges/98a7a1d84c86a38af5acb58afe50cc0d/count.svg)](https://depfu.com/github/livingincircuits/portfolio?project_id=36207)
 
 ## What is this?
 
