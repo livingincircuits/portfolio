@@ -10,7 +10,6 @@ module.exports = {
   /* Plugins */
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-arengu-forms',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
