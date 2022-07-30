@@ -33,7 +33,7 @@ const Index = ({
           I enjoy creating something simple from a complex problem and love creating human experiences on the web.
         </p>
         <p>
-          I’ve spearheaded the implementation of UX research and have more than 5 years of experience presenting insights
+          I’ve influenced the implementation of UX research in many teams and have more than 6 years of experience presenting insights
            to diverse stakeholders (C-suite and senior stakekeholders including Product Managers, Designers, Engineers, & Marketers).
         </p>
 
