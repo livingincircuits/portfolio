@@ -1,8 +1,10 @@
-# Portfolio Yo
+# Portfolio
 
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
-[![Dependency Status](https://david-dm.org/livingincircuits/portfolio.svg)](https://david-dm.org/livingincircuits/portfolio)
+[![Depfu](https://badges.depfu.com/badges/8e038d781d5d5ea4c2be016401319803/status.svg)](https://livingincircuits.co.uk/)
+[![Depfu](https://badges.depfu.com/badges/8e038d781d5d5ea4c2be016401319803/overview.svg)](https://depfu.com/repos/github/livingincircuits/portfolio)
+[![Depfu](https://badges.depfu.com/badges/8e038d781d5d5ea4c2be016401319803/count.svg)](https://depfu.com/repos/github/livingincircuits/portfolio)
 
 ## What is this?
 
