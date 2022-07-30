@@ -30,7 +30,7 @@ const Index = ({
 
         <p>
           A User Researcher who loves to create clean, simple & inclusive experiences for everyone.
-          I enjoy creating something simple from a complex problem and love creating human experiences on the web.
+          I enjoy creating something simple from a complex problem and love creating delightful digital human experiences.
         </p>
         <p>
           I’ve influenced the implementation of UX research in many teams and have more than 6 years of experience presenting insights

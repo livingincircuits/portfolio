@@ -7,7 +7,7 @@ date: "2019-02-20"
 task: "UX Researcher"
 company: "Developed for Sky Bingo"
 activities: "Stakeholder Interviews, User Interviews, Lab Testing, Benchmarking, User Flows, Usability, Prototypes"
-time: "2019"
+when: "2019"
 ---
 
 ## Overview

@@ -7,7 +7,7 @@ date: "2017-10-01"
 task: "User Research, UX Design, Visual Design"
 company: "Developed at Uber Agency"
 activities: "Competitive Analysis, Personas, User Flows, Wireframes, Interface, Prototype, Style Guide"
-time: "2016"
+when: "2016"
 ---
 
 ## Overview

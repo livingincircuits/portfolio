@@ -7,7 +7,7 @@ date: "2018-06-18"
 task: "User Research, UX Design, UI Design"
 company: "Developed for Sky Bet Italia"
 activities: "Stakeholder Interviews, User Flows, User Journey Mapping, Usability Testing, Remote Testing, UX Design, Prototyping"
-time: "2018"
+when: "2018"
 ---
 
 ## Overview

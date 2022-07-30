@@ -32,8 +32,8 @@ const Project = ({ pageContext: { slug, left, right }, data: { markdownRemark: p
             {post.task}
           </li>
           <li className="project__meta-item">
-            <h1>Team</h1>
-            {post.company}
+            <h1>When</h1>
+            {post.when}
           </li>
         </ul>
 
@@ -91,6 +91,7 @@ export const pageQuery = graphql`
         task
         company
         activities
+        when
         cover {
           childImageSharp {
             fluid(maxWidth: 1920, quality: 90) {
