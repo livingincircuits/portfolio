@@ -11,7 +11,7 @@ module.exports = {
   siteUrl: 'https://livingincircuits.co.uk',
   pathPrefix: '/',
   siteDescription:
-    'Emily Young is a UX Researcher from Yorkshire who loves to create clean, simple and inclusive experiences',
+    'Emily Young is a User Researcher from Yorkshire who loves to create clean, simple and inclusive experiences',
   // IDs
   googleAnalyticsID: 'UA-100446901-1',
 };

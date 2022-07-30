@@ -24,4 +24,4 @@ Publish gh-pages branch: `yarn run deploy`
 
 
 ## NVM
-Install NVM and `nvm install 10.13.0`
+Install NVM and `nvm install 16.16.0`

@@ -522,6 +522,15 @@ a.active {
   color: var(--colorPrimary);
 }
 
+@media (min-width: 2320px) {
+
+  .card__project {
+    font-size: 20px;
+    bottom: .5%;
+  }
+
+}
+
 .card__img {
   transition: all 0.2s ease;
 }
