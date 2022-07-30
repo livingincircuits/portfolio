@@ -19,6 +19,9 @@ const Navigation = () => (
             <Link to="/about">About</Link>
           </li>
           <li className="item">
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className="item">
             <Link to="/blog">Writing</Link>
           </li>
         </ul>

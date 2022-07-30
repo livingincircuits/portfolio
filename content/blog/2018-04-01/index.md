@@ -1,6 +1,6 @@
 ---
 title: "Cognitive Walkthrough"
-date: "2018-04-01"
+date: "2020-04-01"
 category: "User Experience"
 ---
 

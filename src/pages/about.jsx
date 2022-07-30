@@ -29,8 +29,11 @@ const About = () => (
             I'm Emily and I am a User Researcher.
           </p>
           <p>
-            I use various research methods from surveys, to interviews and user testing, to gather insights from users
-            in order to find solutions that will help improve products for everyone.
+            I started my career some 15 years ago as a marketing and research analyst and have found myself working in marketing, tech and product.
+          </p>
+          <p>
+            I use various user research methods throughout the full product lifecycle from surveys, to interviews and user testing, in order to gather insights from users
+            and find solutions that will help improve products for everyone.
           </p>
 
           <h2>
@@ -43,13 +46,16 @@ const About = () => (
 
           <ul>
             <li>
+              User Research
+            </li>
+            <li>
               User Experience &amp; Design Research
             </li>
             <li>
               Prototyping &amp; Interaction
             </li>
             <li>
-              HTML / CSS / JS
+              Front End Development
             </li>
           </ul>
 

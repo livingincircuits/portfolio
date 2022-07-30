@@ -13,8 +13,8 @@ const Blog = ({
   },
 }) => (
   <Layout>
-    <Helmet title={`Blog | ${config.siteTitle}`} />
-    <Header title="Blog">Blog</Header>
+    <Helmet title={`Writing | ${config.siteTitle}`} />
+    <Header title="Writing">Writing</Header>
     <section className="page-inner">
       <div className="post-block post-block--full">
         {edges.map(post => (
