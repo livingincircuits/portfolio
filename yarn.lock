@@ -6268,11 +6268,6 @@ gatsby-page-utils@^0.2.2:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-arengu-forms@^1.0.2:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-arengu-forms/-/gatsby-plugin-arengu-forms-1.0.1.tgz#8d1bb5b1db46f13d59fa26b1c6e836ebe13ac649"
-  integrity sha512-atDG82qJ7VkGFh6ZVO+V5944ufbk/PqDSWK3Jr4yLB/HqFIMAbcsMTabhQ6zwn3dpuB8Ebk4J5RVjsE9VBuP8g==
-
 gatsby-plugin-google-analytics@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.3.1.tgz#c86a4c9c31a3ad51123cbf1508e629072a7e1c5a"
