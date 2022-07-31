@@ -46,7 +46,7 @@ const Index = ({
           Featured Work
         </h2>
 
-        <div className="card-column">
+        <div className="card-column featured-card">
           {projectEdges.map(project => (
             <FeaturedProject
               key={project.node.frontmatter.title}
@@ -97,7 +97,7 @@ Index.propTypes = {
 export const pageQuery = graphql`
   query IndexQuery {
     projects: allMarkdownRemark(
-      limit: 3
+      limit: 2
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { fields: { sourceInstanceName: { eq: "projects" } } }
     ) {

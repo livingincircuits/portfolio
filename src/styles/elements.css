@@ -460,10 +460,22 @@
   margin: 0 0 5% 0;
 }
 
+.featured-card {
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
 @media (max-width: 845px) {
 
   .card-column {
     grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+
+}
+
+@media (max-width: 580px) {
+
+  .card-column {
+    grid-template-columns: repeat(1,minmax(0,1fr));
   }
 
 }
