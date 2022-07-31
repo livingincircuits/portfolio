@@ -28,7 +28,7 @@ A lot of our research activities from this point were in the form of validation 
 
 <figure class="figure">
   <img src="./sb-analysis.png">
-  <figcaption>User Testing Analysis Results</figcaption>
+  <figcaption>One of the many User Testing analysis sheets</figcaption>
 </figure>
 
 ## Process
@@ -53,27 +53,7 @@ For the final two labs, we concentrated on usability and our user flow. With fan
 
 </section>
 
-<!--
-<figure class="figure">
-  <img src="./">
-  <figcaption>User Testing Analysis Report Dashboard</figcaption>
-</figure>
-
-<section class="figure-container">
-
-  <figure class="figure figure__double">
-    <img src="./">
-    <figcaption>Stickies of lab observations</figcaption>
-  </figure>
-
-  <figure class="figure figure__double">
-    <img src="./">
-    <figcaption>Affinity Diagram stickies of lab analysis</figcaption>
-  </figure>
-
-</section>-->
-
-## Final Thoughts
+## Results & Highlights
 
 I presented the user lab interviews at Sky Betting & Gamings ahead of the game customer takeover day to highlight the importance of lab testing for this project.
 

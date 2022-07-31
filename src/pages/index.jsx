@@ -9,6 +9,7 @@ import Img from 'gatsby-image';
 import Header from '../components/Header';
 import config from '../../config/website';
 import FeaturedPost from '../components/FeaturedPost';
+import FeaturedProject from '../components/FeaturedProject';
 
 const Index = ({
   data: {
@@ -18,7 +19,7 @@ const Index = ({
 }) => (
   <Layout>
 
-    <Helmet title={`Emily Young | ${config.siteTitle}`} />
+    <Helmet title={`${config.siteTitle}`} />
 
     <Header title="Emily Young">
       Emily Young
@@ -33,7 +34,7 @@ const Index = ({
           I enjoy creating something simple from a complex problem and love creating delightful digital human experiences.
         </p>
         <p>
-          I’ve influenced the implementation of UX research in many teams and have more than 6 years of experience presenting insights
+          I’ve influenced the implementation of UX research in many teams and have more than 7 years of experience presenting insights
            to diverse stakeholders (C-suite and senior stakekeholders including Product Managers, Designers, Engineers, & Marketers).
         </p>
 
@@ -41,23 +42,39 @@ const Index = ({
 
       <div className="page-content align-central">
 
-        <h2>
-          Blog Posts
+        <h2 className="content">
+          Featured Work
         </h2>
 
-      </div>
+        <div className="card-column">
+          {projectEdges.map(project => (
+            <FeaturedProject
+              key={project.node.frontmatter.title}
+              cover={project.node.frontmatter.cover.childImageSharp.fluid}
+              customer={project.node.frontmatter.customer}
+              path={project.node.fields.slug}
+              title={project.node.frontmatter.title}
+            />
+          ))}
+        </div>
 
-      <div className="post-block post-block--half">
-        {postEdges.map(post => (
-          <FeaturedPost
-            key={post.node.frontmatter.title}
-            date={post.node.frontmatter.date}
-            path={post.node.fields.slug}
-            title={post.node.frontmatter.title}
-            category={post.node.frontmatter.category}
-          />
-        ))}
-      </div>
+        <h2 className="content">
+          Featured Writing
+        </h2>
+
+        <div className="post-block post-block--half">
+          {postEdges.map(post => (
+            <FeaturedPost
+              key={post.node.frontmatter.title}
+              date={post.node.frontmatter.date}
+              path={post.node.fields.slug}
+              title={post.node.frontmatter.title}
+              category={post.node.frontmatter.category}
+            />
+          ))}
+        </div>
+
+        </div>
 
     </section>
 
@@ -80,7 +97,7 @@ Index.propTypes = {
 export const pageQuery = graphql`
   query IndexQuery {
     projects: allMarkdownRemark(
-      limit: 2
+      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { fields: { sourceInstanceName: { eq: "projects" } } }
     ) {

@@ -16,8 +16,8 @@ const Projects = ({
 
     <Helmet title={`Projects | ${config.siteTitle}`} />
 
-    <Header title="Projects">
-      Projects
+    <Header title="Work">
+      Work
     </Header>
 
     <section className="page-inner">

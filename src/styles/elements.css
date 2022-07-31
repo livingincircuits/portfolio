@@ -81,7 +81,7 @@
 .page-content {
   position: relative;
   z-index: 2;
-  padding: 5% 10%;
+  padding: 3% 10% 2% 10%;
 }
 
 @media (min-width: 769px) {
@@ -229,7 +229,8 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
-a.active {
+.item a.active {
+  color: var(--colorTertiary);
   padding: .1em .2em;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
 }
@@ -450,27 +451,19 @@ a.active {
  ************************************************/
 
 .card-column {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-auto-rows: min-content;
   width: 100%;
-  margin: 3% 0 5% 0;
+  margin: 0 0 5% 0;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 845px) {
 
   .card-column {
-    display: block;
-  }
-
-}
-
-@media (min-width: 580px) {
-
-  .card:first-child {
-    margin-right: 1%;
-  }
-
-  .card:last-child {
-    margin-left: 1%;
+    grid-template-columns: repeat(2,minmax(0,1fr));
   }
 
 }
@@ -478,7 +471,6 @@ a.active {
 .card {
   position: relative;
   overflow: hidden;
-  width: 50%;
   border: 3px solid var(--colorSecondary);
   background-color: var(--colorSecondary);
   border-radius: 5px;
@@ -615,10 +607,11 @@ a.active {
 
 .callout {
   width: 100%;
-  padding: 2% 5%;
+  padding: 0 5%;
   text-align: center;
-  color: var(--colorPrimary);
-  background-color: var(--colorTertiary);
+  color: var(--colorSecondary);
+  background-color: var(--colorPrimary);
+  border-top: 2px solid var(--colorSecondary);
 }
 
 .callout__title {

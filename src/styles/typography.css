@@ -11,6 +11,13 @@
   line-height: 1.2;
 }
 
+h1.content,
+h2.content,
+h3.content {
+  margin: .8em 0 .8em 0;
+}
+
+
 @media (max-width: 767px) {
 
   .content h1 {
