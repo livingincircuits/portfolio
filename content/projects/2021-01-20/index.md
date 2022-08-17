@@ -6,7 +6,7 @@ landscape: "./v-landscape.jpg"
 date: "2021-01-20"
 task: "Senior UX Researcher"
 company: "Developed for Sky Vegas"
-activities: "Workshops, Discovery Research, User Interviews, Lab Testing, Benchmarking, Usability Testing"
+activities: "Workshops, Discovery Research, User Interviews, Lab Testing, Usability Testing"
 when: "2021"
 ---
 

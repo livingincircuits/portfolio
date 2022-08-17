@@ -636,12 +636,21 @@
  ************************************************/
 
 .figure-container {
-  width: 100%;
-  overflow: hidden;
+  display:  flex;
+}
+
+@media (max-width: 1300px) {
+
+  .figure-container {
+    display: block;
+  }
+
 }
 
 .figure {
+  width: 100%;
   margin: 0;
+  position: relative;
 }
 
 .figure span {
@@ -660,19 +669,13 @@
   font-style: italic;
 }
 
-.figure__double {
-  width: 49%;
-  float: left;
-}
-
-.figure__double:first-child {
+.figure:first-child {
   margin-right: 1%;
 }
 
-.figure__double:last-child {
+.figure:last-child {
   margin-left: 1%;
 }
-
 /*************************************************
   Button
  ************************************************/
