@@ -31,7 +31,7 @@ A lot of our research activities from this point were in the form of validation 
   <figcaption>One of the many User Testing analysis sheets</figcaption>
 </figure>
 
-## Process
+## Next Steps
 
 Based on our validation lab sessions, we created reports to steer the direction of the design and quickly iterate to hit a tight deadline. We worked within an agile team so had to leverage remote testing on top of monthly lab sessions so that we could learn quickly and move fast.
 

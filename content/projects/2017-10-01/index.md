@@ -43,7 +43,7 @@ User stories were created by the development team that mapped the current perfec
 
 We then reviewed the websites current data to learn the current user flow and make amendments and add improvements to our user stories.
 
-## Process
+## Next Steps
 Based on user research, we created personas and mapped out each persona’s perfect journey, including making a note of each touchpoint to their final objective.
 
 <section class="figure-container">

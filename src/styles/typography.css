@@ -134,8 +134,10 @@ h3.content {
 
 .content blockquote {
   margin: 1.5em 0;
-  padding: 0 1em;
-  border-left: 3px solid var(--colorSecondary);
+  padding: 1em;
+  border-left: 20px solid var(--colorTertiary);
+  background-color: var(--colorPrimary);
+  color: var(--colorSecondary);
 }
 
 .content blockquote p {

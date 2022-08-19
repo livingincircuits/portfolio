@@ -38,7 +38,7 @@ Keeping track of bets and then cashing out was the route we explored in more det
   <figcaption>Early journey map for one of the personas</figcaption>
 </figure>
 
-## Process
+## Next Steps
 
 Based on user research, we created a series of user journey maps using our personas. These maps went through many iterations as we continued to conduct more research and refine our user flow.
 
