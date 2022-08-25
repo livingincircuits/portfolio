@@ -24,7 +24,7 @@ We needed to grow our team to better service the business and we needed to equip
 
 ## Measuring Maturity
 
-I used the maturity model developed by Userzoom to provide our pillars and will help us measure where we are over the next three years.
+I used the maturity model developed by Userzoom to provide our pillars and this will help us measure where we are over the next three years.
 
 This model is focused on UX Research specifically and has been tested with many organisations and industries to give us a real assessment and view of where we are and where we need to get and allows us to measure our progress.
 
@@ -43,7 +43,7 @@ A lot of the work that goes into running good UX research is invisible and goes 
 
 ### Scale and speed up our operations - We want to scale up our research, so we are gathering insights based on evidence whilst speeding up our more tactical activities such as validation
 
-If we are going to move up the maturity model and be leading, we need a framework around our work that is: 
+If we are going to move up the maturity model and be leading, we need a framework around our work that is:
 * Reusable
 * Structured
 * Scalable
@@ -83,4 +83,4 @@ This will put us in a strong position where we can identify where there may be p
 
 ## Results
 
-We presented the strategy to the leadership team and was very well received. Alot of what is in this strategy has been implemented successfully.
+We presented the strategy to the leadership team and was very well received. A lot of what is in this strategy has been implemented successfully.

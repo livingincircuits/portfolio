@@ -16,7 +16,7 @@ Following multiple forms of customer engagement during a promotion discovery pro
 
 ### The Challenge
 
-Our hypothesis based on past research was around delivering a compellingly different promotion experience that would increase in week on week retention and we would know we’ve been successful when we see a 3% increase in week on week retention as a result of running this new promotion.
+Our hypothesis based on past research was around delivering a compellingly different promotion experience that would increase in week-on-week retention and we would know we’ve been successful when we see a 3% increase in week on week retention as a result of running this new promotion.
 
 ### Research
 
@@ -31,7 +31,7 @@ The activities we utilised included:
 
 #### Interviews
 
-We ran in-depth 1-on-1 interviews talking to participants and asking them questions about their behaviors, beliefs, and habits around promotions looking to uncover their unmet needs.
+We ran in-depth 1-on-1 interviews talking to participants and asking them questions about their behaviour’s, beliefs, and habits around promotions looking to uncover their unmet needs.
 
 We heard about their current promotional requirements and what promotions they have played and what they are playing now. We didn’t just stick with gambling related promotions. We were interested in other forms too.
 
@@ -58,9 +58,9 @@ We then brought together what we had learned to build an empathy map.
 
 #### Stack Ranking
 
-Customer problem stack ranking tells you how important an concept is compared to the other problems the target customers experience. It's a simple data-driven approach to understand whether an concept solves a burning pain point or just a mild inconvenience.
+Customer problem stack ranking tells you how important a concept is compared to the other problems the target customers experience. It's a simple data-driven approach to understand whether a concept solves a burning pain point or just a mild inconvenience.
 
-Based on what we had learned during the interviews and participatory design, we built up a problem statement and gathered together other problem statements.
+Based on what we had learned during the interviews and participatory design, we built up a problem statement and gathered other problem statements to rank.
 
 We did this at scale to validate the need and learnings from the stack ranking validated the basic concept of this new promotion we were looking to create.
 
@@ -71,7 +71,7 @@ These concepts were then brought to life visually very quickly in order to get t
 
 #### Iterative Concept Testing
 
-We then put our early-stage ideas in front of users to determine which direction the team should go in or whether or not we were going in the right direction. Our aim was to test risky concepts early and iteratively.
+We then put our early-stage ideas in front of users to determine which direction the team should go in or whether we were going in the right direction. Our aim was to test risky concepts early and iteratively.
 
 We were looking for: 
 * Desirability – Uncover emotive responses and how desirable they find it
@@ -98,4 +98,4 @@ One of the ideas performed well and went into development and was remarked as be
 
 Innovation on this project also saw UXR grow in influence within the company.
 
-The strategic impact was also a success and a directional impact has led to decision making around promotions which will have a longer shelf life than just the one promotion that has been built.
+The strategic impact was also a success, and a directional impact has led to decision making around promotions which will have a longer shelf life than just the one promotion that has been built.

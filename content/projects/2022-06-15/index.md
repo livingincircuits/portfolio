@@ -20,11 +20,11 @@ The purpose of the Watchparty is to playback recent testing or research with cus
 
 ## The Challenge
 
-UX Research at its core is the practice of studying user interactions to help with the design of people-first products and experiences but everyone is busy and reports are long.
+UX Research at its core is the practice of studying user interactions to help with the design of people-first products and experiences but everyone is busy, and reports are long.
 
 What better way to build a user centred culture than to observe our customers and synthesise what we learn.
 
-For two hours, we turned product designers and product managers into UX Researchers and they took part in observation and synthesis.
+For two hours, we turned product designers and product managers into UX Researchers, and they took part in observation and synthesis.
 
 <section class="figure-container">
 
@@ -42,9 +42,9 @@ For two hours, we turned product designers and product managers into UX Research
 
 ## Process
 
-For the first watchparty we used usability benchmark videos for Sky Vegas as it showcased many journeys and interactions. 
+For the first watchparty we used usability benchmark videos for one of our products as it showcased many journeys and interactions. 
 
-The aggenda for the workshop:
+The agenda for the workshop:
 * Get settled in
 * Intro to the watch party
 * Grab the popcorn and watch some videos
