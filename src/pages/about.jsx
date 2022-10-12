@@ -64,7 +64,7 @@ const About = () => (
           </h2>
 
           <p>
-            I am currently serving as a Lead UX Researcher for <a href="https://www.skybetcareers.com/">Sky Betting & Gaming</a>.
+            I am currently serving as a Senior Lead UX Researcher for <a href="https://lifeworks.com/en">Lifeworks</a>.
           </p>
 
         </div>

@@ -24,7 +24,7 @@ We needed to grow our team to better service the business and we needed to equip
 
 ## Measuring Maturity
 
-I used the maturity model developed by Userzoom to provide our pillars and this will help us measure where we are over the next three years.
+I used a maturity model to provide our pillars and this will help us measure where we are over the next three years.
 
 This model is focused on UX Research specifically and has been tested with many organisations and industries to give us a real assessment and view of where we are and where we need to get and allows us to measure our progress.
 
@@ -59,27 +59,6 @@ An insights framework will allow us to:
 We want to be able to find out the what by collecting objective on-site metrics showing us how our users behave. We can discover the why by following up and collecting richer, descriptive data which tells us why users are behaving in that way. 
 
 This will put us in a strong position where we can identify where there may be pain points within user journeys, why users experience these pain points and how it might affect their experience. 
-
-## Each pillar is a mountain to climb and has it's own unique set of objectives to reach.
-
-<section class="figure-container">
-
-  <figure class="figure">
-    <img src="./1.png">
-    <figcaption>Pillar for Create a UX research culture</figcaption>
-  </figure>
-
-  <figure class="figure">
-    <img src="./2.png">
-    <figcaption>Pillar for Scale and speed up our operations</figcaption>
-  </figure>
-
-  <figure class="figure">
-    <img src="./3.png">
-    <figcaption>Pillar for Democratise user understanding</figcaption>
-  </figure>
-
-</section>
 
 ## Results
 
