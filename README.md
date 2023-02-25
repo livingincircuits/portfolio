@@ -14,6 +14,7 @@ It uses [Gatsby](https://github.com/gatsbyjs/gatsby) which is a blazing fast Rea
 
 ## Install
 `nvm install 18.0.0`
+`nvm use 18.0.0`
 `yarn`
 
 ## Run
