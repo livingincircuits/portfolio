@@ -98,8 +98,8 @@ export const pageQuery = graphql`
   query IndexQuery {
     projects: allMarkdownRemark(
       limit: 2
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { sourceInstanceName: { eq: "projects" } } }
+      sort: {frontmatter: {date: DESC}}
+      filter: {fields: {sourceInstanceName: {eq: "projects"}}}
     ) {
       edges {
         node {
@@ -111,7 +111,7 @@ export const pageQuery = graphql`
             title
             cover {
               childImageSharp {
-                fluid(maxWidth: 1000, quality: 90, traceSVG: { color: "#2B2B2F" }) {
+                fluid(maxWidth: 1000, quality: 90, traceSVG: {color: "#2B2B2F"}) {    
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -122,8 +122,8 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       limit: 2
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { sourceInstanceName: { eq: "blog" } } }
+      sort: {frontmatter: {date: DESC}}
+      filter: {fields: {sourceInstanceName: {eq: "blog"}}}
     ) {
       edges {
         node {

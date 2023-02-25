@@ -46,8 +46,8 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(`
         {
           posts: allMarkdownRemark(
-            filter: { fields: { sourceInstanceName: { eq: "blog" } } }
-            sort: { fields: [frontmatter___date], order: DESC }
+            filter: {fields: {sourceInstanceName: {eq: "blog"}}}
+            sort: {frontmatter: {date: DESC}}
           ) {
             edges {
               node {
@@ -62,8 +62,8 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
           projects: allMarkdownRemark(
-            filter: { fields: { sourceInstanceName: { eq: "projects" } } }
-            sort: { fields: [frontmatter___date], order: DESC }
+            filter: {fields: {sourceInstanceName: {eq: "projects"}}}
+            sort: {frontmatter: {date: DESC}}
           ) {
             edges {
               node {

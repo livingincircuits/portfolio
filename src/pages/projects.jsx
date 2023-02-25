@@ -61,8 +61,8 @@ export const pageQuery = graphql`
   query ProjectsQuery {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { sourceInstanceName: { eq: "projects" } } }
+      sort: {frontmatter: {date: DESC}}
+      filter: {fields: {sourceInstanceName: {eq: "projects"}}}
     ) {
       edges {
         node {

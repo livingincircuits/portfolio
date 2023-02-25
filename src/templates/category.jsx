@@ -64,11 +64,12 @@ Category.propTypes = {
 };
 
 export const pageQuery = graphql`
+
   query CategoryPage($category: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { eq: $category } } }
+      sort: {frontmatter: {date: DESC}}
+      filter: {frontmatter: {category: {eq: $category}}}
     ) {
       totalCount
       edges {
@@ -87,4 +88,5 @@ export const pageQuery = graphql`
       }
     }
   }
+
 `;
