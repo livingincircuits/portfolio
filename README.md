@@ -13,7 +13,7 @@ This is my [personal portfolio and blog](http://www.livingincircuits.co.uk).
 It uses [Gatsby](https://github.com/gatsbyjs/gatsby) which is a blazing fast React.js static site generator :sparkles:
 
 ## Install
-`nvm install 16.16.0`
+`nvm install 18.0.0`
 `yarn`
 
 ## Run
