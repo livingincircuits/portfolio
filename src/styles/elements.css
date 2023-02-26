@@ -344,8 +344,6 @@
 }
 
 .post-block__title {
-  border-top: 1px solid currentColor;
-  padding-top: .5em;
   transition: color 500ms;
   font-size: calc(17px + 6 * ((100vw - 320px) / 680));
 }
@@ -355,6 +353,8 @@
 }
 
 .post-block__date {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: .5em;
   margin: 0;
   transition: color 500ms;
   font-size: calc(12px + 6 * ((100vw - 320px) / 680));
@@ -362,6 +362,8 @@
 
 .post-block--half .post-block__date {
   font-size: calc(12px + 2 * ((100vw - 320px) / 680));
+  border: 0;
+  padding: 0;
 }
 
 .post-block__text {
