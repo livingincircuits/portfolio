@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Container, Layout } from 'elements';
+import { Layout } from 'elements';
 import Header from '../components/Header';
 import config from '../../config/website';
 
