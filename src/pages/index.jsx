@@ -121,7 +121,7 @@ export const pageQuery = graphql`
       }
     }
     posts: allMarkdownRemark(
-      limit: 2
+      limit: 3
       sort: {frontmatter: {date: DESC}}
       filter: {fields: {sourceInstanceName: {eq: "blog"}}}
     ) {

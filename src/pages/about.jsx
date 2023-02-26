@@ -29,7 +29,7 @@ const About = () => (
             I'm Emily and I am a User Researcher.
           </p>
           <p>
-            I started my career some 15 years ago as a marketing and research analyst and have found myself working in marketing, tech and product.
+            I started my career some 15 years ago as a marketing and research analyst and developed a love of software engineering. I have found myself working in marketing, tech and product.
           </p>
           <p>
             I use various user research methods throughout the full product lifecycle from surveys, to interviews and user testing, in order to gather insights from users
@@ -64,7 +64,7 @@ const About = () => (
           </h2>
 
           <p>
-            I am currently serving as a Senior Lead UX Researcher for <a href="https://lifeworks.com/en">Lifeworks</a>.
+            I am currently serving as a Senior Lead UX Researcher for <a href="https://lifeworks.com/en">Telus Health</a>.
           </p>
 
         </div>

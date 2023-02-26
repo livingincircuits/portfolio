@@ -96,8 +96,6 @@
 .page-text {
   position: relative;
   padding: 1% 2%;
-  color: var(--colorQuaternary);
-  background-color: var(--colorSecondary);
 }
 
 .page-text:before,
@@ -352,10 +350,18 @@
   font-size: calc(17px + 6 * ((100vw - 320px) / 680));
 }
 
+.post-block--half .post-block__title {
+  font-size: calc(16px + 2 * ((100vw - 320px) / 680));
+}
+
 .post-block__date {
   margin: 0;
   transition: color 500ms;
   font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+}
+
+.post-block--half .post-block__date {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 680));
 }
 
 .post-block__text {
