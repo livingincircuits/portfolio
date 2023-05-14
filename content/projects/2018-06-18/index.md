@@ -1,8 +1,6 @@
 ---
 customer: "Sky Betting & Gaming"
 title: "Sky Bet Italia"
-cover: "./it-screen.jpg"
-landscape: "./it-landscape.jpg"
 date: "2018-06-18"
 task: "UX Researcher"
 company: "Developed for Sky Bet Italia"

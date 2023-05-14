@@ -1,8 +1,6 @@
 ---
 customer: "Sky Betting & Gaming"
 title: "Innovation"
-cover: "./v-screen.jpg"
-landscape: "./v-landscape.jpg"
 date: "2021-01-20"
 task: "Senior UX Researcher"
 company: "Developed for Sky Vegas"

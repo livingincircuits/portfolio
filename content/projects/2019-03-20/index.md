@@ -1,8 +1,6 @@
 ---
 customer: "Sky Betting & Gaming"
 title: "Sky Bingo Arcade"
-cover: "./sb-screen.jpg"
-landscape: "./sb-landscape.jpg"
 date: "2019-02-20"
 task: "UX Researcher"
 company: "Developed for Sky Bingo"

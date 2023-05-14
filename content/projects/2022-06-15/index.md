@@ -1,8 +1,6 @@
 ---
 customer: "Sky Betting & Gaming"
 title: "Embedding UCD"
-cover: "./wp-screen.jpg"
-landscape: "./wp-landscape.jpg"
 date: "2022-06-15"
 task: "Lead UX Researcher"
 company: "Developed for Sky Betting & Gaming"
