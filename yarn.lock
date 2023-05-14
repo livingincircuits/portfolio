@@ -5974,10 +5974,10 @@ gatsby-plugin-hotjar@^1.1.1:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-lodash@^6.7.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-6.7.0.tgz#40b57a33a0f53a2b6850679f25a18aed0db29281"
-  integrity sha512-Z7Wb+7eLYNcYkwoA2mBrcB3j9FF8Bd3xm20zo/b/5isgb982E7g8pTUxs+Eij8lZrVGqK+hWtSHMJCAi1HxhHQ==
+gatsby-plugin-lodash@^6.9.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-6.9.0.tgz#82545b59ac2302becf9bbcee771e0b8002c82915"
+  integrity sha512-X1nxOlyoGVd4xH6IN5yevP55eBh0VPoWVbWHARVUEAPetq1PGR9feSTzyYlycQGy57wyglaejrQhm4hgbY7Kdw==
   dependencies:
     "@babel/runtime" "^7.20.13"
     babel-plugin-lodash "^3.3.4"
