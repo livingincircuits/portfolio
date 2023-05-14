@@ -1,9 +1,5 @@
-/* eslint max-len: 0 */
-/* eslint react/no-unescaped-entities: 0 */
-
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
 import { Link, graphql } from 'gatsby';
 import Header from '../components/Header';
 import { SEO, Content, Layout } from 'elements';
@@ -11,7 +7,6 @@ import Suggestions from '../components/Suggestions';
 
 const Project = ({ pageContext: { slug, left, right }, data: { markdownRemark: postNode } }) => {
   const post = postNode.frontmatter;
-  const { fluid } = post.landscape.childImageSharp;
   if (!post.id) {
     post.id = slug;
   }
@@ -36,10 +31,6 @@ const Project = ({ pageContext: { slug, left, right }, data: { markdownRemark: p
             {post.when}
           </li>
         </ul>
-
-        <section className="project__img">
-          <Img fluid={fluid} />
-        </section>
 
         <section className="callout">
           <div className="page-content align-central">
@@ -92,26 +83,6 @@ export const pageQuery = graphql`
         company
         activities
         when
-        cover {
-          childImageSharp {
-            fluid(maxWidth: 1920, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-            resize(width: 1200, quality: 90) {
-              src
-            }
-          }
-        }
-        landscape {
-          childImageSharp {
-            fluid(maxWidth: 1920, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-            resize(width: 1200, quality: 90) {
-              src
-            }
-          }
-        }
       }
       fields {
         slug

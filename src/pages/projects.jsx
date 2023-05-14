@@ -25,7 +25,7 @@ const Projects = ({
       <div className="page-content align-central">
 
         <p>
-          The below is a sample of work that I am able to share in the public domain.
+          The below is a sample of work that I am able to share.
         </p>
 
       </div>
@@ -35,7 +35,6 @@ const Projects = ({
           <ItemProject
             key={project.node.frontmatter.title}
             path={project.node.fields.slug}
-            cover={project.node.frontmatter.cover.childImageSharp.fluid}
             customer={project.node.frontmatter.customer}
             title={project.node.frontmatter.title}
           />
@@ -72,13 +71,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             customer
-            cover {
-              childImageSharp {
-                fluid(maxWidth: 900, quality: 90) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
+            activities
           }
         }
       }

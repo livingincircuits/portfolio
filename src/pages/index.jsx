@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import { Layout } from 'elements';
-import Img from 'gatsby-image';
 import Header from '../components/Header';
 import config from '../../config/website';
 import FeaturedPost from '../components/FeaturedPost';
@@ -40,17 +39,16 @@ const Index = ({
 
       </div>
 
-      <div className="page-content align-central">
+      <div className="page-content">
 
         <h2 className="content">
           Featured Work
         </h2>
 
-        <div className="card-column featured-card">
+        <div className="card-column">
           {projectEdges.map(project => (
             <FeaturedProject
               key={project.node.frontmatter.title}
-              cover={project.node.frontmatter.cover.childImageSharp.fluid}
               customer={project.node.frontmatter.customer}
               path={project.node.fields.slug}
               title={project.node.frontmatter.title}
@@ -109,13 +107,6 @@ export const pageQuery = graphql`
           frontmatter {
             customer
             title
-            cover {
-              childImageSharp {
-                fluid(maxWidth: 1000, quality: 90, traceSVG: {color: "#2B2B2F"}) {    
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
           }
         }
       }

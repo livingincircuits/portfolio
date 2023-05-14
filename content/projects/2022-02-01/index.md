@@ -28,11 +28,6 @@ I used a maturity model to provide our pillars and this will help us measure whe
 
 This model is focused on UX Research specifically and has been tested with many organisations and industries to give us a real assessment and view of where we are and where we need to get and allows us to measure our progress.
 
-<figure class="figure">
-  <img src="./strategy.png">
-  <figcaption>The foundation of the strategy - Best in class UX Research department</figcaption>
-</figure>
-
 ## UX Research Strategy
 
 The strategy includes three pillars to help us grow

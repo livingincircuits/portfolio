@@ -72,13 +72,6 @@ exports.createPages = ({ graphql, actions }) => {
                 }
                 frontmatter {
                   title
-                  cover {
-                    childImageSharp {
-                      resize(width: 600) {
-                        src
-                      }
-                    }
-                  }
                   landscape {
                     childImageSharp {
                       resize(width: 600) {

@@ -47,13 +47,6 @@ module.exports = {
         anonymize: true,
       },
     },
-    {
-      resolve: 'gatsby-plugin-hotjar',
-      options: {
-        id: 534080,
-        sv: 6
-      },
-    },
     'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-lodash',

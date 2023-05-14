@@ -17,8 +17,6 @@
   404
   Helpers
   Footer
-  Form
-  CV
  ************************************************/
 
 /*************************************************
@@ -460,127 +458,43 @@
 
 .card-column {
   display: grid;
-  grid-template-columns: repeat(3,minmax(0,1fr));
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-template-columns: repeat(2,minmax(0,1fr));
   grid-auto-rows: min-content;
   width: 100%;
   margin: 0 0 5% 0;
-}
-
-.featured-card {
-  grid-template-columns: repeat(2,minmax(0,1fr));
-}
-
-@media (max-width: 845px) {
-
-  .card-column {
-    grid-template-columns: repeat(2,minmax(0,1fr));
-  }
-
-}
-
-@media (max-width: 580px) {
-
-  .card-column {
-    grid-template-columns: repeat(1,minmax(0,1fr));
-  }
-
+  border-top: 2px solid var(--colorSecondary);
+  border-left: 2px solid var(--colorSecondary);
 }
 
 .card {
-  position: relative;
-  overflow: hidden;
-  border: 3px solid var(--colorSecondary);
-  background-color: var(--colorSecondary);
-  border-radius: 5px;
+  display: block;
+  padding: 3% 5%;
+  border-bottom: 2px solid var(--colorSecondary);
+  border-right: 2px solid var(--colorSecondary);
+  color: var(--colorSecondary);
+  transition: background 500ms;
+  transition: color 500ms;
 }
 
-@media (max-width: 580px) {
-
-  .card {
-    width: 100%;
-    margin-bottom: 5%;
-  }
-
-}
-
-.card:after {
-  content:"";
-  width:100%;
-  height:40%;
-  position:absolute;
-  bottom:0;
-  left:0;
-  z-index: 1;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+.card__tag {
+  font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+  margin: 0;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--colorSecondary);
 }
 
 .card__title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  margin: 3% 0 0 0;
+  font-size: calc(24px + 6 * ((100vw - 320px) / 680));
 }
 
-.card__project {
-  position: absolute;
-  bottom: 1.5%;
-  left: 0;
-  width: 100%;
-  z-index: 3;
-  text-align: center;
-  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+.card:hover,
+.card:focus  {
   color: var(--colorPrimary);
+  background: var(--colorTertiary);
 }
 
-@media (min-width: 2320px) {
-
-  .card__project {
-    font-size: 20px;
-    bottom: .5%;
-  }
-
-}
-
-.card__img {
-  transition: all 0.2s ease;
-}
-
-.card:hover .card__img,
-.card:focus .card__img {
-  transform: scale(1.2);
-}
-
-.card svg {
-  position: relative;
-  display: block;
-  height: inherit;
-  width: 100%;
-  overflow: hidden;
-  z-index: 2;
-}
-
-.card svg text {
-  text-anchor: middle;
-}
-
-.card svg #alpha {
-  fill: white;
-}
-
-.card svg .title {
-  font-size: calc(22px + 6 * ((100vw - 320px) / 680));
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: var(--colorPrimary);
-}
-
-.card svg #base {
-  fill: white;
-  mask: url(#mask);
-}
 
 /*************************************************
   Project Detail
@@ -794,369 +708,4 @@
 .footer a:hover,
 .footer a:focus {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
-}
-
-/*************************************************
-  Form
- ************************************************/
-
-body .page-content .af-form {
-  max-width: 100%;
-}
-
-body .page-content .af-form .af-field {
-  text-align: center;
-}
-
-body .page-content form .af-field-input input[type="email"],
-body .page-content form .af-field-input input[type="text"],
-body .page-content form .af-field-input textarea {
-  outline: 0;
-  border: 0;
-  background: var(--colorSecondary);
-  width: 40%;
-  border-radius: 3px;
-  padding: 10px 15px;
-  margin: 0 auto 10px auto;
-  display: block;
-  text-align: left;
-  color: var(--colorPrimary);
-  transition-duration: 0.25s;
-  font-weight: 300;
-  font-size: calc(12px + 6 * ((100vw - 320px) / 680));
-}
-
-body .page-content form .af-field-input input[type="email"]:hover,
-body .page-content form .af-field-input input[type="text"]:hover,
-body .page-content form .af-field-input textarea:hover {
-  background: var(--colorSecondary);
-}
-
-body .page-content form .af-field-input input[type="email"]:focus,
-body .page-content form .af-field-input input[type="text"]:focus,
-body .page-content form .af-field-input textarea:focus {
-  background: var(--colorSecondary);
-  width: 50%;
-  color: var(--colorPrimary);
-}
-
-body .page-content form .af-step-next button[type=submit] {
-  color: var(--colorSecondary);
-  background: var(--colorPrimary);
-  border: 0;
-}
-
-body .page-content form .af-step-navigation {
-  position: relative;
-  display: block;
-  width: 40%;
-  margin: 0 30%;
-}
-
-body .page-content form .af-step-next:before,
-body .page-content form .af-step-next:after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  display: block;
-  width: 100%;
-  height: 100%;
-  border: 2px solid var(--colorSecondary);
-}
-
-body .page-content form .af-step-next:before {
-  left: 10px;
-  top: 10px;
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  background-size: 0 0;
-  transition: background-size .2s;
-}
-
-body .page-content form .af-step-next:after {
-  z-index: 2;
-  transition: background .2s;
-  background: var(--colorPrimary);
-}
-
-body .page-content form .af-step-next button[type=submit] {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  position: relative;
-  z-index: 3;
-  border-radius: 0;
-  line-height: 1.2;
-  vertical-align: middle;
-}
-
-body .page-content form .af-step-navigation:hover .af-step-next:before,
-body .page-content form .af-step-navigation:focus .af-step-next:before  {
-  background-image: linear-gradient(0deg, var(--colorSecondary) 0%, var(--colorSecondary) 100%);
-  background-size: 100% 100%;
-}
-
-body .page-content form .af-step-navigation:hover .af-step-next:after, {
-  background: var(--colorTertiary);
-}
-
-body .page-content form .af-step-navigation:hover,
-body .page-content form .af-step-navigation:focus  {
-  color: var(--colorPrimary);
-  background: var(--colorTertiary);
-  cursor: pointer;
-}
-
-body .page-content form .af-field-has-error .af-field-input input[type="email"],
-body .page-content form .af-field-has-error .af-field-input input[type="text"],
-body .page-content form .af-field-has-error .af-field-input textarea {
-  border: 3px solid #d2383f;
-}
-
-body .page-content form .af-step-failure,
-body .page-content form .af-field-error p {
-  font-weight: bold;
-  background: var(--colorSecondary);
-  width: 40%;
-  border-radius: 3px;
-  padding: 10px 15px;
-  margin: 0 auto 10px auto;
-  font-size: calc(12px + 2 * ((100vw - 320px) / 680));
-  border: 0;
-}
-
-body .page-content form .af-step-success {
-  font-weight: bold;
-  background: var(--colorSecondary);
-  width: 40%;
-  border-radius: 3px;
-  padding: 20px;
-  margin: 0 auto 10px auto;
-  font-size: calc(18px + 2 * ((100vw - 320px) / 680));
-  border: 0;
-  color: var(--colorPrimary);
-}
-
-body .page-content form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: var(--colorPrimary);
-  opacity: 1;
-}
-
-body .page-content form ::-moz-placeholder { /* Firefox 19+ */
-  color: var(--colorPrimary);
-  opacity: 1;
-}
-
-body .page-content form :-ms-input-placeholder { /* IE 10+ */
-  color: var(--colorPrimary);
-  opacity: 1;
-}
-
-body .page-content form :-moz-placeholder { /* Firefox 18- */
-  color: var(--colorPrimary);
-  opacity: 1;
-}
-
-body .page-content .af-form {
-  font-family: var(--body);
-}
-
-@media (max-width: 767px) {
-
-  body .page-content form .af-step-navigation {
-    width: 80%;
-    margin: 0 10%;
-  }
-
-  body .page-content form .af-field-input input[type="email"],
-  body .page-content form .af-field-input input[type="text"],
-  body .page-content form .af-field-input textarea {
-    width: 90%;
-  }
-
-  body .page-content form .af-field-input input[type="email"]:focus,
-  body .page-content form .af-field-input input[type="text"]:focus,
-  body .page-content form .af-field-input textarea:focus {
-    width: 100%;
-  }
-
-}
-
-/*************************************************
-  CV
- ************************************************/
-
-.CV-page abbr {
-  border-color: rgba(34, 34, 34, 0.25);
-}
-
-.CV-page hr {
-  width: 30%;
-  height: 0;
-  margin: 1em auto;
-  border: none;
-  border-top: solid 1px #00aef0;
-}
-
-/* Headings
-****************************************************/
-.CV-primaryHeading {
-  text-transform: uppercase;
-  margin-bottom: 1.5em;
-}
-.CV-primaryHeading-name {
-  display: block;
-  margin-bottom: 0.1em;
-  font-size: 1.8em;
-  line-height: 0.9;
-}
-.CV-primaryHeading-position {
-  display: block;
-  font-size: 1em;
-  line-height: 1;
-  font-style: italic;
-}
-.CV-secondaryHeading {
-  position: relative;
-  margin: 2em 0 0;
-  text-transform: uppercase;
-}
-.CV-secondaryHeading:before {
-  content: "";
-  display: inline-block;
-  width: 0.7em;
-  height: 0.7em;
-  margin: 0 0.5em 0 -0.2em;
-  border: 2px solid #00aef0;
-  border-left: none;
-  border-bottom: none;
-  -webkit-transform: scaleX(0.75) rotate(45deg);
-          transform: scaleX(0.75) rotate(45deg);
-}
-.CV-tertiaryHeading {
-  margin-top: 0;
-  line-height: 1;
-  font-style: italic;
-  font-weight: normal;
-  text-transform: uppercase;
-}
-
-/* Grid
-****************************************************/
-.CV-grid {
-  display: table;
-}
-.CV-grid-column {
-  display: table-cell;
-}
-.CV-grid-column--left {
-  width: 65%;
-  padding-right: 2em;
-}
-.CV-grid-column--right {
-  width: 35%;
-}
-@media screen and (max-width: 850px) {
-  .CV-grid {
-    display: block;
-  }
-  .CV-grid-column {
-    display: block;
-  }
-  .CV-grid-column--left {
-    width: 100%;
-    padding-right: 0;
-  }
-  .CV-grid-column--right {
-    width: 100%;
-  }
-}
-
-/* Timeline
-****************************************************/
-.CV-timeline {
-  position: relative;
-  margin: 0 0 0 0.5em;
-  padding-left: 1.5em;
-  border-left: solid 1px #222;
-}
-.CV-timeline:first-of-type {
-  margin-top: 1em;
-}
-.CV-timeline:last-of-type {
-  border-left-color: transparent;
-}
-.CV-timeline:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -0.5em;
-  display: block;
-  width: 1em;
-  height: 1em;
-  border: solid 1px #222;
-  background-color: #FFF;
-  border-radius: 50%;
-}
-.CV-timeline-heading {
-  margin: 0;
-  padding-bottom: 0.5em;
-  line-height: 1em;
-  font-weight: normal;
-  -webkit-transform: translateY(-0.1em);
-          transform: translateY(-0.1em);
-}
-.CV-timeline-heading-title {
-  line-height: 1;
-  font-style: italic;
-  text-transform: uppercase;
-}
-.CV-timeline-heading-location {
-  font-size: 0.9em;
-}
-.CV-timeline-heading-duration {
-  display: block;
-  font-size: 0.8em;
-  color: #6f6f6f;
-}
-.CV-timeline-details {
-  display: block;
-  margin: 0;
-  padding-bottom: 2em;
-  padding: 0 0 2em 1em;
-  list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGElEQVQIW2NkYGD4D8TIgJERTQDMpVAQAGaUAQbko3DsAAAAAElFTkSuQmCC");
-}
-.CV-timeline-details-item {
-  margin-bottom: 0.5em;
-}
-
-/* Skills
-****************************************************/
-.CV-referees {
-  margin-bottom: 4em;
-}
-.CV-disclaimer {
-  margin-top: 4em;
-  font-size: 0.8em;
-  text-align: right;
-  font-variant: small-caps;
-  color: #a2a2a2;
-}
-
-@media print {
-
-  .CV-page {
-    font-size: 0.7em;
-  }
-
-  .CV-pageBreakBefore {
-    page-break-before: always;
-  }
-
-  header, footer {
-    display: none;
-  }
-
 }
