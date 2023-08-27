@@ -5364,10 +5364,10 @@ gatsby-plugin-google-analytics@^5.12.0:
     minimatch "^3.1.2"
     web-vitals "^1.1.2"
 
-gatsby-plugin-lodash@^6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-6.9.0.tgz#82545b59ac2302becf9bbcee771e0b8002c82915"
-  integrity sha512-X1nxOlyoGVd4xH6IN5yevP55eBh0VPoWVbWHARVUEAPetq1PGR9feSTzyYlycQGy57wyglaejrQhm4hgbY7Kdw==
+gatsby-plugin-lodash@^6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-lodash/-/gatsby-plugin-lodash-6.12.0.tgz#e62886980ccc92f67dc8c1177e58c01a6ece7c44"
+  integrity sha512-ao5RUOxxagHpR3/E3c/adAmuicbrh1SrMGzxOSjyX/yynxcd1POt7vIrvRn2vsH7RMvVXpyvSoAX4I/6NhleoQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
     babel-plugin-lodash "^3.3.4"
