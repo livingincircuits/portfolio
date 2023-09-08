@@ -30,11 +30,11 @@ This model is focused on UX Research specifically and has been tested with many 
 
 The strategy includes three pillars to help us grow
 
-### Create a UX research culture - Building a strong research culture and creating a UX research friendly environment
+### 1) Create a UX research culture - Building a strong research culture and creating a UX research friendly environment
 
 A lot of the work that goes into running good UX research is invisible and goes beyond the researcher’s direct interaction with users. Getting that invisible work optimised will make it easier to do a good job and produce reliable results promptly.
 
-### Scale and speed up our operations - We want to scale up our research, so we are gathering insights based on evidence whilst speeding up our more tactical activities such as validation
+### 2) Scale and speed up our operations - We want to scale up our research, so we are gathering insights based on evidence whilst speeding up our more tactical activities such as validation
 
 If we are going to move up the maturity model and be leading, we need a framework around our work that is:
 * Reusable
@@ -47,7 +47,7 @@ An insights framework will allow us to:
 * Discover patterns
 * Support an evidence-based approach
 
-### Democratise user understanding - We want to empower everyone to discover UX research, remix existing research, and share their own user stories
+### 3) Democratise user understanding - We want to empower everyone to discover UX research, remix existing research, and share their own user stories
 
 We want to be able to find out the what by collecting objective on-site metrics showing us how our users behave. We can discover the why by following up and collecting richer, descriptive data which tells us why users are behaving in that way. 
 

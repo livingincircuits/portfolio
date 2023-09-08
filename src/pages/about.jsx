@@ -54,9 +54,6 @@ const About = () => (
             <li>
               Prototyping &amp; Interaction
             </li>
-            <li>
-              Front End Development
-            </li>
           </ul>
 
           <h2>

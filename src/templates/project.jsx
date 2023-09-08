@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import { SEO, Content, Layout } from 'elements';
 import Suggestions from '../components/Suggestions';
 
-const Project = ({ pageContext: { slug, left, right }, data: { markdownRemark: postNode } }) => {
+const Project = ({ pageContext: { slug, title, left, right }, data: { markdownRemark: postNode } }) => {
   const post = postNode.frontmatter;
   if (!post.id) {
     post.id = slug;
@@ -17,17 +17,21 @@ const Project = ({ pageContext: { slug, left, right }, data: { markdownRemark: p
 
       <div className="page-inner">
 
+        <Header title={post.title}>
+          {post.title}
+        </Header>
+
         <ul className="project__meta">
           <li className="project__meta-item">
-            <h1>Client</h1>
+            <h2>Client</h2>
             {post.customer}
           </li>
           <li className="project__meta-item">
-            <h1>Role</h1>
+            <h2>Role</h2>
             {post.task}
           </li>
           <li className="project__meta-item">
-            <h1>When</h1>
+            <h2>When</h2>
             {post.when}
           </li>
         </ul>

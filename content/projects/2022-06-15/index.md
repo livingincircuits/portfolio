@@ -60,4 +60,4 @@ The agenda for the workshop:
 
 ## Results & Highlights
 
-Some fantastic discussions meant that we could actually use the findings to help with our analysis for the project and there was lots of interest to run these more often and with wider teams.
+Some fantastic discussions meant that we used the analysis to help with our reporting for the project and plenty of interest to run these sessions more often and with wider teams.

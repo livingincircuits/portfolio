@@ -510,7 +510,6 @@
   display: flex;
   color: var(--colorSecondary);
   border-top: 2px solid var(--colorSecondary);
-  border-bottom: 2px solid var(--colorSecondary);
 }
 
 @media (max-width: 580px) {
@@ -535,6 +534,14 @@
   text-align: center;
 }
 
+@media (max-width: 580px) {
+
+  .project__meta-item {
+    padding: 1% 5%;
+  }
+
+}
+
 /*************************************************
   Callout
  ************************************************/
@@ -546,6 +553,14 @@
   color: var(--colorSecondary);
   background-color: var(--colorPrimary);
   border-top: 2px solid var(--colorSecondary);
+}
+
+@media (max-width: 580px) {
+
+  .callout p {
+    margin: 0 0 1% 0;
+  }
+
 }
 
 .callout__title {

@@ -20,7 +20,7 @@ We then conducted research to find out what consumers knew and how they saw this
 
 ## Research
 
-Our formative research started with competitive analysis and stakeholder interviews before quickly moving onto user interviews. 
+Our research started with competitive analysis and stakeholder interviews before quickly moving onto user interviews. 
 
 We realised that our research was telling us that users didn't just want the cash out feature, they wanted to check the position of their bet and see match stats in one place.
 We knew from research that competitors didn't have anything like this but overseas markets did. 
