@@ -24,7 +24,6 @@ module.exports = {
         path: `${__dirname}/content/${config.projectPostDir}`,
       },
     },
-    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -47,7 +46,6 @@ module.exports = {
         anonymize: true,
       },
     },
-    'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-lodash',
   ],
