@@ -12,7 +12,7 @@ const FeaturedPost = ({ path, category, date, title }) => (
         <h2 className="post-block__title">
           {title}
         </h2>
-        <p className="post-block__date">
+        <p className="post-block__text">
           {date}
         </p>
       </div>

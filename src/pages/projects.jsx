@@ -30,13 +30,15 @@ const Projects = ({
 
       </div>
 
-      <div className="card-column">
+      <div className="post-block post-block--full">
         {edges.map(project => (
           <ItemProject
             key={project.node.frontmatter.title}
             path={project.node.fields.slug}
             customer={project.node.frontmatter.customer}
             title={project.node.frontmatter.title}
+            task={project.node.frontmatter.task}
+            activities={project.node.frontmatter.activities}
           />
         ))}
       </div>
@@ -71,6 +73,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             customer
+            task
             activities
           }
         }

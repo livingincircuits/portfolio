@@ -44,13 +44,15 @@ const Index = ({
           Featured Work
         </h2>
 
-        <div className="card-column">
+        <div className="post-block post-block--half">
           {projectEdges.map(project => (
             <FeaturedProject
               key={project.node.frontmatter.title}
               customer={project.node.frontmatter.customer}
               path={project.node.fields.slug}
               title={project.node.frontmatter.title}
+              task={project.node.frontmatter.task}
+              activities={project.node.frontmatter.activities}
             />
           ))}
         </div>
@@ -108,6 +110,8 @@ export const pageQuery = graphql`
           frontmatter {
             customer
             title
+            task
+            activities
           }
         }
       }

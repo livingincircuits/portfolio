@@ -4,7 +4,7 @@ title: "Embedding UCD"
 date: "2022-06-15"
 task: "Lead UX Researcher"
 company: "Developed for Sky Betting & Gaming"
-activities: "Nurturing UX Research & Growing UCD"
+activities: "Growing UCD, Leadership"
 when: "2022"
 ---
 

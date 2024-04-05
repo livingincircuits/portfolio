@@ -2,7 +2,7 @@
 customer: "Sky Betting & Gaming"
 title: "Sky Bet Italia"
 date: "2018-06-18"
-task: "UX Researcher"
+task: "UX Designer & Researcher"
 company: "Developed for Sky Bet Italia"
 activities: "Stakeholder Interviews, User Flows, User Journey Mapping, Usability Testing, Remote Testing, UX Design, Prototyping"
 when: "2018"

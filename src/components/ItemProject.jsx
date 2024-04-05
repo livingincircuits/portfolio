@@ -2,21 +2,27 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
-const ItemProject = ({ path, title }) => (
+const ItemProject = ({ path, title, task, activities }) => (
 
-  <div className="card">
+  <Link className="post-block__item" to={path}>
 
-    <Link className="card__link" to={path}>
+    <article className="post-block__bordered">
 
-      <p className="card__tag">Case Study</p>
+      <div className="post-block__content">
+        <h2 className="post-block__title">
+          {title}
+        </h2>
+        <p className="post-block__text">
+          {task}
+        </p>
+        <p className="post-block__desc">
+          {activities}
+        </p>
+      </div>
 
-      <h2 className="card__title">
-        {title}
-      </h2>
+    </article>
 
-    </Link>
-
-  </div>
+  </Link>
 
 );
 

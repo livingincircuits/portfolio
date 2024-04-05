@@ -8,7 +8,6 @@
   Logos
   Post block
   Article Header
-  Card
   Project Detail
   Process
   Callout
@@ -350,24 +349,18 @@
   font-size: calc(16px + 2 * ((100vw - 320px) / 680));
 }
 
-.post-block__date {
+.post-block__text {
   border-bottom: 1px solid currentColor;
   padding-bottom: .5em;
   margin: 0;
   transition: color 500ms;
-  font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+  font-size: calc(10px + 6 * ((100vw - 320px) / 680));
 }
 
-.post-block--half .post-block__date {
+.post-block__desc {
   font-size: calc(12px + 2 * ((100vw - 320px) / 680));
   border: 0;
   padding: 0;
-}
-
-.post-block__text {
-  margin: 1em 0 0 0;
-  transition: color 500ms;
-  font-size: calc(14px + 6 * ((100vw - 320px) / 680));
 }
 
 .post-block__item:hover .post-block__bordered:before,
@@ -451,50 +444,6 @@
   }
 
 }
-
-/*************************************************
-  Card
- ************************************************/
-
-.card-column {
-  display: grid;
-  grid-template-columns: repeat(2,minmax(0,1fr));
-  grid-auto-rows: min-content;
-  width: 100%;
-  margin: 0 0 5% 0;
-  border-top: 2px solid var(--colorSecondary);
-  border-left: 2px solid var(--colorSecondary);
-}
-
-.card {
-  display: block;
-  padding: 3% 5%;
-  border-bottom: 2px solid var(--colorSecondary);
-  border-right: 2px solid var(--colorSecondary);
-  color: var(--colorSecondary);
-  transition: background 500ms;
-  transition: color 500ms;
-}
-
-.card__tag {
-  font-size: calc(10px + 6 * ((100vw - 320px) / 680));
-  margin: 0;
-  letter-spacing: 1.1px;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--colorSecondary);
-}
-
-.card__title {
-  margin: 3% 0 0 0;
-  font-size: calc(24px + 6 * ((100vw - 320px) / 680));
-}
-
-.card:hover,
-.card:focus  {
-  color: var(--colorPrimary);
-  background: var(--colorTertiary);
-}
-
 
 /*************************************************
   Project Detail
