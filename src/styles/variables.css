@@ -2,11 +2,10 @@
 
   --wrapperWidth: 1600px;
 
-  --colorPrimary: #c92d1f; /* Red */
+  --colorPrimary: #131025; /* Dark */
   --colorSecondary: #eae1d3; /* White*/
-  --colorTertiary: #80a89b; /* Green*/
-  --colorQuaternary: #1c1818; /* Black */
-  /*--colorQuinary: #A537FD;  Purple */
+  --colorTertiary: #D01566; /* Pink*/
+  --colorQuaternary: #4F0FA4; /* Purple */
 
   --heading: 'Hind', Arial, sans-serif;
   --body: 'Inconsolata', Arial, sans-serif;

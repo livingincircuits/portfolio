@@ -78,7 +78,7 @@
 .page-content {
   position: relative;
   z-index: 2;
-  padding: 3% 10% 2% 10%;
+  padding: 2% 10% 2% 10%;
 }
 
 @media (min-width: 769px) {
@@ -190,6 +190,26 @@
 
 }
 
+.item a {
+  margin: 0 .2em;
+  padding: .1em 0;
+  text-decoration: none;
+  transition: background .2s linear;
+  background: linear-gradient(to top, rgba(208, 21, 102, 0.3) 0%, rgba(0, 0, 0, .3) 30%, transparent 31%, transparent 60%);
+}
+
+.item a:hover,
+.item a:focus {
+  color: inherit;
+  background: linear-gradient(to top, rgba(208, 21, 102, 0.8) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
+}
+
+.item a.active {
+  color: var(--colorTertiary);
+  padding: .1em .2em;
+  background: linear-gradient(to top, rgba(208, 21, 102, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
+}
+
 /*************************************************
   Round Logo
  ************************************************/
@@ -208,26 +228,6 @@
     margin: 0 auto;
   }
 
-}
-
-.item a {
-  margin: 0 .2em;
-  padding: .1em 0;
-  text-decoration: none;
-  transition: background .2s linear;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, .3) 30%, transparent 31%, transparent 100%);
-}
-
-.item a:hover,
-.item a:focus {
-  color: inherit;
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.item a.active {
-  color: var(--colorTertiary);
-  padding: .1em .2em;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
 }
 
 /*************************************************
@@ -325,7 +325,7 @@
 .post-block__bordered:after {
   z-index: 2;
   transition: background .2s;
-  background: var(--colorPrimary);
+  background: var(--colorTertiary);
 }
 
 .post-block__content {
@@ -371,12 +371,11 @@
 
 .post-block__item:hover .post-block__bordered:after,
 .post-block__item:focus .post-block__bordered:after  {
-  background: var(--colorTertiary);
+  background: var(--colorPrimary);
 }
 
 .post-block__item:hover,
 .post-block__item:focus  {
-  color: var(--colorPrimary);
   background: var(--colorTertiary);
 }
 
