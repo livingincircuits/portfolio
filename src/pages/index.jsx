@@ -27,16 +27,15 @@ const Index = ({
     <section className="page-inner">
 
       <div className="page-content align-central">
-
         <p>
-          A User Researcher who loves to create clean, simple & inclusive experiences for everyone.
-          I enjoy creating something simple from a complex problem and love creating delightful digital human experiences.
+          A User Researcher whose passion lies in crafting clean, intuitive, and inclusive experiences that resonate with a broad audience. 
+          I am dedicated to distilling complex problems into elegantly simple solutions, always with the goal of enhancing digital human interactions.
         </p>
         <p>
-          I’ve influenced the implementation of UX research in many teams and have more than 7 years of experience presenting insights
-           to diverse stakeholders (C-suite and senior stakekeholders including Product Managers, Designers, Engineers, & Marketers).
+          With over a decade of experience, I have been instrumental in integrating UX and User Research methodologies into various teams. 
+          My expertise encompasses working with a wide range of stakeholders, including C-suite executives, Product Managers, Designers, Engineers, and Marketers, ultimately influencing decision-making processes and product strategies. 
+          My approach is deeply rooted in a commitment to understanding user needs and behaviors, ensuring that every project I undertake is user-centered and designed for impact.
         </p>
-
       </div>
 
       <div className="page-content">
@@ -56,6 +55,7 @@ const Index = ({
           ))}
         </div>
 
+        {/*
         <h2 className="content">
           Featured Writing
         </h2>
@@ -71,6 +71,7 @@ const Index = ({
             />
           ))}
         </div>
+        */}
 
         </div>
 

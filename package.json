@@ -9,7 +9,7 @@
   },
   "author": "Emily Young",
   "dependencies": {
-    "date-fns": "^2.30.0",
+    "date-fns": "^3.6.0",
     "gatsby": "^5.13.3",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-analytics": "^5.13.1",
@@ -19,7 +19,7 @@
     "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-remark-copy-linked-files": "^6.13.1",
     "gatsby-remark-images": "^7.13.1",
-    "gatsby-source-filesystem": "^5.13.0",
+    "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-remark": "^6.13.1",
     "lodash": "^4.17.21",
     "prop-types": "^15.8.1",

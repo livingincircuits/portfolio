@@ -46,6 +46,7 @@ module.exports = {
         anonymize: true,
       },
     },
+    'gatsby-plugin-sharp',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-lodash',
   ],
