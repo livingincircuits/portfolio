@@ -51,15 +51,13 @@
 }
 
 .content a {
-  text-decoration: none;
-  transition: background .2s linear;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, .3) 30%, transparent 31%, transparent 100%);
+  transition: color .2s linear;
+  text-decoration: underline;
 }
 
 .content a:hover,
 .content a:focus {
-  color: inherit;
-  background: rgba(0, 0, 0, 0.2);
+  color: var(--colorTertiary);
 }
 
 .page-inner {
@@ -663,12 +661,11 @@
 }
 
 .footer a {
-  text-decoration: none;
-  transition: background .2s linear;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, .4) 30%, transparent 31%, transparent 100%);
+  transition: color .2s linear;
+  text-decoration: underline;
 }
 
 .footer a:hover,
 .footer a:focus {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
+  color: var(--colorTertiary);
 }
