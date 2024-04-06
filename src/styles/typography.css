@@ -46,7 +46,7 @@ h3.content {
 @media (max-width: 767px) {
 
   .glitch {
-    font-size: calc(48px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(24px + 6 * ((100vw - 320px) / 680));
   }
 
 }

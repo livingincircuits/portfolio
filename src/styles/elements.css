@@ -64,7 +64,7 @@
   width: 100%;
   max-width: var(--wrapperWidth);
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .page-body {
@@ -76,7 +76,7 @@
 .page-content {
   position: relative;
   z-index: 2;
-  padding: 2% 10% 2% 10%;
+  padding: 2% 5% 2% 5%;
 }
 
 @media (min-width: 769px) {
@@ -84,6 +84,7 @@
   .page-content {
     max-width: 100%;
     margin: 0 auto;
+    padding: 2% 10% 2% 10%;
   }
 
 }
