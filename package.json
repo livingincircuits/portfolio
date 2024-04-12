@@ -10,7 +10,7 @@
   "author": "Emily Young",
   "dependencies": {
     "date-fns": "^3.6.0",
-    "gatsby": "^5.13.3",
+    "gatsby": "^5.13.4",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-analytics": "^5.13.1",
     "gatsby-plugin-lodash": "^6.13.1",
