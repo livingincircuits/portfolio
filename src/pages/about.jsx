@@ -29,11 +29,16 @@ const About = () => (
             I'm Emily and I am a User Researcher.
           </p>
           <p>
-            I started my career some 15 years ago as a marketing and research analyst and developed a love of software engineering. I have found myself working in marketing, tech and product.
+            I've been in the digital field for 15 years, spending the last 9 focused on getting to know users better. 
+            Starting as a marketing and research analyst, developed a love of software engineering, moved into testing, design, UX and finally user research.
           </p>
           <p>
-            I use various user research methods throughout the full product lifecycle from surveys, to interviews and user testing, in order to gather insights from users
-            and find solutions that will help improve products for everyone.
+            I love helping organisations understand what their users think, need, and want. I enjoy turning what we learn from user research into amazing apps, websites, and services.  
+            I'm really passionate about making sure everyone can access and enjoy products and services.
+          </p>
+          <p>
+            At Telus, I've found the perfect blend of sharing a pot of tea with our users, diving into data, swapping war stories with senior stakeholders and supporting my fantastic research team. 
+            I work closely with the Product and Customer Support teams, among others, to make sure we always keep our users' needs and perspectives at the forefront of everything we do.
           </p>
 
           <h2>
@@ -49,6 +54,9 @@ const About = () => (
               User Research
             </li>
             <li>
+              User Experience Design
+            </li>
+            <li>
               User Experience &amp; Design Research
             </li>
             <li>
@@ -61,7 +69,7 @@ const About = () => (
           </h2>
 
           <p>
-            I am currently serving as a Senior Lead UX Researcher for <a href="https://lifeworks.com/en">Telus Health</a>.
+            I am currently serving as a Senior Lead UX Researcher for <a href="https://www.telus.com/en/health">Telus Health</a>.
           </p>
 
         </div>
