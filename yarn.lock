@@ -6279,6 +6279,28 @@ gatsby-core-utils@^4.15.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-core-utils@^4.16.0:
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.16.0.tgz#31ec88ab51272bb8a58535505633a57e8c069899"
+  integrity sha512-QCZ9BmQp3YyYxH0Wf4bofayL3vJnayqSvsBUAhKXGh/Os0fn1KMNyAjPLnW+zrGFQaK05Vjdlp99I/Wnc3M33A==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fastq "^1.15.0"
+    file-type "^16.5.4"
+    fs-extra "^11.2.0"
+    got "^11.8.6"
+    hash-wasm "^4.11.0"
+    import-from "^4.0.0"
+    lmdb "2.5.3"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    resolve-from "^5.0.0"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-graphiql-explorer@^3.14.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.14.1.tgz#592d81f64a17d429386b3dd21e026e22e7800d39"
@@ -6477,15 +6499,15 @@ gatsby-remark-copy-linked-files@^6.15.0:
     probe-image-size "^7.2.3"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-images@^7.15.0:
-  version "7.15.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-7.15.0.tgz#1395ec314feeb9ee601fb63a51d2c4789be14df7"
-  integrity sha512-ijfTuDOGORXWhiNY3pJk/quCzZy1FLQUZaaIodfMRITqYWAN0cXVogeKMrQT6iotpjrarwD2q6hPlNeEs+6w0Q==
+gatsby-remark-images@^7.16.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-7.16.0.tgz#3f09375272e759b4f8c5cb126898e0f77d050f72"
+  integrity sha512-8BYxFLU4koQrA0SrGwOHpdrh19vsoRYHxDb7o9ISVQU8d+CIc+fatoKkImvrxeMzx22th+ubw0oXvUNZooUeaQ==
   dependencies:
     "@babel/runtime" "^7.20.13"
     chalk "^4.1.2"
     cheerio "1.0.0-rc.12"
-    gatsby-core-utils "^4.15.0"
+    gatsby-core-utils "^4.16.0"
     is-relative-url "^3.0.0"
     lodash "^4.17.21"
     mdast-util-definitions "^4.0.0"
