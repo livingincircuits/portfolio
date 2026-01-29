@@ -3815,6 +3815,21 @@ chokidar@^3.4.2, chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
+chokidar@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.6.0.tgz#197c6cc669ef2a8dc5e7b4d97ee4e092c3eb0d5b"
+  integrity sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==
+  dependencies:
+    anymatch "~3.1.2"
+    braces "~3.0.2"
+    glob-parent "~5.1.2"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.6.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
 chownr@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
@@ -6279,6 +6294,28 @@ gatsby-core-utils@^4.15.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-core-utils@^4.16.0:
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-4.16.0.tgz#31ec88ab51272bb8a58535505633a57e8c069899"
+  integrity sha512-QCZ9BmQp3YyYxH0Wf4bofayL3vJnayqSvsBUAhKXGh/Os0fn1KMNyAjPLnW+zrGFQaK05Vjdlp99I/Wnc3M33A==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fastq "^1.15.0"
+    file-type "^16.5.4"
+    fs-extra "^11.2.0"
+    got "^11.8.6"
+    hash-wasm "^4.11.0"
+    import-from "^4.0.0"
+    lmdb "2.5.3"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    resolve-from "^5.0.0"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-graphiql-explorer@^3.14.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.14.1.tgz#592d81f64a17d429386b3dd21e026e22e7800d39"
@@ -6512,16 +6549,16 @@ gatsby-sharp@^1.15.0:
   dependencies:
     sharp "^0.32.6"
 
-gatsby-source-filesystem@^5.14.0:
-  version "5.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.14.0.tgz#f2c765f2eead173918b3d1bc92626bc770867972"
-  integrity sha512-uewEJaHvdxZlN6DOtZCIUuI7X5v9MRk5IVpCYy9SIZCDbnUA5siEd2A4SC+kcXxJM6AUbdvkfayqpVJrm5JaZA==
+gatsby-source-filesystem@^5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.16.0.tgz#5b476ca3201a2afbccd0bafb3c4597e5140de06c"
+  integrity sha512-z64lyDaonLpD1fHV8s9MYVBz2z6Mv3jwEntwt/KA4QKPJsH/qD1eKZ0OBSilGqEadzLw7EcgTGkTXBAz1gd8fg==
   dependencies:
     "@babel/runtime" "^7.20.13"
-    chokidar "^3.5.3"
+    chokidar "^3.6.0"
     file-type "^16.5.4"
     fs-extra "^11.2.0"
-    gatsby-core-utils "^4.14.0"
+    gatsby-core-utils "^4.16.0"
     mime "^3.0.0"
     pretty-bytes "^5.6.0"
     valid-url "^1.0.9"
