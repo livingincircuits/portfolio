@@ -37,10 +37,8 @@
     "gh-pages": "^6.3.0"
   },
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "dev": "gatsby develop -o",
     "build": "gatsby build",
-    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore"
   }
 }
