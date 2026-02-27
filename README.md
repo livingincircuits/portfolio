@@ -22,4 +22,4 @@ In development: `yarn run dev`
 Create a static build public folder: `yarn run build`
 
 ## Deploy
-Publish gh-pages branch: `yarn run deploy`
+Commit
