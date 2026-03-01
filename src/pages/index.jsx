@@ -34,7 +34,7 @@ const Index = ({
         <p>
           With over a decade of experience, I have been instrumental in integrating UX and User Research methodologies into various teams. 
           My expertise encompasses working with a wide range of stakeholders and influencing decision-making processes and product strategies. 
-          My approach is deeply rooted in a commitment to understanding user needs and behaviors, ensuring that every project I undertake is user-centered and designed for impact.
+          My approach is deeply rooted in a commitment to understanding user needs and behaviours, ensuring that every project I undertake is user-centered and designed for impact.
         </p>
       </div>
 

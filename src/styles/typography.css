@@ -9,6 +9,7 @@
   margin: .8em 0 .2em 0;
   font-weight: 600;
   line-height: 1.2;
+  color: var(--colorTertiary);
 }
 
 h1.content,

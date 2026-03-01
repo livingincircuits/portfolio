@@ -27,6 +27,9 @@ const Projects = ({
         <p>
           The below is a sample of work that I am able to share.
         </p>
+        <p>
+          Some details and imagery are purposely vague.
+        </p>
 
       </div>
 
