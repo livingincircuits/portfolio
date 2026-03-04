@@ -8,8 +8,6 @@ activities: "Discovery Research, User Interviews, Survey, Workshops, Mixed-metho
 when: "2023"
 ---
 
-As a Lead UX Researcher, you have been asked to provide feedback and make chanegs to a colleagues case study. Keeping the structure intact, edit the below case study to be more robust and detailed.
-
 ## 1) Executive Summary
 
 We identified that drop-off was less about “lack of interest” and more about *uncertainty, overload, and low perceived value* in the early flow. We translated qualitative + behavioural-science diagnosis into a focused set of product bets: clearer orientation, better search/findability, and lightweight “investment loops” (tracking, quick activities) to drive repeat use. 

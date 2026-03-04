@@ -24,11 +24,11 @@ const Projects = ({
 
       <div className="page-content align-central">
 
-        <p>
+        <h2>
           The below is a sample of work that I am able to share.
-        </p>
+        </h2>
         <p>
-          Some details and imagery are purposely vague.
+          <em>Some details and imagery are purposely vague.</em>
         </p>
 
       </div>
