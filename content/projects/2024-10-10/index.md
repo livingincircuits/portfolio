@@ -4,21 +4,21 @@ title: "Reframing reporting around the metrics HR leaders actually use"
 date: "2024-10-10"
 task: "Lead UX Researcher"
 company: "Developed for TELUS Health"
-activities: "Scoping, Secondary Research, user interviews, Max-Diff Survey"
+activities: "Scoping, Secondary Research, User Interviews, Max-Diff"
 when: "2024"
 ---
 
 ## 1) Executive summary
 
-Reprioritised the reporting roadmap and information hierarchy around the few metrics HR leaders consistently value most, using MaxDiff to reduce opinion-driven debates and align teams on “what matters” (mental health, service use, engagement, and clear adoption-style counts).
-- **My role:** Lead UX Researcher (end-to-end: problem framing - method selection - analysis - recommendations).
-- **Team / collaborators:** Design partners and cross-functional stakeholders supporting Strategy Portal (Product, Design, Engineering) plus Customer Success Managers (CSMs) as a key user group and recruitment channel.
+We were able to reprioritise the reporting roadmap and information hierarchy around the few metrics HR Leaders consistently value most, using MaxDiff to reduce opinion-driven debates and align teams on “what matters” (mental health, service use, engagement, and clear adoption-style counts).
+- **My role:** Lead UX Researcher (end-to-end: problem framing, method selection, analysis and recommendations).
+- **Team / collaborators:** Design partners and cross-functional stakeholders supporting Strategy Portal plus Customer Success Managers (CSMs) as a key user group and recruitment channel.
 
 ## 2) Challenge & context
 
 **The problem space**  
 
-Strategy Portal is positioned as a self-serve analytics hub for client leaders, but adoption is slow and utilisation is low. Clients report **information overload**, **terminology confusion**, and a sense that the Portal is “dumping data on a dashboard without explanation or outcomes.” 
+The Data Dashboard Portal is positioned as a self-serve analytics hub for client leaders, but adoption is slow and utilisation is low. Clients report **information overload**, **terminology confusion**, and a sense that the Portal is “dumping data on a dashboard without explanation or outcomes.” 
 
 A key business driver was retention and renewal risk: internal win/loss signals suggested reporting gaps (including divisional reporting) were contributing to lost deals, but the product team lacked clarity on what to fix first.
 
@@ -47,14 +47,14 @@ MaxDiff gave us *relative preferences* across many items in a way simple importa
 
 **Method stack**
 
-- **Mixed-methods plan:** secondary research and in-depth interviews to uncover barriers and  friction without relying on product analytics.
-- **Quant layer - two MaxDiff studies:
+- **Mixed-methods plan:** secondary research and in-depth interviews to uncover barriers and  friction without relying on product analytics. We also needed this data layer so that we had some context for the MaxDiff results and not just a giant list of wants.
+- **Quant layer - two MaxDiff studies**:
     - **Wellbeing data metrics**: 47 respondents, mix of clients and CSMs.
-    - **Strategy Portal feature priorities**: 110 HR leaders across CA, UK, US, IE, AU.
+    - **Portal feature priorities**: 110 HR leaders across CA, UK, US, IE, AU.
 
 **Participant strategy**
 
-- Targeted the decision-makers most tied to renewal value: **HR leaders** who use or would use reporting for program decisions.
+- Targeted the decision-makers most tied to renewal value: **HR leaders** who use or would use reporting for program decisions. I used my relationships with the CSMs to recruit this sample which naturally meant a lot of manual work to get the numbers I needed but the sample being correct was important so we decided not to use external recruitment panels. 
 - Included **CSMs** (in the wellbeing metrics study) to reflect real-world workflows where CSMs often interpret reporting on behalf of clients.
 
 ## 4) The “messy middle”
@@ -62,15 +62,16 @@ MaxDiff gave us *relative preferences* across many items in a way simple importa
 **Stakeholder alignment / influence**  
 
 - Started by making assumptions explicit (e.g., perceived CSM resistance, segmentation being a major adoption driver), then translated them into research questions and decision points stakeholders could rally around.
-- Used MaxDiff results as a *neutral prioritisation artifact* to shift conversations from “feature lobbying” to “what best supports HR decision-making”.
+- Used MaxDiff results as a prioritisation artifact to shift conversations from “feature lobbying” to “what best supports HR decision-making”.
 
 **Navigating ambiguity without analytics**
 
-- Since we could not validate usage patterns through instrumentation, we designed tasks and questions that tested “data interpretation” and “finding recommendations” to understand whether value issues were actually discoverability and comprehension problems.
+- Since we could not validate usage patterns through analytics, we designed tasks and questions that tested “data interpretation” and “finding recommendations” to understand whether value issues were actually discoverability and comprehension problems.
 
 **Synthesis approach**
 
 - Triangulated:
+    - Qual understanding of existing concerns.
     - Quant prioritisation (MaxDiff “best/worst/score” patterns).
     - Open-text “feature additions” to capture unmet needs that weren’t in the list (e.g., predictive analytics, ROI measurement, alerts).
     - Downstream implications for IA, defaults, and segmentation/integrations.
@@ -121,4 +122,4 @@ MaxDiff gave us *relative preferences* across many items in a way simple importa
 
 **Reflections**
 
-Research maturity: This project highlights what happens when a product lacks analytics instrumentation: teams risk building based on anecdotes. Establishing a quant prioritisation layer (MaxDiff) plus planned qual validation (interviews) is a pragmatic maturity step toward evidence-led roadmaps.
+This project highlighted what can happen when a product lacks analytics or observable data, teams risk building based on anecdotes. Establishing a quantitative prioritisation layer (MaxDiff) plus qualitative validation (interviews) is a pragmatic maturity step toward evidence-led roadmaps.
