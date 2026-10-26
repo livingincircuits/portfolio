@@ -8,105 +8,98 @@ activities: "Discovery Research, User Interviews, Survey, Workshops, Mixed-metho
 when: "2023"
 ---
 
-## 1) Executive Summary
+## The challenge
+The product gave members structured care plans: guided programs of articles, exercises and tools to work through between (or instead of) therapy sessions. New members were signing up, but many didn’t finish care plan onboarding, and even fewer came back to their plan and tools afterwards.
+The content team was about to invest in new care programs and wanted to know where to focus first. At the time, most people assumed the fix was more or better content. My job was to find out what was actually stopping people, before the roadmap committed to an answer.
 
-We identified that drop-off was less about “lack of interest” and more about *uncertainty, overload, and low perceived value* in the early flow. We translated qualitative + behavioural-science diagnosis into a focused set of product bets: clearer orientation, better search/findability, and lightweight “investment loops” (tracking, quick activities) to drive repeat use. 
+## Activities conducted
+* Discovery research: framed the problem with the content team and turned a broad request into a measurable target behaviour.
+* Secondary research: reviewed existing member survey responses and back-end usage data to see where engagement dropped off.
+* Semi-structured user interviews (18): explored motivations, triggers, frequency of use, what success looks like and pain points.
+* Observational sessions (12): watched new members find, start and work through a care plan in the live product.
+* Mixed-methods triangulation: combined qualitative evidence with survey and usage data to check the patterns held up.
+* Behavioural diagnosis (COM-B): used the Behaviour Change Wheel to identify which capability, opportunity and motivation barriers were blocking the target behaviour.
+* Behaviour design mapping: mapped a 10-stage journey with actions, observations, friction scores, COM-B influences and intervention ideas.
+* Affinity synthesis: clustered interview and observation data into themes and sub-findings.
+* Landscape review: listed the 25+ other wellbeing and health apps participants already used, to understand what they compared us against.
+* Prioritisation workshop: worked with stakeholders to turn findings into techniques and score each recommendation by how easy it would be to build.
+* Research operations: wrote the research plan, screener, discussion guide and a shared data-capture board.
 
-**My role:** Lead UX Researcher and strategic partner. Led the problem framing, created a mixed evidence base (analytics + survey + interviews), and operationalised findings into a COM-B/TDF diagnosis and intervention directions.
+## Framing the problem: from “engagement” to a target behaviour
+A goal like “improve engagement” can’t be diagnosed. So, before writing a single interview question, I worked with the content team to define one specific behaviour using the COM-B model. That framing became the brief for every later decision, from who we recruited to how we scored friction.
 
-**Team / collaborators:** Cross-functional partnership with Product, Design, and Clinical stakeholders.
+> Target behaviour definition
+> Challenge: Members aren’t using care plans for self-directed learning and struggle to see their value.
+> Actor: New members of the platform.
+> Target behaviour: Complete care plan onboarding, and return more often to the care plan and its tools.
+> Outcome: Better self-directed learning and higher retention of new members.
 
-## 2) The Challenge & Context
+### Research goals
+* Understand members’ current pain points, frustrations and barriers with care plans.
+* Find out what motivates or triggers people to engage with self-guided mental health support, and what keeps them coming back.
+* Give the content team evidence for prioritising and designing future care programs.
 
-**Problem space:** Engagement was collapsing at the exact moment users were asked to choose a “care issue” and commit to a Mental Health Care Plan (Such as depression and anxiety). Nearly half of users started onboarding but dropped off before selecting a care issue, and only 10% completed onboarding and opened a care plan.
+## Approach: why these methods
+Interviews + observation, not interviews alone. People are poor narrators of their own app habits, especially in mental health, where there’s a pull to give the “right” answer. Interviews told us why people sought support and what they valued. Observation showed us what actually happened when someone opened a care plan. Together they showed both what people said and what they actually did.
 
-**Why it mattered now:** The business lacked confident evidence on what Care Plans should contain, how structured they should be, and what topics were worth prioritising. Without this, roadmap prioritisation and content investment were effectively guesswork, which put ROI/VOI at risk. 
+Secondary data to keep us honest. Survey and back-end usage data had already shown where drop-off happened. Primary research was there to explain why. Pairing them meant qualitative patterns could be checked against real behaviour, not just a handful of vivid stories.
 
-**Research goals:**
+COM-B as the analytical backbone. I brought the Behaviour Change Wheel in deliberately. It gave a cross-functional team a shared, evidence-based language for why behaviour wasn’t happening. That moved the conversation away from intuition and towards interventions linked to a specific barrier.
 
-- Understand *why* users drop off and what they expect from Care Plans (not just what they click).
-- Determine user preferences for structured versus unstructured digital support, and where therapist involvement fits.
-- Identify the top behavioural barriers and translate them into clear product direction.
+## Recruitment
+I screened for people across Canada and the USA who had recently used wellbeing or healthcare services, so that their experience was fresh rather than remembered. Participants used a mix of our product and other digital mental health apps. That let us see our care plans against the habits people had already formed elsewhere.
+We reached 30 participants in total: 18 took part in interviews and 12 in observed sessions. Splitting the sample this way gave us depth on motivations from the interviews, and enough observed sessions to score friction stage by stage.
 
-**Constraints:**
+## Analysis and synthesis
+Synthesis ran in two passes, one focused on behaviour and one on themes, so we could answer two different questions: where does the journey break, and what do people actually need?
 
-- Strong need to make decisions with partial data and move from “numbers with no context” to decision-grade insight.
-- A complex space where users often have multiple issues at once (81% present with more than one; 56% have 2–3 issues), which makes a simple “pick one care issue” model brittle.
-
-## 3) Strategic Approach & Methodology
-
-**Method selection:**
-
-- **Behavioural analytics** to quantify where the funnel breaks and the size of the opportunity (drop-off and completion rates).
-- **Survey quant + qual** to understand demand, preferences (structured vs flexible), and the role of therapist support at scale.
-- **Primary interviews** to get the “why” behind behaviours and uncover mental models like “I don’t know what to pick” and “I want something actionable.”
-- **Behavioural-science synthesis (COM-B + TDF + BCW intervention functions)** to turn a long list of findings into a prioritised, designable set of behavioural problems and intervention directions.
-
-**Participant strategy:**  
-
-- Survey target was employed adults in Canada/USA with a representative sample (proposal aimed for N=500) to support roadmap-level decisions, not just UX tweaks.
-
-**Lead-level “multiplier” move:**  
-
-- Instead of stopping at themes, we built a reusable diagnosis structure (COM-B/TDF mapping + intervention functions) that product and design can apply beyond one feature.
-
-## 4) The “Messy Middle”
-
-**Stakeholder alignment under ambiguity:**  
-
-Stakeholders explicitly called out that the team had “numbers but no context” and needed to avoid guessing (for example, “people only want therapy” versus “care plans lack interactivity”). The research reframed the conversation from opinions to testable behavioural barriers and evidence-backed product levers.
-
-**The pivot:**  
-
-While “interactive tools” were an early hypothesis, the evidence broadened the problem: users were getting overwhelmed, struggling to find the right entry point, and not seeing a clear path after assessments.
-
-**Synthesis without a sticky-note photo dump:**  
-
-I created an interview theme table and translated a large barrier set into COM-B/TDF domains, then connected each to intervention functions. That is the bridge from insight to roadmap.
-
-## 5) Insights & Actionable Recommendations
-
-1) **“Care issue selection” is a high-friction commitment point, not a simple choice.**  
-
-Evidence: 23.1% are not sure what care issue to select, and 47% drop before selecting one.
-
-Recommendation direction: reduce cognitive load and uncertainty with guided selection, plain-language framing, and better orientation to what a care issue is and what happens next.
-
-2) **Users often have multiple issues, but the product forces a single-threaded mental model.**  
-
-Evidence: 81% present with more than one issue; 56% have 2–3 issues.
-
-Recommendation direction: support multi-topic pathways, allow “I’m not sure” entry points, and enable personalisation that does not require self-diagnosis.
-
-3) **Value is tied to “actionability” and progress, not just content volume.**  
-
-Evidence: interview themes emphasise progression/tracking and short activities that fit life; workshop ideas repeatedly call for goals, check-ins, and visible progress without guilt.
-
-Recommendation direction: introduce lightweight “investment loops” (trackers, quick wins, micro-commitments) and clearer progress/history views.
-
-4) **Therapy and self-guided tools work best as a system, not separate lanes.**  
-
-Evidence: interviews stress combining therapy and resources, and stakeholder notes highlight the need to connect the front end to providers so providers can reinforce Care Plan usage. 
-
-Recommendation direction: provider-facing visibility into care plan progress, and user-facing guidance that explains how self-guided work supports therapy.
+### Pass 1: Behaviour design mapping
+Using the observation data, I broke the target behaviour into 10 stages, from landing on the home page to working through the first section of a care plan. For each stage, the map captured:
+* Level 1 and level 2 actions: what the participant actually did.
+* User observations, tagged directly from session notes and quotes.
+* A friction score (high, medium or low), plotted as a line across the journey.
+* The COM-B influence behind it: psychological capability, social opportunity, or reflective or automatic motivation.
+* An intervention idea that targeted that specific barrier.
+The friction line changed how stakeholders saw the problem. Friction was highest at the very start (a home page that “didn’t feel like a home page” and too much information up front) and again when people got lost going back into their plan. The assessment and results steps scored low. Most of the friction was about finding the way in and getting back, not about the care plan content itself.
 
 <figure class="figure">
 	<img src="./workshop.png">
     <figcaption>Figjam view of the workshop</figcaption>
 </figure>
 
+### Pass 2: Affinity synthesis into themes
+I then clustered interview data, observation notes and supporting quotes into an affinity map. Three themes and 17 sub-findings came out of it. We tested each theme against the survey and usage data before committing to it.
+* Continuous care: people wanted therapy and self-guided resources joined up, plus more check-ins and visible progress “without guilt”.
+* Personalisation and customisation: content felt one-size-fits-all; assessments were completed once and never revisited.
+* Content utilisation: short formats, audio, relatable real stories, findability and neurodivergent-friendly design.
+
+## What changed in our thinking
+Going in, we expected that care plans needed more content. Synthesis challenged that. Many participants said they research, read and try things on their own before seeking therapy, especially when the issue isn’t urgent. For them, self-guided content was a first step towards care, not a replacement for it. Yet our care plans were treated as separate from therapy, and providers often couldn’t see or recommend them.
+That changed the question from “what content should we add?” to “how do we fit care plans into someone’s path into care, and personalise them so they feel relevant?”
+
+> In participants’ words
+> “Therapists added initial comfort and then resources after. Important to have both the self-guided tools and therapy.”
+> “It’s difficult to find what I need as I’m not sure exactly what I’m looking for and there is a lot of content here.”
+> “Being able to customise the experience and ability to skip or deselect topics that are not applicable or have already read about before.”
+
 <figure class="figure">
 	<img src="./design-map.png">
     <figcaption>High level view of the behaviour design map deliverable from the full care plan behaviour audit</figcaption>
 </figure>
 
-## 6) Business Impact & Outcomes
+##  From insights to action
+I didn’t want the findings to sit in a deck, so I ran a workshop with the content, design and product partners. For each theme, we turned findings into techniques (for example Goals, Check-ins, Provider integration, Curated content and Community). We then scored every recommendation as easy, difficult or hard to implement.
+The result was 42 recommendations across 15 technique areas. The team could pick quick wins straight away, such as explaining what a care plan is and why to use it, offering audio formats, and adding a timed check-in after onboarding. Larger bets, such as provider access to care plans, a searchable resource library and multiple care plans per member, went onto the roadmap discussion.
 
-**Product/roadmap influence:**
+## Impact
+* Changed the problem the team was solving: the work moved the focus from producing more content to fit, personalisation and continuity of care.
+Gave the content roadmap prioritised inputs: 42 recommendations, each tied to a behavioural barrier and an ease-of-implementation score.
+* Built a shared language: COM-B and the behaviour map gave design, content and product a common way to discuss why members weren’t returning.
+* Documented the study so it can be repeated: the research plan, screener, discussion guide and data-capture board mean the study can be rerun or extended.
 
-- Converted “we’re guessing” into a structured, prioritised set of behavioural barriers and intervention functions, giving the team a roadmap-ready decision framework.
-- Identified which changes are likely to move the metrics (clarity and guidance at the decision point, findability/search, progress loops), rather than broad “redesign everything” feedback.
 
-**Reflections:**
-
-The organisation had funnel metrics but lacked explanatory insight and an operationalised research-to-roadmap mechanism. This project increased research maturity by creating a repeatable behavioural diagnosis approach and aligning qualitative evidence with measurable drop-off points.
+## Reflections
+* I’d bring providers in earlier. Several of the strongest recommendations depend on therapists using care plans, yet the sample was members only. A small round of provider interviews would have made those recommendations harder to dismiss.
+* I’d size the themes with a quick follow-up survey. The qualitative evidence was strong, but a short survey would have shown how widespread each need was and made prioritisation easier to defend.
+* I’d keep the behaviour map. The friction line made the problem visible at a glance. Defining the target behaviour with stakeholders up front is something I’d do on every behaviour-focused study.
+* I’d make the report leaner. The full report was detailed. Next time I’d lead with a one-page summary and move the depth into an appendix.

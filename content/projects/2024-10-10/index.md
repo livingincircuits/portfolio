@@ -8,118 +8,78 @@ activities: "Scoping, Secondary Research, User Interviews, Max-Diff"
 when: "2024"
 ---
 
-## 1) Executive summary
+## The challenge
+The organisation provides an Employee Assistance Program (EAP) and digital wellbeing platform to employers. Alongside the employee-facing app, HR and wellbeing leaders use a reporting portal to see how their workforce is engaging with the programs they pay for. That view is how employers judge whether the program is working.
 
-We were able to reprioritise the reporting roadmap and information hierarchy around the few metrics HR Leaders consistently value most, using MaxDiff to reduce opinion-driven debates and align teams on “what matters” (mental health, service use, engagement, and clear adoption-style counts).
-- **My role:** Lead UX Researcher (end-to-end: problem framing, method selection, analysis and recommendations).
-- **Team / collaborators:** Design partners and cross-functional stakeholders supporting Strategy Portal plus Customer Success Managers (CSMs) as a key user group and recruitment channel.
+Over time, the portal's reporting had grown to cover five areas: guided wellbeing programs, wellbeing indicator scores, health assessments, challenges, and a rewards and tiers system. Each module carried several metrics, and each metric had a reason to exist. As the design team prepared to rework how this data was presented, the core question was simple: what should an HR leader see first?
 
-## 2) Challenge & context
+Without evidence, the answer would default to whoever argued most persuasively, or to showing everything at equal weight. This study was designed to put a rank order on every live metric, so that layout decisions would rest on what users valued rather than on internal opinion.
 
-**The problem space**  
+## Activities conducted
+* Discovery research: audited every wellbeing metric already reported to clients across the book of business
+* Survey design: built MaxDiff (best–worst scaling) choice tasks for five reporting modules
+* Participant recruitment: employer clients across global regions, plus internal customer success managers
+* Quantitative analysis: best–worst preference scoring and ranking within each module
+* Cross-module synthesis: looked for patterns across all 27 metrics to explain why some metrics won and others lost
+* Research readout and recommendations: findings report and reporting-hierarchy rules for the design team
 
-The Data Dashboard Portal is positioned as a self-serve analytics hub for client leaders, but adoption is slow and utilisation is low. Clients report **information overload**, **terminology confusion**, and a sense that the Portal is “dumping data on a dashboard without explanation or outcomes.” 
+## Research question and goals
+Which wellbeing metrics do HR leaders value most, and least, when judging their program, and what should the reporting portal lead with?
+1.  Rank every live metric within its reporting module by relative importance
+2.  Identify what to demote, not just what to keep
+3.  Turn the ranking into a hierarchy the design team could build from directly
+I defined success up front as a defensible rank order for every module, an explicit deprioritise list, and recommendations specific enough to apply to a layout without another round of debate.
 
-A key business driver was retention and renewal risk: internal win/loss signals suggested reporting gaps (including divisional reporting) were contributing to lost deals, but the product team lacked clarity on what to fix first.
+## My approach
 
-**Research goals (knowledge gaps)**
+### 1. Discovery: start from what already exists
+Rather than asking users to imagine an ideal dashboard, I started with a metric audit across the book of business, listing every wellbeing metric already reported to clients. That gave me 27 real metrics. Grounding the study in metrics that already existed meant every result would map to something on a real screen, and the team could act on it straight away.
 
-- Understand barriers to adoption for both **clients** and **CSMs**.
-- Identify which metrics and features are most valuable to HR decision-makers.
-- Clarify what segmentation and integrations matter most to make the data actionable.
+### 2. Why MaxDiff instead of a rating scale
+When people rate reporting metrics on a scale, almost everything comes back as important, which gives a design team nothing to prioritise. MaxDiff forces a trade-off: in each task, participants choose the single most and single least important item from a set. Repeated across the set, this produces a true relative ranking and shows what people actively don't want, not just what they like.
+I grouped the 27 metrics into their five reporting modules so that every choice compared like with like (a program metric against other program metrics), with four to ten metrics per module. Each module's question was worded to match its content, for example "most and least valuable wellbeing indicators" and "most and least crucial assessment data points".
 
-**Constraints**
+### 3. Recruitment: the people who read the reports, and the people who explain them
+I recruited 47 participants. Most (72%) were employer clients, the HR and wellbeing leaders who use the portal, drawn from a range of key regions so the result would not reflect one market's reporting habits. The other 28% were customer success managers, who sit between clients and the product and hear reporting questions first-hand. Including them gave a second view of what clients ask for when they review their program. The survey was in field for two weeks.
 
-- **No analytics instrumentation** on the platform, limiting behavioural usage evidence and pushing us toward attitudinal + task-based methods.
-- Mixed audiences with potential misaligned incentives (e.g., assumptions that some CSMs may be hesitant to push self-serve if it changes their role).
+### 4. Analysis: scoring, then reading beneath the score
+For each metric I calculated a preference score: the percentage who chose it as most important minus the percentage who chose it as least important, giving a range from −100 to +100. I then ranked metrics within each module.
+I deliberately kept the raw best and worst percentages next to every score, because the score alone can hide what is going on. Total wellbeing index score was picked as most important by 92% of participants and as least important by nobody, which is near-unanimous agreement. By contrast, Total programs started scored only +8, but that came from 34% best and 26% worst. It wasn't a metric people ignored; it was one that divided them. That distinction mattered when deciding what to demote and what to keep one click away.
 
-## 3) Strategic approach & methodology
+### 5. Synthesis: from five rankings to one pattern
+At first, the results read as five separate answers to five separate questions. The useful insight came from stepping back and lining the modules up side by side, comparing what the winners had in common and what the losers had in common, regardless of module.
+Four patterns held across the modules:
+* Reach over intensity. Totals such as users who started a program (+70) and challenges joined (+59) consistently won. Every per-user average in the study finished in the bottom two of its list, including average points per user (−91).
+* One headline score, then its drivers. The overall wellbeing index (+92) led, followed by the mental (+63) and financial (+46) scores that explain it. Detailed breakdowns such as distribution of risk (−51) fell to the bottom.
+* Show it, don't tabulate it. Charts of all assessment results (+76, never chosen as least) beat the summary table (+30).
+* Meaning over volume. Metrics without a clear "so what" sank, such as total steps tracked (−88) and readiness-to-change charts (−85).
+Because MaxDiff measures what people prefer, not why, I kept the scores and my interpretation of the reasons clearly separate in the report. The "why" was presented as reasoned interpretation the team could test, not as fact.
 
-**Why MaxDiff**  
-
-With competing stakeholder opinions and a long list of possible improvements, we needed a method that would:
-
-- Force meaningful tradeoffs.
-- Produce a defensible prioritisation signal.
-- Be fast enough to run globally and quantify relative value.
-
-MaxDiff gave us *relative preferences* across many items in a way simple importance ratings often fail to do (everything becomes “important”).
-
-**Method stack**
-
-- **Mixed-methods plan:** secondary research and in-depth interviews to uncover barriers and  friction without relying on product analytics. We also needed this data layer so that we had some context for the MaxDiff results and not just a giant list of wants.
-- **Quant layer - two MaxDiff studies**:
-    - **Wellbeing data metrics**: 47 respondents, mix of clients and CSMs.
-    - **Portal feature priorities**: 110 HR leaders across CA, UK, US, IE, AU.
-
-**Participant strategy**
-
-- Targeted the decision-makers most tied to renewal value: **HR leaders** who use or would use reporting for program decisions. I used my relationships with the CSMs to recruit this sample which naturally meant a lot of manual work to get the numbers I needed but the sample being correct was important so we decided not to use external recruitment panels. 
-- Included **CSMs** (in the wellbeing metrics study) to reflect real-world workflows where CSMs often interpret reporting on behalf of clients.
-
-## 4) The “messy middle”
-
-**Stakeholder alignment / influence**  
-
-- Started by making assumptions explicit (e.g., perceived CSM resistance, segmentation being a major adoption driver), then translated them into research questions and decision points stakeholders could rally around.
-- Used MaxDiff results as a prioritisation artifact to shift conversations from “feature lobbying” to “what best supports HR decision-making”.
-
-**Navigating ambiguity without analytics**
-
-- Since we could not validate usage patterns through analytics, we designed tasks and questions that tested “data interpretation” and “finding recommendations” to understand whether value issues were actually discoverability and comprehension problems.
-
-**Synthesis approach**
-
-- Triangulated:
-    - Qual understanding of existing concerns.
-    - Quant prioritisation (MaxDiff “best/worst/score” patterns).
-    - Open-text “feature additions” to capture unmet needs that weren’t in the list (e.g., predictive analytics, ROI measurement, alerts).
-    - Downstream implications for IA, defaults, and segmentation/integrations.
-
-## 5) Insights & actionable recommendations
-
-1) **HR leaders prioritise employee wellbeing outcomes and programme effectiveness signals over “dashboard completeness.”**  
-
-- **Evidence:** Mental health ranked #1, with the strongest positive preference signal (high “best,” low “worst”), followed by service use and engagement rate.
-- **Recommendation:** Rebuild the Portal’s top-level reporting narrative around:
-    - Mental health (and other high-salience domains)
-    - Service usage patterns
-    - Engagement + utilisation as outcome proxies
-    - Treat other metrics as secondary layers instead of first-class navigation.
-        
-2) **People want counts that answer “are employees engaging?” not averages that feel abstract.**  
-
-- **Evidence:** In the wellbeing metrics study, “Total users who started a program” and “Total users who completed a module” outranked “average per user” measures by a wide margin.
-- **Recommendation:** Make adoption-style counts the default headline KPIs. Place averages behind “advanced” views or contextual tooltips for analysts.
-
-3) **The market signal is “make it actionable,” which implies segmentation + integration, not more charts.**  
-
-- **Evidence:** Department and employee-level segmentation were most valuable; the top desired integrations were HR systems and performance management tools.
-- **Recommendation:** Tie roadmap bets to “decision workflows,” for example:
-    - Segment mental health and service use by department / level.
-    - Enable exports or integrations to join wellbeing signals with HR and performance context.
-
-4) **There is a capability gap: users often use EAP data, but confidence in interpretation is not uniformly high.**  
-
-- **Evidence:** Confidence clustered around “4 out of 5,” with a notable drop at “5,” suggesting comfort but room for better guidance and interpretation support.
-- **Recommendation:** Add interpretation scaffolding:
-    - Plain-language definitions
-    - Benchmarks and “what good looks like”
-    - “Recommended actions” patterns (especially for high-priority domains like mental health)
+## Outputs and sharing
+I delivered a research report to the Employer Experience Design team, structured so a designer could act on it module by module. For each module it showed the top three metrics alongside the reporting component each one maps to, so the team could see the finding in the context of the screen they would be changing. Full results tables and my interpretation of the reasons followed.
+The report closed with three rules for the reporting hierarchy, each backed by a score:
+1.  Lead with reach: headline totals first; move per-user averages into drill-down views
+2.  One score, then its drivers: open with the overall wellbeing score, then mental and financial
+3.  Show it, don't tabulate it: chart assessment results by default; keep the table as a secondary view
+It also included an explicit list of metrics to deprioritise: per-user averages, steps tracked, readiness-to-change charts and distribution of risk. My recommendation was to keep detailed data available for those who want it, but not in prime position.
 
 <figure class="figure">
 	<img src="./data.png">
     <figcaption>A snapshot of the data and results from the study</figcaption>
 </figure>
 
-## 6) Business impact & outcomes
 
-**What this research changed**
+## Outcome
+* Replaced opinion with a rank order. The design team had an evidence-based answer to "what goes first?" for every reporting module, drawn from the people who actually use the reports.
+* Gave the team permission to cut. A clear deprioritise list meant low-value metrics could move out of prime space without a debate about each one.
+* Created a reusable rule set. "Totals over averages, one headline score, charts over tables" applies to any new module added to the portal, not just the five we tested.
 
-- **Roadmap focus:** Converted a broad, opinion-heavy feature backlog into a ranked set of priorities grounded in HR leader tradeoffs (mental health, service use, engagement, then supporting metrics).
-- **Scope discipline:** Provided evidence to deprioritise or demote low-signal items (e.g., company overview and management consultations ranked at the bottom in the feature MaxDiff).
-- **Design direction:** Supported a “less but clearer” information hierarchy. This directly responds to the client complaint about “dumping data” without outcomes.
-
-**Reflections**
-
-This project highlighted what can happen when a product lacks analytics or observable data, teams risk building based on anecdotes. Establishing a quantitative prioritisation layer (MaxDiff) plus qualitative validation (interviews) is a pragmatic maturity step toward evidence-led roadmaps.
+## Reflections
+### What I would do differently
+* Pair the survey with short follow-up interviews. MaxDiff told us what HR leaders valued; a handful of 30-minute conversations would have turned my interpretation of why into evidence.
+* Segment the results. With clients and customer success managers in the same sample, I would report the two groups separately to check whether internal teams' view of client needs matches clients' own.
+### What I would keep
+* Forcing the trade-off. Conversations about reporting drift towards "include everything". MaxDiff gave the team a shared, numeric language for what to demote, which a rating scale would not have done.
+* Starting from real metrics. Auditing what already existed kept the study tightly scoped and made every finding immediately actionable.
+### What this project taught me
+The most valuable output of a prioritisation study is often the list of things to remove. Knowing that four per-user averages consistently finished last was as useful to the design team as knowing what came first.
