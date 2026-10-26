@@ -25,7 +25,7 @@ const Navigation = () => (
             <Link to="/projects" activeClassName="active">Work</Link>
           </li>
           <li className="item">
-            <Link to="/blog" activeClassName="active">Writing</Link>
+            {/*<Link to="/blog" activeClassName="active">Writing</Link>*/}
           </li>
         </ul>
       </nav>

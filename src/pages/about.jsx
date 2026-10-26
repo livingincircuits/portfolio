@@ -51,10 +51,10 @@ const About = () => (
 
           <ul>
             <li>
-              User Research
+              UX Research
             </li>
             <li>
-              User Experience Design
+              Product Analysis
             </li>
             <li>
               User Experience &amp; Design Research
