@@ -2,10 +2,11 @@
 
   --wrapperWidth: 1600px;
 
-  --colorPrimary: #131025; /* Dark */
-  --colorSecondary: #eae1d3; /* White*/
-  --colorTertiary: #D01566; /* Pink*/
-  --colorQuaternary: #4F0FA4; /* Purple */
+  --colorPrimary: #F7F8F4; /* White */
+  --colorSecondary: #03081D; /* Black*/
+  --colorTertiary: #FB6B00; /* Orange*/
+  --colorQuaternary: #3e2e6a; /* Purple */
+  --colorQuinary: #130b52; /* Blue */
 
   --heading: 'Hind', Arial, sans-serif;
   --body: 'Inconsolata', Arial, sans-serif;
@@ -17,3 +18,8 @@
 }
 
 
+/*Off White: F7F8F4
+
+Off Black:  03081D
+
+Orange:  FB6B00*/

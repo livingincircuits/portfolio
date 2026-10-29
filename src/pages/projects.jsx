@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import { Layout } from 'elements';
+import Navigation from '../components/Navigation';
 import config from '../../config/website';
 import ItemProject from '../components/ItemProject';
 import Header from '../components/Header';
@@ -19,6 +20,8 @@ const Projects = ({
     <Header title="Work">
       Work
     </Header>
+
+    <Navigation />
 
     <section className="page-inner">
 

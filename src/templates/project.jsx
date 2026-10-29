@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Header from '../components/Header';
 import { SEO, Content, Layout } from 'elements';
+import Navigation from '../components/Navigation';
 import Suggestions from '../components/Suggestions';
 
 const Project = ({ pageContext: { slug, title, left, right }, data: { markdownRemark: postNode } }) => {
@@ -20,6 +21,8 @@ const Project = ({ pageContext: { slug, title, left, right }, data: { markdownRe
         <Header title={post.title}>
           {post.title}
         </Header>
+
+        <Navigation />
 
         <ul className="project__meta">
           <li className="project__meta-item">

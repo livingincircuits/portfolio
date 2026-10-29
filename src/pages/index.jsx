@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import { Layout } from 'elements';
+import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 import config from '../../config/website';
 import FeaturedPost from '../components/FeaturedPost';
@@ -24,19 +25,26 @@ const Index = ({
       Emily Young
     </Header>
 
+    <Navigation />
+
     <section className="page-inner">
 
-      <div className="page-content align-central">
-        <p>
-          A User Researcher whose passion lies in crafting clean, intuitive, and inclusive experiences that resonate with a broad audience. 
-          I am dedicated to distilling complex problems into elegantly simple solutions, always with the goal of enhancing digital human interactions.
-        </p>
-        <p>
-          With over a decade of experience, I have been instrumental in integrating UX and User Research methodologies into various teams. 
-          My expertise encompasses working with a wide range of stakeholders and influencing decision-making processes and product strategies. 
-          My approach is deeply rooted in a commitment to understanding user needs and behaviours, ensuring that every project I undertake is user-centered and designed for impact.
-        </p>
+      <div className="page-text">
+
+        <div className="page-content align-central">
+          <p>
+            A User Researcher whose passion lies in crafting clean, intuitive, and inclusive experiences that resonate with a broad audience. 
+            I am dedicated to distilling complex problems into elegantly simple solutions, always with the goal of enhancing digital human interactions.
+          </p>
+          <p>
+            With over a decade of experience, I have been instrumental in integrating UX and User Research methodologies into various teams. 
+            My expertise encompasses working with a wide range of stakeholders and influencing decision-making processes and product strategies. 
+            My approach is deeply rooted in a commitment to understanding user needs and behaviours, ensuring that every project I undertake is user-centered and designed for impact.
+          </p>
+        </div>
+
       </div>
+
 
       <div className="page-content">
 

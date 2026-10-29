@@ -158,21 +158,14 @@
 
 .nav {
   width: 100%;
-  text-align: right;
+  text-align: center;
+  display: grid;
+  place-content: center;
 }
 
 .nav ul {
   margin: 0;
   padding: 0;
-}
-
-@media (max-width: 767px) {
-
-  .nav {
-    width: 100%;
-    text-align: center;
-  }
-
 }
 
 .nav li {
@@ -181,32 +174,42 @@
   vertical-align: middle;
 }
 
-@media (max-width: 767px) {
-
-  .nav li {
-    padding: .6em;
-  }
-
-}
-
 .item a {
-  margin: 0 .2em;
-  padding: .1em 0;
-  text-decoration: none;
-  transition: background .2s linear;
-  background: linear-gradient(to top, rgba(208, 21, 102, 0.3) 0%, rgba(0, 0, 0, .3) 30%, transparent 31%, transparent 60%);
+  letter-spacing: 0;
 }
 
 .item a:hover,
-.item a:focus {
-  color: inherit;
-  background: linear-gradient(to top, rgba(208, 21, 102, 0.8) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
+.item a.active,
+.item a:active {
+  letter-spacing: 5px;
+  color: var(--colorTertiary);
 }
 
-.item a.active {
-  color: var(--colorTertiary);
-  padding: .1em .2em;
-  background: linear-gradient(to top, rgba(208, 21, 102, 0.2) 0%, rgba(0, 0, 0, .2) 100%, transparent 21%, transparent 10%);
+.item a:after,
+.item a:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.item a:hover:after,
+.item a:hover:before {
+  backface-visibility: hidden;
+  border-color: var(--colorSecondary);
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.item a:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
 }
 
 /*************************************************

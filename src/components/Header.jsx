@@ -3,13 +3,18 @@ import PropTypes from 'prop-types';
 
 const Header = ({ children, title }) => (
 
-    <h1 className="glitch"  data-text={title}>
+  <div className="headline">
+
+    <h1 className=""  data-text={title}>
 
       <span>
         {title}
       </span>
 
     </h1>
+
+  </div>
+
 );
 
 export default Header;

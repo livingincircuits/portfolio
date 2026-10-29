@@ -75,3 +75,21 @@
   }
 
 }
+
+@keyframes NavBtnin {
+  from {
+    transform: translatex(-100%);
+  }
+  to {
+    transform: translatex(0%);
+  }
+}
+
+@keyframes NavBtnout {
+  from {
+    transform: translatex(0%);
+  }
+  to {
+    transform: translatex(100%);
+  }
+}

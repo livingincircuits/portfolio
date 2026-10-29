@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { Layout } from 'elements';
+import Navigation from '../components/Navigation';
 import config from '../../config/website';
 import Header from '../components/Header';
 import ItemTagCategory from '../components/ItemTagCategory';
@@ -21,6 +22,8 @@ const Category = ({
     <Header title={category}>
       Category
     </Header>
+
+    <Navigation />
 
     <section className="page-inner">
       <div className="post-block post-block--full">

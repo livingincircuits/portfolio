@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import { Content, SEO, Layout } from 'elements';
+import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 import Suggestions from '../components/Suggestions';
 
@@ -21,6 +22,8 @@ const Post = ({ pageContext: { slug, left, right }, data: { markdownRemark: post
       <Header title={post.title}>
         {post.title}
       </Header>
+
+      <Navigation />
 
       <div className="page-inner">
 

@@ -3,6 +3,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Layout } from 'elements';
+import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 import config from '../../config/website';
 
@@ -14,6 +15,8 @@ const About = () => (
     <Header title="About">
       About
     </Header>
+
+    <Navigation />
 
     <section className="page-inner content">
 
